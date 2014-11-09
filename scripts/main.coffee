@@ -27,15 +27,8 @@ $("#course-name").on "drop", (event) ->
   catch error
     null
   if courseId?
-    console.log courseId, typeof courseId
-    if courseId.length > 6
-      courseId = courseId[-6...]
-    console.log courseRE.source
-    console.log courseId, courseRE.test courseId
     if courseRE.test courseId
-      console.log "pos"
       courseId = courseRE.exec(courseId)[0]
-      console.log courseId
       addCourse courseId
     return stopEvent event
 
