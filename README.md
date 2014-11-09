@@ -1,29 +1,14 @@
-### Jade Dev
-Basic [`jade`](http://jade-lang.com) file server. Ideal for building local prototypes apart from any application. All other files are served statically as they usually would.
+### Course Sort
 
-installation
-``` sh
-npm install -g jade-dev
+The course sort application is useful for people attempting to organize different classes and their prerequisites.
+
+## Running
+
+First, run node using:
+```shell
+node jade-dev.js
 ```
 
-create a folder
-
-    + myfolder/
-      - index.jade
-      - example.css
-      - example.js
-
-usage
-``` sh
-cd myfolder
-jade-dev .
-```
-
-or for a different port:
-``` sh
-cd myfolder
-jade-dev . 8081
-```
-
+then,
 
 open your browser to [http://localhost:8080/index.jade](http://localhost:8080/index.jade)
