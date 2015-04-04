@@ -3,17 +3,14 @@
   <title>MOState Course Sorter</title>
   <link href="vendor/bootstrap.css" rel="stylesheet" type="text/css"/>
   <style>
-    .course-list {
-      list-style: none;
-      border-left: solid red 2px;
-      padding-bottom: 4em;
-      background: #dbdbdb;
-      width:100%
+    #course-list {
+      font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+      padding: 20px;
+      background: #f2f2f2;
+      width:100%;
+      margin: 1em 0;
+      white-space: pre;
     }
-    .course-list .course-description .Label {color:black}
-    .course-list .course-title {font-size:2em}
-    .course-list .course-actions {display:block;
-      padding:.5em; margin-bottom:-1em; line-height: 1em}
     p.one-high {
       display: block; overflow: hidden;
       height: 1em; line-height: 1em;
@@ -34,17 +31,15 @@
 </head>
 <body>
   <div class="container">
-    <ul class="course-list"></ul>
-    <form id="add-course" class="form">
-      <div class="input-group">
-        <label for="course-search" title="Eg: 'ART 200'" class="input-group-addon">Course ID</label>
-        <input id="course-search" class="form-control"/>
-      </div>
-      <ul id="output-search"></ul>
-      <div style="padding:1em" class="text-center">
-        <div id="warning" class="label label-danger"></div>
-      </div>
-    </form>
+    <div id="course-list"></div>
+    <div class="input-group">
+      <label for="course-search" title="Eg: 'ART 200'" class="input-group-addon">Search Courses</label>
+      <input id="course-search" class="form-control"/>
+    </div>
+    <ul id="output-search"></ul>
+    <div style="padding:1em" class="text-center">
+      <div id="warning" class="label label-danger"></div>
+    </div>
   </div>
   <footer>
     <script type="text/javascript" src="vendor/jquery-2.1.1.js"></script>

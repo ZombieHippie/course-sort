@@ -13,9 +13,15 @@ Display =
     search_debounce_timer_id: null
     last_search_query: null
   setup: ->
+    # Search input
     $output = $("#output-search")[0]
-    $("#course-search").on "keyup", ->
+    $("#course-search").on "keyup", (event) ->
       clearTimeout Display.data.search_debounce_timer_id
+      if event.which is 13
+        # Enter key pressed
+        debounceMs = 0
+      else
+        debounceMs = 500
       Display.data.search_debounce_timer_id = setTimeout(
         (search_query) ->
           if Display.data.last_search_query isnt search_query
@@ -26,8 +32,12 @@ Display =
               li.innerHTML = title
               li.dataset.linkCourseId = Utility.getCourseIdFromString title
               $output.appendChild li
-        , 500, @value)
+        , debounceMs, @value)
 
+    # Bind to links
+    $($output).on "click", "li", ->
+      courseJSON = JSON.stringify Data.getCourseById(@dataset.linkCourseId), null, 2
+      $("#course-list").text(courseJSON)
 Data =
   data:
     all_catalog: null

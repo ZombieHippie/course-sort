@@ -21,8 +21,14 @@ Display = {
   setup: function() {
     var $output;
     $output = $("#output-search")[0];
-    return $("#course-search").on("keyup", function() {
+    $("#course-search").on("keyup", function(event) {
+      var debounceMs;
       clearTimeout(Display.data.search_debounce_timer_id);
+      if (event.which === 13) {
+        debounceMs = 0;
+      } else {
+        debounceMs = 500;
+      }
       return Display.data.search_debounce_timer_id = setTimeout(function(search_query) {
         var i, len, li, ref, results, title;
         if (Display.data.last_search_query !== search_query) {
@@ -39,7 +45,12 @@ Display = {
           }
           return results;
         }
-      }, 500, this.value);
+      }, debounceMs, this.value);
+    });
+    return $($output).on("click", "li", function() {
+      var courseJSON;
+      courseJSON = JSON.stringify(Data.getCourseById(this.dataset.linkCourseId), null, 2);
+      return $("#course-list").text(courseJSON);
     });
   }
 };

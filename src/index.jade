@@ -2,17 +2,14 @@ head
   title MOState Course Sorter
   link(href="vendor/bootstrap.css" rel="stylesheet" type="text/css")
   style.
-    .course-list {
-      list-style: none;
-      border-left: solid red 2px;
-      padding-bottom: 4em;
-      background: #dbdbdb;
-      width:100%
+    #course-list {
+      font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+      padding: 20px;
+      background: #f2f2f2;
+      width:100%;
+      margin: 1em 0;
+      white-space: pre;
     }
-    .course-list .course-description .Label {color:black}
-    .course-list .course-title {font-size:2em}
-    .course-list .course-actions {display:block;
-      padding:.5em; margin-bottom:-1em; line-height: 1em}
     p.one-high {
       display: block; overflow: hidden;
       height: 1em; line-height: 1em;
@@ -31,14 +28,13 @@ head
     }
 body
   .container
-    ul.course-list
-    form.form#add-course
-      .input-group
-        label.input-group-addon(for="course-search" title="Eg: 'ART 200'") Course ID
-        input.form-control#course-search
-      ul#output-search
-      .text-center(style="padding:1em")
-        #warning.label.label-danger
+    #course-list
+    .input-group
+      label.input-group-addon(for="course-search" title="Eg: 'ART 200'") Search Courses
+      input.form-control#course-search
+    ul#output-search
+    .text-center(style="padding:1em")
+      #warning.label.label-danger
   footer
     script(type="text/javascript" src="vendor/jquery-2.1.1.js")
     script(type="text/javascript" src="vendor/interact-1.2.4.js")
