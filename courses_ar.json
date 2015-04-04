@@ -1,0 +1,96 @@
+{
+  "ART110": {
+    "course_id": "ART110",
+    "title": "ART 110 Two-Dimensional Design for Digital Media",
+    "desc": "Elements and principles of two-dimensional design. Computers will be used extensively in this class. Will not count toward the BA in Art or Design, BFA in Art or Design, or the BSEd in Art and Design. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "ART115": {
+    "course_id": "ART115",
+    "title": "ART 115 Drawing I",
+    "desc": "Basic elements and principles of drawing. A problematic approach to the process of seeing and drawing through an applied investigation of natural and man-made forms. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ART200": {
+    "course_id": "ART200",
+    "title": "ART 200 Art in Context",
+    "req": "<em>General Education Course (Focus on the Arts).</em>",
+    "desc": "In this art appreciation course students will learn how to look at objects of art and to appreciate the value such objects hold in society. This course introduces the elements of art and the principles of design and is intended to enhance an interest, appreciation, and understanding of the visual arts in the context of their cultures. Does not count toward fulfilling any requirement for majors or minors in the Department of Art and Design. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ART202": {
+    "course_id": "ART202",
+    "title": "ART 202 Intermediate Design",
+    "req": "<em>Prerequisite: <span data-link='ART100'>ART 100</span> and <span data-link='ART101'>ART 101</span> and <span data-link='ART115'>ART 115</span>.</em>",
+    "desc": "A presentation in greater depth of major theories of art and design with emphasis on color theory and systems. Structured studio design problems applying and investigating such theories. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ART210": {
+    "course_id": "ART210",
+    "title": "ART 210 Introduction to Digital Arts",
+    "req": "<em>Prerequisite: <span data-link='ART100'>ART 100</span> or <span data-link='ART110'>ART 110</span>; and <span data-link='CIS101'>CIS 101</span> or <span data-link='CSC101'>CSC 101</span> or <span data-link='CSC111'>CSC 111</span>.</em>",
+    "desc": "Exploration of digital art forms, focusing on the interrelationship of the digital technology on art and culture. The goal of the course is to weave technical skills into creative vision. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ART212": {
+    "course_id": "ART212",
+    "title": "ART 212 Ceramics I",
+    "desc": "An introduction to handbuilding, wheel and firing processes, including raku. Fundamentals of ceramic materials, equipment, and preparation of clay and glazes. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ART215": {
+    "course_id": "ART215",
+    "title": "ART 215 Drawing II",
+    "req": "<em>Prerequisite: <span data-link='ART115'>ART 115</span>.</em>",
+    "desc": "Continuation of drawing fundamentals in greater depth and exploration of additional media. ",
+    "hours": {
+      "credit": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

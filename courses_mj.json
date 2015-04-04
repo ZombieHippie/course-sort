@@ -1,0 +1,98 @@
+{
+  "JRN370": {
+    "course_id": "JRN370",
+    "title": "JRN 370 News Reporting and Writing",
+    "req": "<em>Prerequisite: <span data-link='JRN270'>JRN 270</span>.</em>",
+    "desc": "Instruction and practice in gathering news material, writing news reports, and editing copy. Includes introduction to news beats and specialized reporting techniques. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "JRN374": {
+    "course_id": "JRN374",
+    "title": "JRN 374 Opinion Writing",
+    "req": "<em>Prerequisite: <span data-link='JRN270'>JRN 270</span>.</em>",
+    "desc": "Instruction and practice in writing editorials, opinion columns, news analyses and critical reviews. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "JRN375": {
+    "course_id": "JRN375",
+    "title": "JRN 375 Feature Writing",
+    "req": "<em>Prerequisite: <span data-link='JRN270'>JRN 270</span>.</em>",
+    "desc": "Practice in writing feature articles for print and online publications, including human interest stories, news features, personality profiles, how-to articles and historical pieces. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "JRN376": {
+    "course_id": "JRN376",
+    "title": "JRN 376 Business Reporting",
+    "req": "<em>Prerequisite: <span data-link='JRN270'>JRN 270</span>.</em>",
+    "desc": "Instruction and practice in gathering information and writing business-related articles. The course covers interviewing and reporting techniques used to write business stories, including enterprise and trend stories as well as company profiles. The student also will gain an understanding of the importance of business news to public affairs. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "JRN381": {
+    "course_id": "JRN381",
+    "title": "JRN 381 Broadcast News Writing",
+    "req": "<em>Prerequisite: <span data-link='JRN270'>JRN 270</span>.</em>",
+    "desc": "Instruction and practice in basic scripting technique and writing skills needed to be a broadcast journalist. Through writing, students will examine the fundamentals of news judgment and the organizational style of storytelling for radio and television formats. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "JRN384": {
+    "course_id": "JRN384",
+    "title": "JRN 384 Broadcast Performance",
+    "req": "<em>Prerequisite: <span data-link='JRN381'>JRN 381</span>.</em>",
+    "desc": "The development of disciplines controlling vocal and visual mechanics as well as interpretative performance for announcers, newscasters, interviewers and narrators of various radio and television situations. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3,
+      "lab": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "JRN388": {
+    "course_id": "JRN388",
+    "title": "JRN 388 Electronic News Gathering",
+    "req": "<em>Prerequisite: <span data-link='JRN381'>JRN 381</span> and <span data-link='JRN384'>JRN 384</span>.</em>",
+    "desc": "Instruction and practice in news gathering techniques for television. Students will learn the basics of video production (shooting, editing, lighting, etc.) and reporting as well as advanced storytelling techniques, including solo reporting, recording natural sound packages, and live shot production and reporting. Emphasis is placed on gaining expertise in shooting and editing techniques as they apply to news. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

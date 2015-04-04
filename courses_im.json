@@ -1,0 +1,96 @@
+{
+  "TCM123": {
+    "course_id": "TCM123",
+    "title": "TCM 123 Introduction to Construction for Non-Construction Majors",
+    "desc": "An introductory course which explores materials, principles and practices associated with building systems used in commercial and residential construction. Topics of discussion will include structural systems, light framing, roofing, exterior cladding systems and interior finishes. External class activities may include jobsite visits. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "TCM221": {
+    "course_id": "TCM221",
+    "title": "TCM 221 Construction Drawings and Quantity Take-off",
+    "req": "<em>Prerequisite: <span data-link='TCM121'>TCM 121</span> or <span data-link='TCM122'>TCM 122</span> or <span data-link='TCM123'>TCM 123</span>.</em>",
+    "desc": "An introduction to working drawings and specifications commonly encountered in construction. Laboratory exercises in sketching theory and conventions, sectioning and dimensioning, classifying work, developing quantity take-offs of constructions materials, and interpreting construction documentation. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "TCM223": {
+    "course_id": "TCM223",
+    "title": "TCM 223 Construction Surveying",
+    "req": "<em>Prerequisite: <span data-link='TCM221'>TCM 221</span>; and <span data-link='MTH261'>MTH 261</span> or <span data-link='MTH287'>MTH 287</span>.</em>",
+    "desc": "Construction field engineering activities to include surveying, site layout and dimensional control. Interpretation of plot books, site plans, and topographic maps is also included. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "TCM226": {
+    "course_id": "TCM226",
+    "title": "TCM 226 Construction Project Administration",
+    "req": "<em>Prerequisite: <span data-link='TCM221'>TCM 221</span>.</em>",
+    "desc": "A study of the legal and administrative aspects of construction projects. Includes use of documents, subcontracting, purchasing, changes, claims, payments, and closeout. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "TCM267": {
+    "course_id": "TCM267",
+    "title": "TCM 267 Statics",
+    "req": "<em>Prerequisite: <span data-link='PHY123'>PHY 123</span> or <span data-link='PHY203'>PHY 203</span>; and <span data-link='MTH261'>MTH 261</span> or 287.</em>",
+    "desc": "A study of the mechanics of forces associated with rigid bodies in equilibrium. Development of problem solving skills. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "TCM273": {
+    "course_id": "TCM273",
+    "title": "TCM 273 Mechanics of Materials",
+    "req": "<em>Prerequisite: <span data-link='PHY233'>PHY 233</span>.</em>",
+    "desc": "Introduces the principles of mechanics necessary for the solution of technical problems relating to strength, stiffness, and material selection, and is the student&apos;s first course in mechanical design. Topics covered include stress, strain, pressure vessel analysis, torsion, beams, columns, and combined stresses at a point. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "TCM281": {
+    "course_id": "TCM281",
+    "title": "TCM 281 Dynamics",
+    "req": "<em>Prerequisite: <span data-link='PHY233'>PHY 233</span>.</em>",
+    "desc": "An in-depth, quantitative treatment of technical problems involving motion and acceleration. Topics include plane motion; three dimensional motion; force, mass and acceleration; mechanical work and energy; and impulse and momentum. Linear and angular momentum. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

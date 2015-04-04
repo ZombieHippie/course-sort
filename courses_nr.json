@@ -1,0 +1,100 @@
+{
+  "NUR303": {
+    "course_id": "NUR303",
+    "title": "NUR 303 Art and Science of Nursing I",
+    "req": "<em>Prerequisite: admission to the 4-year Generic Nursing program.</em>",
+    "desc": "Introduction to basic skills and technology used in professional nursing. Includes clinical experience of not less than 48 hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 3
+    },
+    "offered": {
+      "Summer": true
+    }
+  },
+  "NUR304": {
+    "course_id": "NUR304",
+    "title": "NUR 304 Art and Science of Nursing II",
+    "req": "<em>Prerequisite: admission to the 4-year Generic Nursing Program; and meet program progression requirements.</em>",
+    "desc": "Introduction to complex skills, technology, and nursing care of the adult client in professional nursing. Includes clinical experience of not less than 96 hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "NUR306": {
+    "course_id": "NUR306",
+    "title": "NUR 306 Professional Emergence",
+    "req": "<em>Prerequisite: registered nurse or permission of instructor.</em>",
+    "desc": "Enhancement of nurses&apos; ability to function as professionals. Survey of past, current, and developing trends in nursing and health care delivery, including historical, socio-cultural, legal and ethical dimensions in nursing practice. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  },
+  "NUR311": {
+    "course_id": "NUR311",
+    "title": "NUR 311 Introduction to Family Health Nursing",
+    "desc": "The study of the care of the family from a nursing perspective. Provides an introduction to theoretical foundations as it relates to families, genomics, research, and family nursing. Explores family communication, decision making, roles, and values, including beliefs, attitudes, and practices of diverse cultures. Utilizes health care informatics and information technology to assess and analyze data relevant to families. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "NUR312": {
+    "course_id": "NUR312",
+    "title": "NUR 312 Nursing: The Adult Client",
+    "req": "<em>Prerequisite: admission to the 4-year Generic Nursing Program; and meet program progression requirements.</em>",
+    "desc": "Professional nursing care of adult clients experiencing acute and chronic illness. Includes clinical experience of not less than 96 hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 6,
+      "lecture": 4,
+      "lab": 6
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "NUR322": {
+    "course_id": "NUR322",
+    "title": "NUR 322 Nursing: The Childbearing Family",
+    "req": "<em>Prerequisite: admission to the 4-year Generic Nursing Program; and meet program progression requirements.</em>",
+    "desc": "Professional nursing care of childbearing families in diverse settings. Includes clinical experience of not less than 48 hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "NUR323": {
+    "course_id": "NUR323",
+    "title": "NUR 323 Nursing: The Pediatric Client and Family",
+    "req": "<em>Prerequisite: admission to the 4-year Generic Nursing Program; and meet program progression requirements.</em>",
+    "desc": "Professional nursing care of pediatric clients and their families in diverse settings. Includes clinical experience of not less than 96 hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 3,
+      "lab": 6
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

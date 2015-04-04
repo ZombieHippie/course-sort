@@ -1,0 +1,88 @@
+{
+  "CRM260": {
+    "course_id": "CRM260",
+    "title": "CRM 260 Criminal Law and the Courts",
+    "desc": "This course examines the basic principles, processes, and structures found in adult criminal courts in the United States and Missouri. The course also examines the nature and development of criminal law from the Common Law to its current state nationwide, with an emphasis on current Missouri criminal law. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "CRM270": {
+    "course_id": "CRM270",
+    "title": "CRM 270 Institutional and Community-Based Corrections",
+    "desc": "A course designed to critically examine the various social control responses to delinquent and criminal behavior. Includes the history, philosophies, and practices of American corrections and an evaluation of the advantages and disadvantages of each societal/correctional response. Problems in the field of corrections and related solutions are also examined. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "CRM300": {
+    "course_id": "CRM300",
+    "title": "CRM 300 Service Learning in Criminology",
+    "req": "<em>Prerequisite: 30 hours and concurrent registration in a Criminology course designated as service learning offering.</em>",
+    "desc": "An integrative learning experience which addresses the practice of citizenship and promotes an awareness of and participation in public affairs by incorporating community service with classroom instruction. Includes 40 hours on-task service to a community organization, agency or public service provider. The community service placement agency and service assignment will vary, dependent on the disciplinary course topic and learning objectives. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CRM301": {
+    "course_id": "CRM301",
+    "title": "CRM 301 Crime and the Media",
+    "desc": "A sociologically-based exploration of the relationship between various forms of mass media as they impact public attitudes and social policies regarding crime and the justice system. Solutions to problems created by the media are also discussed. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CRM302": {
+    "course_id": "CRM302",
+    "title": "CRM 302 Reforming America's Prisons",
+    "desc": "This course explores the nature of confinement used by the American criminal justice system and includes a study of prisons and jails. Both the humanitarian and rehabilitative conditions of these facilities are reviewed in a critical context with attention paid to ways in which existing problems may be corrected. Prison reform is studied from a system-wide perspective recognizing the role of legislatures, courts, and the public in bringing about effective reform. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CRM303": {
+    "course_id": "CRM303",
+    "title": "CRM 303 Capital Punishment",
+    "desc": "Students explore the history of the death penalty as well as its current use in the United States. Methods of execution and their impact upon executioners, death penalty jurors, and the families of both the executed and their victim&apos;s family members are analyzed. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CRM304": {
+    "course_id": "CRM304",
+    "title": "CRM 304 Sex Crimes",
+    "desc": "This course highlights sex offenses, sex offenders, victims of sex offenses and a variety of responses to sexual offending patterns. Definition of different sex crimes will be discussed, along with an examination of the violence involved and policies geared towards these types of offenses. Methods of working with sex offenders in rehabilitative efforts are also discussed. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

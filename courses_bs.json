@@ -1,0 +1,95 @@
+{
+  "ANE711": {
+    "course_id": "ANE711",
+    "title": "ANE 711 Clinical Conference IV",
+    "req": "<em>Prerequisite: <span data-link='ANE708'>ANE 708</span>.</em>",
+    "desc": "Continuing review of significant cases involving complex anesthesia considerations. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE714": {
+    "course_id": "ANE714",
+    "title": "ANE 714 Orientation to Clinical Anesthesia",
+    "req": "<em>Prerequisite: permission from program director.</em>",
+    "desc": "Introduction to anesthesia equipment, monitoring equipment, positioning, intravenous considerations, records, departmental management, ethics, departmental organization and function, legal and professional aspects. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE717": {
+    "course_id": "ANE717",
+    "title": "ANE 717 Physics and Chemistry of Anesthesia",
+    "desc": "A presentation of the principles and laws of physics and chemistry applicable to the field of anesthesia. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE720": {
+    "course_id": "ANE720",
+    "title": "ANE 720 Basic Principles of Anesthesia",
+    "desc": "A presentation of the principles of laws of physics and chemistry applicable to the field of anesthesia long with an in-depth analysis of structure and function of the cardiac, respiratory, circulatory, endocrine, hepatic, renal, neurologic, autonomic, and central nervous systems. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE723": {
+    "course_id": "ANE723",
+    "title": "ANE 723 Application of Anatomy and Physiology to Anesthesia II",
+    "desc": "An in-depth analysis of the special relationships between anesthesiology and the endocrine, hepatatic, renal, neurologic, autonomic, and central nervous systems. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE726": {
+    "course_id": "ANE726",
+    "title": "ANE 726 Introduction to Clinical Anesthesia",
+    "desc": "Preoperative evaluation of patients, airway management, inhalation techniques, common complications of induction and emergence. Supplemental course fee. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANE732": {
+    "course_id": "ANE732",
+    "title": "ANE 732 Advanced Anesthesia Principles I",
+    "req": "<em>Prerequisite: <span data-link='ANE720'>ANE 720</span>.</em>",
+    "desc": "An in-depth review of drugs commonly used to provide the state of anesthesia, review of subjects essential to the practice of anesthesia; emphasis on pediatrics, neonatal, critical care anesthesia, trauma and burns, organ transplants and organ retrieval, obesity and GI disorders, and a study of the requirements for specialized anesthesia care; regional anesthesia, chronic pain, cardiac, and vascular anesthesia. ",
+    "hours": {
+      "credit": 6,
+      "lecture": 6
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

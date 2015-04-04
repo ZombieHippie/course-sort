@@ -1,0 +1,96 @@
+{
+  "GRY142": {
+    "course_id": "GRY142",
+    "title": "GRY 142 Introductory Physical Geography",
+    "req": "<em>General Education Course (Focus on Physical Sciences).</em>",
+    "desc": "A study of the earth&apos;s natural systems including weather and climate, rocks and minerals, landforms and processes of landform development, biogeography, water resources and soils. Map fundamentals and the interrelationships of the geographic factors of the natural environment are emphasized. Students who take <span data-link='GRY240'>GRY 240</span> and <span data-link='GRY142'>GRY 142</span> may receive credit for only one of these courses. Supplemental course fee. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "GRY143": {
+    "course_id": "GRY143",
+    "title": "GRY 143 Physical Geography Laboratory",
+    "desc": "Laboratory instruction in the earth&apos;s natural systems including weather and climate, rocks and minerals, landforms and processes of landform development, biogeography, water resources and soils. Map fundamentals and the interrelationships of the geographic factors of the natural environment are emphasized. This course is open only to transfer students who have already completed a 3-credit course equivalent to the lecture portion of <span data-link='GRY142'>GRY 142</span>. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "GRY197": {
+    "course_id": "GRY197",
+    "title": "GRY 197 Selected Topics in Geography I",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "Course devoted to a single topic that can vary from semester to semester depending on student and faculty interest. Topics are limited to those requiring no prior geography background. Examples: Geography of the Home Community, Geography of Energy Resources, Geography of Sport. Students should check the semester class schedule to determine the topic title for any given semester. May be repeated to a total of 5 hours credit. Variable content course. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "GRY240": {
+    "course_id": "GRY240",
+    "title": "GRY 240 Earth Science for Teachers",
+    "req": "<em>Prerequisite: 30 hours; open only to Early Childhood, Elementary, and Middle School majors.</em>",
+    "desc": "A course designed to give students an understanding of the processes of science and the basic concepts of earth science using the inquiry approach in hands-on laboratory activities. Content includes maps, earth in space, weather and climate, soils and vegetation, rocks and minerals, landforms, processes of landform development, water resources, environmental relationship to the physical setting. Does not apply toward the major in Secondary Education. Students who take <span data-link='GRY240'>GRY 240</span> and <span data-link='GRY142'>GRY 142</span> may receive credit for only one of these courses. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 2,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "GRY275": {
+    "course_id": "GRY275",
+    "title": "GRY 275 Introduction to Plane Surveying",
+    "req": "<em>Prerequisite: <span data-link='MTH138'>MTH 138</span> or <span data-link='MTH181'>MTH 181</span> or <span data-link='MTH261'>MTH 261</span> or <span data-link='MTH287'>MTH 287</span>.</em>",
+    "desc": "Fundamental concepts and practices of land surveying. Practical exercises comparable to those used at Missouri University of Science and Technology. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "GRY300": {
+    "course_id": "GRY300",
+    "title": "GRY 300 Geography of the United States",
+    "desc": "Physical and cultural regions of the United States, including their characteristics and resource utilization. Topics include landforms, climates, natural resources, economic activities, and cultural and political patterns. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "GRY301": {
+    "course_id": "GRY301",
+    "title": "GRY 301 Geography of the Ozarks",
+    "desc": "Physical and cultural geography of the Ozarks. Surveys basic geology, landforms, soils, vegetation and the geography of settlement, population, major economic activities, lifestyles and the cultural landscape. Emphasis on historical development and spatial distributions. Field trip required. Supplemental course fee. Public Affairs Capstone Experience course. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

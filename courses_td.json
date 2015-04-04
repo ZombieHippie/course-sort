@@ -1,0 +1,102 @@
+{
+  "DAN146": {
+    "course_id": "DAN146",
+    "title": "DAN 146 Jazz Dance I-B",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Continues development of the basic fundamentals of jazz dance technique and vocabulary. Designed for students with at least one year of formal dance training. May be repeated to a total of 4 hours. ",
+    "hours": {
+      "credit": 2,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "DAN180": {
+    "course_id": "DAN180",
+    "title": "DAN 180 Introduction to the Dance",
+    "req": "<em>General Education Course (Focus on the Arts).</em>",
+    "desc": "Survey of dance from a historical retrospective through the creative process. Emphasis will be placed on historical multi-cultural and societal influences on dance. The approach will be from the viewpoint of the audience to help heighten awareness of and increase critical thinking in relationship to the artistic experience. Buying tickets to and attendance at local productions required. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "DAN216": {
+    "course_id": "DAN216",
+    "title": "DAN 216 Elementary Modern Dance",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Explores elements of modern dance technique. Designed for students with at least one year of formal dance training. Variable content course. May be repeated to a total of 12 hours. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "DAN225": {
+    "course_id": "DAN225",
+    "title": "DAN 225 Tap Dance II",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Elementary tap dance technique and vocabulary. Variable content course. May be repeated to a total of 6 hours. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "DAN230": {
+    "course_id": "DAN230",
+    "title": "DAN 230 Elementary Ballet",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Elementary classical ballet technique and vocabulary. This course is designed for students with at least one to two years of formal and consistent ballet training. Variable content course. May be repeated to a total of 12 hours. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "DAN235": {
+    "course_id": "DAN235",
+    "title": "DAN 235 Mens Dance Technique I",
+    "req": "<em>Prerequisite: <span data-link='DAN216'>DAN 216</span> and <span data-link='DAN230'>DAN 230</span>.</em>",
+    "desc": "Basic techniques for the male dancer. Emphasis will be on strength building and developing the male dancer&apos;s technique and style. Variable content course. May be repeated to a total of 4 hours. ",
+    "hours": {
+      "credit": 2,
+      "lab": 4
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "DAN245": {
+    "course_id": "DAN245",
+    "title": "DAN 245 Elementary Jazz Dance",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Continues development of jazz dance technique and vocabulary. Elementary level technique designed for students with at least one year of formal dance training. Variable content course. May be repeated to a total of 12 hours. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

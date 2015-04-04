@@ -1,0 +1,83 @@
+{
+  "DSS504": {
+    "course_id": "DSS504",
+    "title": "DSS 504 The Geopolitics of Conflict and Accommodation",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "The application of the techniques and understanding lent by the geography to the illumination of the physical and social environment in which politics, strategy, and war take place. The relationship among geography, strategy, and politics is studied through the examination of both historical and contemporary circumstances where geography has intruded on politics or politics on geography. Students will be introduced to the geopolitical concepts of sea power, land power and air power, and these concepts will be critiqued in light of recent technological changes in warfare. Supplemental Course Fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "DSS601": {
+    "course_id": "DSS601",
+    "title": "DSS 601 Seminar on Nuclear Strategy and Arms Control",
+    "desc": "This seminar examines the development of U.S. nuclear deterrence theory and policy. The seminar will study the strategic nuclear balance, including specific problems and programs, and the strategic doctrine, concepts, and objectives of the nuclear powers. Nuclear arms control, including the processes of decision making and negotiating, will be examined, with an emphasis on comparing theory and practice. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "DSS630": {
+    "course_id": "DSS630",
+    "title": "DSS 630 International Law and Global Security",
+    "desc": "This is a survey course designed to introduce students to the core principles and defining features of the international legal system, and to the changing role of international law in contemporary national and global security. Emphasis will be placed on the applicability of international law to armed conflict, counterterrorism, and containing the spread of weapons of mass destruction. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "DSS631": {
+    "course_id": "DSS631",
+    "title": "DSS 631 International Negotiations",
+    "desc": "This course combines the basics of negotiation theory and the examination of select international negotiation case studies with three practical &quot;hands-on&quot; negotiation exercises. It will explore various techniques for diagnosing the structure of a negotiation and identifying potential barriers to agreement. Case studies considered include: Negotiation of 1994 Framework Agreement with North Korea, George Mitchell&apos;s mediation in Northern Ireland resulting in the Good Friday Accords, the secret Oslo discussions leading to Israeli recognition of the PLO, The Louisiana Purchase, the Congress of Vienna, the Panama Canal negotiations, and the Egyptian-Israeli Armistice. The course is conducted as a series of interactive seminars including three simulated negotiations. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "DSS632": {
+    "course_id": "DSS632",
+    "title": "DSS 632 Seminar on International Security Affairs",
+    "desc": "Examines international and regional security problems and policies from both a regional and global perspective. It treats strategies and security problems from a broader viewpoint than the Seminar on Strategy and Arms Control, covering national interests, alliance relationships, intervention, regional threats, and the security problems of other states, including China and Russia. Supplemental Course Fee. (3-0) F,S",
+    "hours": {},
+    "offered": {}
+  },
+  "DSS633": {
+    "course_id": "DSS633",
+    "title": "DSS 633 Analysis of International Security Politics",
+    "desc": "This course deals with the methods and techniques of collecting and assessing information for use in the study of international security politics, problems, and policies. It explores the measures of relative power among nations and the manner in which such power or lack of it shapes the capability of a nation effectively to act in the international sphere. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "DSS634": {
+    "course_id": "DSS634",
+    "title": "DSS 634 The Geopolitics of Conflict and Accommodation",
+    "desc": "The application of the techniques and understanding lent by the geography to the illumination of the physical and social environment in which politics, strategy, and war take place. The relationship among geography, strategy, and politics is studied through the examination of both historical and contemporary circumstances where geography has intruded on politics or politics on geography. Students will be introduced to the geopolitical concepts of sea power, land power and air power, and these concepts will be critiqued in light of recent technological changes in warfare. Supplemental Course Fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

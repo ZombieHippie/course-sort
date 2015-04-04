@@ -1,0 +1,97 @@
+{
+  "AST114": {
+    "course_id": "AST114",
+    "title": "AST 114 Survey of Astronomy",
+    "req": "<em>General Education Course (Focus on Physical Sciences).</em>",
+    "desc": "Historical and descriptive aspects of astronomy; topics of current interest related to space science. Cannot receive credit for both <span data-link='AST114'>AST 114</span> and 115. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "AST115": {
+    "course_id": "AST115",
+    "title": "AST 115 Basic Astronomy",
+    "req": "<em>General Education Course (Focus on Physical Sciences).</em>",
+    "desc": "Historical and descriptive aspects of astronomy; topics of current interest related to space science. Laboratory consists of observations with telescopes and of experiments pertinent to the field. Cannot receive credit for both <span data-link='AST114'>AST 114</span> and 115. Supplemental course fee. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "AST311": {
+    "course_id": "AST311",
+    "title": "AST 311 Astronomical Techniques",
+    "req": "<em>Prerequisite: <span data-link='MTH135'>MTH 135</span>; and either <span data-link='AST114'>AST 114</span> or <span data-link='AST115'>AST 115</span>.</em>",
+    "desc": "Intermediate level course; actual techniques of astronomical observation, methods of analysis of these observations, possible interpretations of acquired data. In laboratory, each student obtains observations for study in spectroscopy, photometry, photography, and CCD imaging. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "AST313": {
+    "course_id": "AST313",
+    "title": "AST 313 The New Solar Systems",
+    "req": "<em>Prerequisite: <span data-link='AST114'>AST 114</span> or <span data-link='AST115'>AST 115</span>; <span data-link='MTH138'>MTH 138</span> or above.</em>",
+    "desc": "A modern inquiry of the planets, comets, asteroids, and other members of our solar system and the planets of other stellar systems, based on recent interplanetary explorations and Earth-based observations. Cannot receive credit for both <span data-link='AST313'>AST 313</span> and <span data-link='AST513'>AST 513</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "AST315": {
+    "course_id": "AST315",
+    "title": "AST 315 The Lives and Deaths of Stars",
+    "req": "<em>Prerequisite: <span data-link='AST114'>AST 114</span> or 115; and <span data-link='MTH138'>MTH 138</span> or above.</em>",
+    "desc": "The structure of stars, processes at work in stellar atmospheres, the formation process, and the evolution of stars into white dwarfs, neutron stars, or black holes. Cannot receive credit for both <span data-link='AST315'>AST 315</span> and <span data-link='AST515'>AST 515</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "AST317": {
+    "course_id": "AST317",
+    "title": "AST 317 Our Universe, the Final Frontier",
+    "req": "<em>Prerequisite: <span data-link='AST114'>AST 114</span> or <span data-link='AST115'>AST 115</span>; and <span data-link='MTH138'>MTH 138</span> or above.</em>",
+    "desc": "Modern views on the structure of the Universe: its past, present, and future. Topics include the structure and content of our Galaxy and other galaxies, clusters of galaxies, the Big Bang theory (including Inflation), and the eventual fate of our Universe. Cannot receive credit for both <span data-link='AST317'>AST 317</span> and <span data-link='AST517'>AST 517</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "AST513": {
+    "course_id": "AST513",
+    "title": "AST 513 Solar and Extra-Solar Systems",
+    "req": "<em>Prerequisite: <span data-link='AST114'>AST 114</span> or 115; and <span data-link='MTH303'>MTH 303</span>.</em>",
+    "desc": "Formation of planetary systems, planetary dynamics, and comparative planetology. Project required. Cannot receive credit for both <span data-link='AST313'>AST 313</span> and <span data-link='AST513'>AST 513</span>. May be taught concurrently with <span data-link='AST613'>AST 613</span>. Cannot receive credit for both <span data-link='AST613'>AST 613</span> and <span data-link='AST513'>AST 513</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

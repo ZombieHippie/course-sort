@@ -1,0 +1,97 @@
+{
+  "ATC224": {
+    "course_id": "ATC224",
+    "title": "ATC 224 Basic Athletic Training/Sports Medicine Techniques",
+    "req": "<em>Prerequisite: <span data-link='ATC221'>ATC 221</span> and <span data-link='BMS307'>BMS 307</span> (or concurrent enrollment with permission of program director).</em>",
+    "desc": "Procedures, techniques, principles and theory relative to development of essential cognitive and psychomotor competencies commonly used in athletic training. Supplemental course fee. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "ATC225": {
+    "course_id": "ATC225",
+    "title": "ATC 225 Athletic Training Observation",
+    "req": "<em>Prerequisite: <span data-link='ATC220'>ATC 220</span>.</em>",
+    "desc": "Clinical observation (50 hours) and experience for students considering a career in Athletic Training or related sports medicine field. Students will explore various athletic training employment settings and learn basic skills ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ATC240": {
+    "course_id": "ATC240",
+    "title": "ATC 240 Clinical Practicum I",
+    "req": "<em>Prerequisite: <span data-link='ATC221'>ATC 221</span> and permission of program director.</em>",
+    "desc": "Supervised clinical experiences in athletic training. Emphasis on developing clinical skills required by athletic trainers. Students may be required to be in attendance during periods when regular university classes are not in session. Supplemental course fee. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "ATC241": {
+    "course_id": "ATC241",
+    "title": "ATC 241 Clinical Practicum II",
+    "req": "<em>Prerequisite: <span data-link='ATC221'>ATC 221</span> and <span data-link='ATC240'>ATC 240</span> and permission of program director.</em>",
+    "desc": "Continuation of supervised clinical experiences in athletic training. Emphasis on developing and refining clinical skills required by athletic trainers. Students may be required to be in attendance during periods when regular university classes are not in session. Supplemental course fee. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "ATC297": {
+    "course_id": "ATC297",
+    "title": "ATC 297 Special Topics",
+    "req": "<em>Prerequisite: permission of program director.</em>",
+    "desc": "Variable content and variable credit course. Special study of Sports Medicine and Athletic Training. May be repeated for credit to a maximum of 4 hours. Same topic may be repeated once for credit. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ATC320": {
+    "course_id": "ATC320",
+    "title": "ATC 320 Athletic Training Administration",
+    "req": "<em>Prerequisite: at least 75 hours towards Athletic Training major completed or at least 15 hours towards Sports Medicine minor completed; and permission of program director.</em>",
+    "desc": "Development and administration of current theories, methods and techniques related to the organization and administration of athletic training programs. Integration of leadership behaviors into the practice and management of athletic training practice areas such as program management, budget, insurance, facility design, legal issues, global issues, and ethics in the profession of athletic training will be discussed. Public Affairs Capstone Experience course. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "ATC324": {
+    "course_id": "ATC324",
+    "title": "ATC 324 Therapeutic Modalities",
+    "req": "<em>Prerequisite: <span data-link='BMS308'>BMS 308</span> and permission of program director.</em>",
+    "desc": "A study of the theory and application of various therapeutic modalities used in the treatment of many injuries, including ultrasound, diathermy, electrical stimulation, hydrotherapy, cryotherapy, and thermotherapy. Supplemental course fee. May be taught concurrently with <span data-link='OTE624'>OTE 624</span>. Cannot receive credit for both <span data-link='ATC324'>ATC 324</span> and <span data-link='OTE624'>OTE 624</span>. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

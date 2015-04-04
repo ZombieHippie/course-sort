@@ -1,0 +1,93 @@
+{
+  "CSD216": {
+    "course_id": "CSD216",
+    "title": "CSD 216 Anatomy and Physiology of Speech",
+    "desc": "Particular structure and functions of human anatomy related to the processes of speech. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "CSD260": {
+    "course_id": "CSD260",
+    "title": "CSD 260 Survey of Interests in Deaf and Hard of Hearing",
+    "desc": "A survey course on the effects of hearing impairments as they relate to development, learning, education, and social interaction across the lifespan. Resources and agencies that assist persons who are deaf and hard of hearing at the local, state, and national levels will be discussed. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "CSD312": {
+    "course_id": "CSD312",
+    "title": "CSD 312 Normal Language Acquisition",
+    "desc": "Theories and sequence of normal language development, emphasizing phonological, morphological, syntactic, semantic, and pragmatic abilities. Emphasis on first six years. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  },
+  "CSD315": {
+    "course_id": "CSD315",
+    "title": "CSD 315 Language Disorders in Children",
+    "req": "<em>Prerequisite: grade of C or better in <span data-link='CSD312'>CSD 312</span>.</em>",
+    "desc": "Nature, evaluation and treatment of language disorders in children. The goal of the course is to introduce students to the populations of children who experience language disorders including children with developmental language disorders, autism spectrum disorders, and intellectual disabilities. The course will examine tools and strategies used to assess language disorders as well as evidenced-based intervention strategies. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "CSD316": {
+    "course_id": "CSD316",
+    "title": "CSD 316 Introduction to Language and Cognitive-Linguistic Disorders in Adults",
+    "req": "<em>Prerequisite: grade of C or better in <span data-link='CSD312'>CSD 312</span>.</em>",
+    "desc": "Nature, evaluation and treatment of acquired language and cognitive-linguistic disorders in adults caused by stroke, brain injury and neurological disease. Study of current clinical approaches and evidenced-based practice. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "CSD318": {
+    "course_id": "CSD318",
+    "title": "CSD 318 Introduction to Phonological (Sound System) Disorders in Children",
+    "req": "<em>Prerequisite: grade of C or better in <span data-link='CSD210'>CSD 210</span>.</em>",
+    "desc": "Introduction to the nature, evaluation, and treatment of sound system disorders in children ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "CSD321": {
+    "course_id": "CSD321",
+    "title": "CSD 321 Conceptually Accurate Signed English I",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "Gain beginner level skill in sign language and fingerspelling through Manually Coded English. Development of a general knowledge base including the history of sign language and the spectrum of sign options available. May be taught concurrently with <span data-link='CSD721'>CSD 721</span>. Cannot receive credit for both <span data-link='CSD321'>CSD 321</span> and <span data-link='CSD721'>CSD 721</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

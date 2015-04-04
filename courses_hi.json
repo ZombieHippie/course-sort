@@ -1,0 +1,93 @@
+{
+  "HST122": {
+    "course_id": "HST122",
+    "title": "HST 122 Survey of the History of the United States Since 1877",
+    "req": "<em>General Education Course (Focus on Constitutions of US and Missouri and American History and Institutions).</em>",
+    "desc": "Modernization of the United States and its role in world affairs from the late 19th Century to the present, with emphasis on industrialization and urbanization and their impact on socioeconomic and international developments. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HST200": {
+    "course_id": "HST200",
+    "title": "HST 200 The Twentieth Century World: An International History",
+    "desc": "From the height of Western Imperialism in 1900 to the post Cold War years, this course surveys twentieth-century world history, examining the transformation of international, political, economic, and cultural relations. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HST210": {
+    "course_id": "HST210",
+    "title": "HST 210 Writing II: Historical Inquiry",
+    "req": "<em>Prerequisite: <span data-link='ENG110'>ENG 110</span> and 30 hours. General Education Course (Focus on Written Communication and Integrative and Applied Learning).</em>",
+    "desc": "Introduction to historical research and writing. Meets Writing II requirement for a major in history. This course emphasizes the techniques of conducting a thorough literature search, the analysis of primary and secondary materials, and instruction and practice in historical writing. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HST300": {
+    "course_id": "HST300",
+    "title": "HST 300 Service Learning in History",
+    "req": "<em>Prerequisite: 30 hours, concurrent registration in a History course designated as a service learning offering and permission of department head.</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction in History to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization, agency, or public service provider. Approved service placements and assignments will vary depending on the specific course topic and learning objectives; a list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HST313": {
+    "course_id": "HST313",
+    "title": "HST 313 American Cultural History",
+    "desc": "An introduction to the major issues, themes and methods of American cultural history. This course will explore multiple vantage points and interdisciplinary approaches to understanding American cultural history. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "HST314": {
+    "course_id": "HST314",
+    "title": "HST 314 American Expansion and Empire",
+    "desc": "Recommended Prerequisite: <span data-link='HST121'>HST 121</span> or <span data-link='HST122'>HST 122</span>. This course surveys the territorial, economic, cultural, and political expansion of the United States from the founding of the country through the 20th century. Topics include the ideology, methods, and effects of expansion, with particular attention on the cultural interactions that resulted from expansion and the ways in which expansion affected American culture and Society. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "HST315": {
+    "course_id": "HST315",
+    "title": "HST 315 Military History of the United States",
+    "desc": "Recommended Prerequisite: <span data-link='HST121'>HST 121</span> or 122. American Military History from the colonial period to the present; its relation to the national development in war and peace. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

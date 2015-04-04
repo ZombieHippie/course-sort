@@ -1,0 +1,89 @@
+{
+  "REL103": {
+    "course_id": "REL103",
+    "title": "REL 103 History of the English Bible",
+    "desc": "The ancient manuscripts of the Bible; early versions; the English Bible; evaluation of recent translations. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "REL131": {
+    "course_id": "REL131",
+    "title": "REL 131 Religion in America",
+    "req": "<em>General Education Course (Focus on Social and Behavioral Sciences).</em>",
+    "desc": "A historical survey of different religious groups in America and their contributions to American identity and values. Includes the connections between religious affiliation and race, ethnicity, gender, politics, the media, and other aspects of U.S. society and culture. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "REL197": {
+    "course_id": "REL197",
+    "title": "REL 197 Topics in Religious Studies",
+    "desc": "Topics of general interest in the area of religious studies such as Humor in the Bible, Religion and Literature, Religion and Film. May be repeated, as topics change, to a maximum of 6 hours. Variable content course. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "REL200": {
+    "course_id": "REL200",
+    "title": "REL 200 Religion in the News",
+    "desc": "Increases students&apos; awareness of the presence and relevance of religion in current events and examines the influence of the news media on shaping public awareness and opinion of religion-related issues. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "REL210": {
+    "course_id": "REL210",
+    "title": "REL 210 Paths of World Religions",
+    "req": "<em>General Education Course (Focus on Cultural Competence).</em>",
+    "desc": "A global survey of religious movements, including Hinduism, Buddhism, Taoism, Confucianism, Judaism, Christianity, and Islam. Students will learn how these religions have affected individual and cultural identities in history and in the contemporary world. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "REL312": {
+    "course_id": "REL312",
+    "title": "REL 312 The Hebrew Prophets",
+    "desc": "Recommended Prerequisite: <span data-link='REL101'>REL 101</span>. A survey of the prophetic literature of ancient Israel in its social and historical contexts. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "REL315": {
+    "course_id": "REL315",
+    "title": "REL 315 Native American Religions",
+    "desc": "Recommended Prerequisite: <span data-link='REL131'>REL 131</span>. A survey of historical and contemporary Native American cultures and spiritualities, including Native responses to European contact and colonization. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

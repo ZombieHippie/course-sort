@@ -1,0 +1,86 @@
+{
+  "MUS104": {
+    "course_id": "MUS104",
+    "title": "MUS 104 Theory and Musicianship II",
+    "req": "<em>Prerequisite: <span data-link='MUS103'>MUS 103</span>.</em>",
+    "desc": "Four-part harmony incorporated all diatonic chords in all inversions; secondary dominant and secondary leading tone chords. Sight singing and dictation of melodies and rhythms; intervals and chord quality identification; error detection; dictation of four-part harmony. Credit by Examination is available. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "MUS107": {
+    "course_id": "MUS107",
+    "title": "MUS 107 Recital Attendance I",
+    "desc": "Attendance of at least six music major convocations, one faculty recital, and eight other recitals or concerts sponsored by the department. The fulfillment of any part of these requirements by non-departmental concerts must be pre-approved by the student&apos;s major applied teacher or the department head. Credit will not be given to students who arrive after the recital/concert begins. Graded Pass/Not Pass only. ",
+    "hours": {},
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MUS108": {
+    "course_id": "MUS108",
+    "title": "MUS 108 Recital Attendance II",
+    "desc": "Attendance of at least six music major convocations, one faculty recital, and eight other recitals or concerts sponsored by the department. The fulfillment of any part of these requirements by non-departmental concerts must be pre-approved by the student&apos;s major applied teacher or the department head. Credit will not be given to students who arrive after the recital/concert begins. Graded Pass/Not Pass only. ",
+    "hours": {},
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MUS119": {
+    "course_id": "MUS119",
+    "title": "MUS 119 Jazz Theory/Jazz Keyboard Skills",
+    "req": "<em>Prerequisite: <span data-link='MUS103'>MUS 103</span>.</em>",
+    "desc": "The study of jazz theory and the practical application of functional jazz keyboard skills. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "MUS130": {
+    "course_id": "MUS130",
+    "title": "MUS 130 Multicultural Musical Instrument Techniques",
+    "desc": "Techniques of both the performance and pedagogy of traditional instruments from cultures other than those in the Western/European tradition. Variable content course. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "MUS131": {
+    "course_id": "MUS131",
+    "title": "MUS 131 String Techniques and Skills for the Music Educator",
+    "desc": "Instruction in the basic skills of playing and teaching violin, viola, cello and bass in a class situation. Examination of performance problems, diagnostic techniques, teaching strategies, and other specialized topics related to string instruction will be studied, and materials used in public school teaching will be examined and performed. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "MUS133": {
+    "course_id": "MUS133",
+    "title": "MUS 133 Guitar for the Music Educator I",
+    "desc": "Provides future music teachers with the working knowledge, experience and skills to use the guitar for accompanying music making as well as for teaching fretted instruments in school music classes and ensembles. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

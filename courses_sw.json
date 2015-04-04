@@ -1,0 +1,93 @@
+{
+  "SWK300": {
+    "course_id": "SWK300",
+    "title": "SWK 300 Service Learning in Social Work",
+    "req": "<em>Prerequisite: 30 hours and concurrent enrollment in a social work course designated as a service learning offering (<span data-link='SWK200'>SWK 200</span>, <span data-link='SWK219'>SWK 219</span>, or <span data-link='SWK306'>SWK 306</span>).</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization or human/social service agency. Approved settings will focus on populations-at-risk, diverse populations and groups that have experienced social and economic injustice. A list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. Graded Pass/Not Pass only. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "SWK306": {
+    "course_id": "SWK306",
+    "title": "SWK 306 Interviewing Skills in Generalist Social Work Practice",
+    "req": "<em>Prerequisite: admission to the BSW program.</em>",
+    "desc": "An introduction to basic interviewing skills based upon the purpose of and plan for the interview in the context of generalist social work practice. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "SWK307": {
+    "course_id": "SWK307",
+    "title": "SWK 307 Social Work Practice with Individuals",
+    "req": "<em>Prerequisite: admission to the BSW program; and <span data-link='SWK306'>SWK 306</span>.</em>",
+    "desc": "Basic principles, practice theories and skill for beginning generalist practice with individuals. Integrates practice theory and intervention skills within the context of the Generalist Intervention/Problem-Solving model. The class emphasizes personal awareness, professional growth, critical thinking and skills practice. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "SWK313": {
+    "course_id": "SWK313",
+    "title": "SWK 313 Social Justice",
+    "req": "<em>Prerequisite: admission to the BSW program; and <span data-link='ECO155'>ECO 155</span> or <span data-link='ECO165'>ECO 165</span> or concurrent enrollment in <span data-link='ECO155'>ECO 155</span> or <span data-link='ECO165'>ECO 165</span>; and <span data-link='PLS101'>PLS 101</span>.</em>",
+    "desc": "The primary subject matter of this course is social and economic inequality in United States society. Students are introduced to the patterns and processes of social and economic inequality in its major forms: class, race/ethnicity, gender, and sexual and political orientation. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "SWK314": {
+    "course_id": "SWK314",
+    "title": "SWK 314 Social Welfare Policy and Services II",
+    "req": "<em>Prerequisite: admission to the BSW program; and <span data-link='SWK213'>SWK 213</span>.</em>",
+    "desc": "An introduction to the analytic, interactional, value clarification and political strategies necessary for policy analysis and implementation. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "SWK320": {
+    "course_id": "SWK320",
+    "title": "SWK 320 Services for Women",
+    "desc": "Examination of the multiple problems women experience, and needed community resources. Areas of study broadly include women and health, violence against women, women and socio-economic status. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "SWK325": {
+    "course_id": "SWK325",
+    "title": "SWK 325 Human Behavior and the Social Environment I",
+    "req": "<em>Prerequisite: admission to the BSW program; <span data-link='PSY121'>PSY 121</span> and <span data-link='SOC150'>SOC 150</span> or concurrent enrollment in <span data-link='PSY121'>PSY 121</span> and <span data-link='SOC150'>SOC 150</span>; and <span data-link='BIO101'>BIO 101</span> and 111, or <span data-link='BMS100'>BMS 100</span> or <span data-link='BMS105'>BMS 105</span> or <span data-link='BMS110'>BMS 110</span>.</em>",
+    "desc": "An introduction to the dynamics of human behavior and the effects of the social environment on the development of individuals and families. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

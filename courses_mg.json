@@ -1,0 +1,97 @@
+{
+  "MGT310": {
+    "course_id": "MGT310",
+    "title": "MGT 310 Introduction to the Entertainment Industry",
+    "req": "<em>Prerequisite: 54 credit hours; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "An introduction to the entertainment industry including facets unique to the field such as managerial roles and organizational structures. Topics will also include an exposure to policies, legal, social, economic, and financial characteristics of this industry. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "MGT320": {
+    "course_id": "MGT320",
+    "title": "MGT 320 Patterns of Management",
+    "req": "<em>Prerequisite: 54 hours.</em>",
+    "desc": "A course designed specifically for non-business majors desiring a knowledge of management and its importance and application in various fields. Topical areas include: management functions and problems, decision-making, organizational design, managerial/non-managerial relationships, and management job opportunities. Cannot be taken for credit by students who have previously received credit for <span data-link='MGT340'>MGT 340</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "MGT325": {
+    "course_id": "MGT325",
+    "title": "MGT 325 Fundamentals of Personnel Administration",
+    "req": "<em>Prerequisite: 54 hours.</em>",
+    "desc": "This course is designed for non-business majors. Topics include principles of employee supervision, recruitment, selection, training and development, compensation, labor relations, and separation. This course will be of particular value to managerial, supervisory, administrative, professional, and technical personnel in a variety of organizational settings. Cannot be used to satisfy any requirement for a College of Business major. Cannot be taken for credit by students who have previously received credit for <span data-link='MGT345'>MGT 345</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "MGT340": {
+    "course_id": "MGT340",
+    "title": "MGT 340 Organizational Behavior and Management",
+    "req": "<em>Prerequisite: 54 hours, including <span data-link='PSY121'>PSY 121</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A study of individual, interpersonal, and group behavior within organizations and the behavioral implications of management processes. The interaction of human, technological, structural, global, ethical, and environmental factors are also discussed. A &quot;C&quot; grade or better is required in this course in order to take <span data-link='ACC555'>ACC 555</span>. Cannot be taken Pass/Not Pass. Public Affairs Capstone Experience course. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MGT341": {
+    "course_id": "MGT341",
+    "title": "MGT 341 Advanced Organization Behavior and Development",
+    "req": "<em>Prerequisite: <span data-link='MGT340'>MGT 340</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "An in-depth study of individual and organizational behaviors and processes. Such areas as individual differences, group dynamics, organizational processes, organizational change/development, and culture and ethics will be addressed utilizing a variety of interactive teaching methods. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MGT342": {
+    "course_id": "MGT342",
+    "title": "MGT 342 Organization Structure and Design",
+    "req": "<em>Prerequisite: <span data-link='MGT340'>MGT 340</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A study of the macro-organization functioning with emphasis on how organization design dimensions interrelate to effect performance. Organization dimensions studied include environment, technology, size, structure, and effectiveness. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MGT345": {
+    "course_id": "MGT345",
+    "title": "MGT 345 Human Resources Management",
+    "req": "<em>Prerequisite: <span data-link='MGT340'>MGT 340</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A study of the personnel functions of procurement, development, compensation, integration, and the maintenance of human resources within the framework of total available resources used in the accomplishment of organizational goals. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

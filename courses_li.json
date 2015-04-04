@@ -1,0 +1,90 @@
+{
+  "LIS502": {
+    "course_id": "LIS502",
+    "title": "LIS 502 History of Books and Libraries",
+    "desc": "History of books and libraries from the earliest times to the present; influence and importance of the book and the library in society throughout history. May be taught concurrently with <span data-link='LIS602'>LIS 602</span>. Cannot receive credit for both <span data-link='LIS602'>LIS 602</span> and <span data-link='LIS502'>LIS 502</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS504": {
+    "course_id": "LIS504",
+    "title": "LIS 504 Reference",
+    "req": "<em>Prerequisite: <span data-link='LIS500'>LIS 500</span>.</em>",
+    "desc": "An introduction to basic, general print and electronic reference sources. May be taught concurrently with <span data-link='LIS604'>LIS 604</span>. Cannot receive credit for both <span data-link='LIS604'>LIS 604</span> and <span data-link='LIS504'>LIS 504</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS506": {
+    "course_id": "LIS506",
+    "title": "LIS 506 Collection Development and Acquisitions",
+    "req": "<em>Prerequisite: <span data-link='LIS500'>LIS 500</span>.</em>",
+    "desc": "Principles of collection development including selection aids, review media and collection evaluation; methods of selection and acquisitions. May be taught concurrently with <span data-link='LIS606'>LIS 606</span>. Cannot receive credit for both <span data-link='LIS606'>LIS 606</span> and <span data-link='LIS506'>LIS 506</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS508": {
+    "course_id": "LIS508",
+    "title": "LIS 508 Cataloging and Classification",
+    "req": "<em>Prerequisite: <span data-link='LIS500'>LIS 500</span>.</em>",
+    "desc": "Basic cataloging and classification; subject headings; cataloging print and non-print material; MARC records; various types of traditional and electronic catalogs. May be taught concurrently with <span data-link='LIS608'>LIS 608</span>. Cannot receive credit for both <span data-link='LIS608'>LIS 608</span> and <span data-link='LIS508'>LIS 508</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS510": {
+    "course_id": "LIS510",
+    "title": "LIS 510 Curriculum and the School Library",
+    "req": "<em>Prerequisite: <span data-link='LIS500'>LIS 500</span>.</em>",
+    "desc": "Focuses on integrating the school library program and collections with curriculum; emphasizes diverse student learning styles; role of the school librarian as a teacher; use of electronic resources for research, teaching, and learning. May be taught concurrently with <span data-link='LIS610'>LIS 610</span>. Cannot receive credit for both <span data-link='LIS610'>LIS 610</span> and <span data-link='LIS510'>LIS 510</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS512": {
+    "course_id": "LIS512",
+    "title": "LIS 512 Reading Guidance for Young Adults",
+    "desc": "The study of reading interests and habits of high school age young adults. Methods of meeting the needs of different types of readers and stimulating reading interest through library collections and services. May be taught concurrently with <span data-link='LIS612'>LIS 612</span>. Cannot receive credit for both <span data-link='LIS612'>LIS 612</span> and <span data-link='LIS512'>LIS 512</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "LIS530": {
+    "course_id": "LIS530",
+    "title": "LIS 530 Children's Librarianship: Birth through Age 9",
+    "desc": "Fundamentals of children&apos;s librarianship for both public librarians and school library media specialists, including collection development, programming, and current issues. May be taught concurrently with <span data-link='LIS630'>LIS 630</span>. Cannot receive credit for both <span data-link='LIS630'>LIS 630</span> and <span data-link='LIS530'>LIS 530</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

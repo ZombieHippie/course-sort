@@ -1,0 +1,91 @@
+{
+  "CFD160": {
+    "course_id": "CFD160",
+    "title": "CFD 160 Principles of Development in Early Childhood",
+    "desc": "Development of the child from conception through 8 years of age including weekly laboratory experience with preschool children. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "CFD163": {
+    "course_id": "CFD163",
+    "title": "CFD 163 Relationships in Today's Families",
+    "req": "<em>General Education Course (Focus on Social and Behavioral Sciences).</em>",
+    "desc": "Personal and family living in the early stages of family life cycle. Concepts and methods used in initiating, building, maintaining and enriching relationships. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "CFD197": {
+    "course_id": "CFD197",
+    "title": "CFD 197 Introductory Topics in Child and Family Development",
+    "desc": "Variable content course for introductory concepts in Child and Family Development. May be repeated to a total of 6 hours when topics change. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CFD250": {
+    "course_id": "CFD250",
+    "title": "CFD 250 Parenting in Contemporary Society",
+    "desc": "Explores parenting and child rearing in today&apos;s society. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "CFD255": {
+    "course_id": "CFD255",
+    "title": "CFD 255 Principles of Development in Infancy",
+    "req": "<em>Prerequisite: <span data-link='CFD160'>CFD 160</span>.</em>",
+    "desc": "Child from conception through two years, including prenatal environment. Two hours laboratory experience weekly in infant-toddler child development laboratory. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CFD256": {
+    "course_id": "CFD256",
+    "title": "CFD 256 Supervised Experience in the Infant Toddler Center",
+    "desc": "Experience in applying effective techniques that optimize infant toddler development with 2-hours per week of participation in the infant toddler laboratory. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CFD257": {
+    "course_id": "CFD257",
+    "title": "CFD 257 Principles of Development in Middle Childhood",
+    "desc": "Development of the child from six through twelve years in cognitive, physical, social, emotional aspects. Contact with groups of children in this age range is arranged. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "ACC206": {
+    "course_id": "ACC206",
+    "title": "ACC 206 Accounting Choices and Methods",
+    "req": "<em>Prerequisite: <span data-link='UHC110'>UHC 110</span>.</em>",
+    "desc": "Comprehensive and accelerated examination of alternative accounting models, including electronic spreadsheet models, and their uses. Replaces <span data-link='ACC201'>ACC 201</span> and 211 for Honors College students. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='ACC311'>ACC 311</span>. A grade of &quot;B&quot; or better is required in this course in order to take <span data-link='ACC301'>ACC 301</span> or <span data-link='ACC321'>ACC 321</span> or <span data-link='ACC532'>ACC 532</span>. Cannot be taken Pass/Not Pass. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ACC209": {
+    "course_id": "ACC209",
+    "title": "ACC 209 Accounting Applications for Microcomputers",
+    "desc": "Use of the microcomputer and electronic spreadsheets to master the basic accounting cycle. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ACC211": {
+    "course_id": "ACC211",
+    "title": "ACC 211 Introduction to Managerial Accounting",
+    "req": "<em>Prerequisite: <span data-link='ACC201'>ACC 201</span>; and <span data-link='CIS201'>CIS 201</span> or concurrent enrollment.</em>",
+    "desc": "Methods and procedures employed in managerial accounting with emphasis on the use of accounting data for decision making. At least one spreadsheet project will be assigned. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='ACC311'>ACC 311</span>. A grade of &quot;B&quot; or better is required in this course in order to take <span data-link='ACC301'>ACC 301</span>. Cannot be taken Pass/Not Pass. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ACC297": {
+    "course_id": "ACC297",
+    "title": "ACC 297 Topics in Accounting",
+    "desc": "A variable content course with topics that can change from semester to semester. Topics are identified by title in the schedule of classes. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ACC300": {
+    "course_id": "ACC300",
+    "title": "ACC 300 Professionalism in Accountancy",
+    "req": "<em>Prerequisite: grade of &quot;B&quot; or better in <span data-link='ACC201'>ACC 201</span> and <span data-link='ACC211'>ACC 211</span>, or grade of &quot;B&quot; or better in <span data-link='ACC206'>ACC 206</span>, or grade of &quot;B&quot; or better in <span data-link='ACC600'>ACC 600</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Cases (including written and oral presentations) will focus on ethical and regulatory issues in accounting. Students will focus on professional behavior appropriate for accounting professionals. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='ACC302'>ACC 302</span> and <span data-link='ACC341'>ACC 341</span>. Research assignments are required. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ACC301": {
+    "course_id": "ACC301",
+    "title": "ACC 301 Intermediate Accounting I",
+    "req": "<em>Prerequisite: grade of &quot;B&quot; or better in <span data-link='ACC201'>ACC 201</span> and <span data-link='ACC211'>ACC 211</span> or grade of &quot;B&quot; or better in <span data-link='ACC206'>ACC 206</span> or <span data-link='ACC600'>ACC 600</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Financial Accounting Theory applications to the accounting process of corporations. Review of financial statements; accounting for current and long-term assets. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='ACC302'>ACC 302</span>, 341, 553, or 653. Cannot be taken Pass/Not Pass. Research assignments are required. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ACC302": {
+    "course_id": "ACC302",
+    "title": "ACC 302 Intermediate Accounting II",
+    "req": "<em>Prerequisite: grade of &quot;C&quot; or better in <span data-link='ACC300'>ACC 300</span> and <span data-link='ACC301'>ACC 301</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Continuation of intermediate accounting. Accounting for liabilities and equity. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='ACC504'>ACC 504</span>, 604, 506, 606, 553, or 653. Cannot be taken Pass/Not Pass. Research assignments are required. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "PAS766": {
+    "course_id": "PAS766",
+    "title": "PAS 766 Clinical Assessment II",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "A continuation of Clinical Assessment I. Emphasis will be on continued development of interviewing and physical examination skills, recognizing and interpreting abnormal physical findings, developing problem lists and differential diagnoses, and refining the recording and presenting of patient evaluation data. In addition, students will learn advanced assessment techniques and perform written and practical skills examinations that incorporate the objective structured clinical exam (OSCE). ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Summer": true
+    }
+  },
+  "PAS769": {
+    "course_id": "PAS769",
+    "title": "PAS 769 Behavioral Medicine",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "A biopsychosocial systems approach to the individual, family and community within the health care delivery system that includes issues germane to public health and rural medicine. A variety of topics such as growth and development, human sexuality, health promotion and disease prevention, health education, patient compliance, cultural diversity, substance abuse, family violence, child abuse and rural health issues are examined. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "PAS770": {
+    "course_id": "PAS770",
+    "title": "PAS 770 Professional Issues Seminar",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "Seminar format for discussion of professional and legal issues relevant to the physician assistant profession. Includes topics such as the history of the profession, health care systems, professional organizations, national certification, Missouri licensure, prescriptive privileges, and clinical ethics. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Summer": true
+    }
+  },
+  "PAS775": {
+    "course_id": "PAS775",
+    "title": "PAS 775 Principles of Clinical Problem Solving",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies or permission.</em>",
+    "desc": "Introduction to critical thinking skills and problem solving techniques. Incorporates problem based learning format where small groups of students under the supervision of a group leader explore the various facets of &quot;real-life&quot; clinical case scenarios. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "PAS776": {
+    "course_id": "PAS776",
+    "title": "PAS 776 Clinical Problem Solving Seminar",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "Advanced exercises in clinical problem solving in a small group format. Commonly presenting clinical problems are utilized as a means to refine students&apos; ability to choose appropriate steps to determine a definitive diagnosis/outcome. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PAS777": {
+    "course_id": "PAS777",
+    "title": "PAS 777 Introduction to Research and Clinical Epidemiology",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "Foundations of quantitative and qualitative research methodology related to the study of disease in populations. Includes issues related to study design, data collection, and methods of statistical analysis with a focus on application of these principles in the clinical setting. Will serve as the foundation for development of the clinical year research project. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PAS780": {
+    "course_id": "PAS780",
+    "title": "PAS 780 Pharmacotherapeutics I",
+    "req": "<em>Prerequisite: admission to the MS in Physician Assistant Studies.</em>",
+    "desc": "The first in a two-course sequence to introduce the principles of pharmacology and pharmacotherapeutics for the diagnosis, prevention and treatment of disease. Emphasis will be placed on the pharmacological, pharmacokinetic and pharmacodynamic properties of drugs and drug classes used in medical practice. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Summer": true
+    }
+  }
+}

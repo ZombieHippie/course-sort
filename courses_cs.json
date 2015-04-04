@@ -1,170 +1,95 @@
 {
-  "CSC 101": {
-    "course_id": "CSC 101"
+  "CSC125": {
+    "course_id": "CSC125",
+    "title": "CSC 125 Introduction to C++ Programming",
+    "desc": "Programming and problem-solving using C++. Language constructs for assignment, flow control, input/output and functions are studied and applied. Techniques of object-oriented programming are introduced. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
   },
-  "CSC 111": {
-    "course_id": "CSC 111"
+  "CSC130": {
+    "course_id": "CSC130",
+    "title": "CSC 130 The World of Computer Science",
+    "desc": "A broad overview of computer science, with topics ranging from the basic structure of a computer to artificial intelligence. Students will use a high-level language to investigate and implement solutions to problems in a range of fields. Suitable for non-majors who want to learn more about computer science. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
   },
-  "CSC 121": {
-    "course_id": "CSC 121"
+  "CSC131": {
+    "course_id": "CSC131",
+    "title": "CSC 131 Computational Thinking",
+    "req": "<em>Prerequisite: &quot;C&quot; or better in <span data-link='CSC130'>CSC 130</span> and eligible for <span data-link='MTH261'>MTH 261</span>.</em>",
+    "desc": "Solving problems using computation and implementing solutions in a high-level programming language. Introduction to problem analysis, solution design, data structures, and algorithms. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
   },
-  "CSC 125": {
-    "course_id": "CSC 125"
+  "CSC197": {
+    "course_id": "CSC197",
+    "title": "CSC 197 Introductory Topics in Computer Science",
+    "desc": "Variable content course with topics that can change from semester to semester. Topics will be identified by title in the schedule of classes. The course may be repeated if a different topic is offered, however, no more than six credits may count toward any degree. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
   },
-  "CSC 130": {
-    "course_id": "CSC 130"
+  "CSC210": {
+    "course_id": "CSC210",
+    "title": "CSC 210 Public Affairs Issues in Computing",
+    "req": "<em>Prerequisite: 12 hours. General Education Course (Focus on Public Issues).</em>",
+    "desc": "An introduction to public affairs issues in computing. Topics include civic applications, public sources of data, data and computer system security, opportunities and dangers of artificial intelligence and data mining, social media and computer mediated collaboration, and cultural factors in the internationalization of software. Student will design a civic application or system intended to serve the public good. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
   },
-  "CSC 131": {
-    "course_id": "CSC 131"
+  "CSC226": {
+    "course_id": "CSC226",
+    "title": "CSC 226 Special Languages",
+    "desc": "Study of computer languages and their use in particular application domains. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
   },
-  "CSC 197": {
-    "course_id": "CSC 197"
-  },
-  "CSC 210": {
-    "course_id": "CSC 210"
-  },
-  "CSC 226": {
-    "course_id": "CSC 226"
-  },
-  "CSC 232": {
-    "course_id": "CSC 232"
-  },
-  "CSC 300": {
-    "course_id": "CSC 300"
-  },
-  "CSC 301": {
-    "course_id": "CSC 301"
-  },
-  "CSC 303": {
-    "course_id": "CSC 303"
-  },
-  "CSC 320": {
-    "course_id": "CSC 320"
-  },
-  "CSC 325": {
-    "course_id": "CSC 325"
-  },
-  "CSC 333": {
-    "course_id": "CSC 333"
-  },
-  "CSC 335": {
-    "course_id": "CSC 335"
-  },
-  "CSC 365": {
-    "course_id": "CSC 365"
-  },
-  "CSC 399": {
-    "course_id": "CSC 399"
-  },
-  "CSC 421": {
-    "course_id": "CSC 421"
-  },
-  "CSC 422": {
-    "course_id": "CSC 422"
-  },
-  "CSC 423": {
-    "course_id": "CSC 423"
-  },
-  "CSC 450": {
-    "course_id": "CSC 450"
-  },
-  "CSC 460": {
-    "course_id": "CSC 460"
-  },
-  "CSC 482": {
-    "course_id": "CSC 482"
-  },
-  "CSC 500": {
-    "course_id": "CSC 500"
-  },
-  "CSC 505": {
-    "course_id": "CSC 505"
-  },
-  "CSC 510": {
-    "course_id": "CSC 510"
-  },
-  "CSC 521": {
-    "course_id": "CSC 521"
-  },
-  "CSC 525": {
-    "course_id": "CSC 525"
-  },
-  "CSC 526": {
-    "course_id": "CSC 526"
-  },
-  "CSC 535": {
-    "course_id": "CSC 535"
-  },
-  "CSC 540": {
-    "course_id": "CSC 540"
-  },
-  "CSC 545": {
-    "course_id": "CSC 545"
-  },
-  "CSC 565": {
-    "course_id": "CSC 565"
-  },
-  "CSC 567": {
-    "course_id": "CSC 567"
-  },
-  "CSC 587": {
-    "course_id": "CSC 587"
-  },
-  "CSC 590": {
-    "course_id": "CSC 590"
-  },
-  "CSC 596": {
-    "course_id": "CSC 596"
-  },
-  "CSC 600": {
-    "course_id": "CSC 600"
-  },
-  "CSC 605": {
-    "course_id": "CSC 605"
-  },
-  "CSC 610": {
-    "course_id": "CSC 610"
-  },
-  "CSC 621": {
-    "course_id": "CSC 621"
-  },
-  "CSC 625": {
-    "course_id": "CSC 625"
-  },
-  "CSC 626": {
-    "course_id": "CSC 626"
-  },
-  "CSC 635": {
-    "course_id": "CSC 635"
-  },
-  "CSC 640": {
-    "course_id": "CSC 640"
-  },
-  "CSC 645": {
-    "course_id": "CSC 645"
-  },
-  "CSC 665": {
-    "course_id": "CSC 665"
-  },
-  "CSC 667": {
-    "course_id": "CSC 667"
-  },
-  "CSC 687": {
-    "course_id": "CSC 687"
-  },
-  "CSC 690": {
-    "course_id": "CSC 690"
-  },
-  "CSC 696": {
-    "course_id": "CSC 696"
-  },
-  "CSC 796": {
-    "course_id": "CSC 796"
-  },
-  "CSC 798": {
-    "course_id": "CSC 798"
-  },
-  "CSC 799": {
-    "course_id": "CSC 799"
+  "CSC232": {
+    "course_id": "CSC232",
+    "title": "CSC 232 Data Structures",
+    "req": "<em>Prerequisite: &quot;C&quot; or better in <span data-link='CSC130'>CSC 130</span> and <span data-link='CSC131'>CSC 131</span>; and <span data-link='MTH215'>MTH 215</span> or <span data-link='MTH315'>MTH 315</span> or concurrent enrollment.</em>",
+    "desc": "A continuation of <span data-link='CSC131'>CSC 131</span>. Topics will include: algorithm design; complexity analysis; abstract data types and encapsulation; basic data structures and their application, including stacks, queues, linked lists and binary trees; dynamic memory allocation; recursion; sorting and searching; debugging techniques. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
   }
 }

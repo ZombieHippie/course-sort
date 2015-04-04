@@ -1,0 +1,102 @@
+{
+  "BIO111": {
+    "course_id": "BIO111",
+    "title": "BIO 111 Understanding Biological Systems Through Inquiry",
+    "req": "<em>Prerequisite: <span data-link='BIO101'>BIO 101</span> or concurrent enrollment. General Education Course (Focus on Life Sciences).</em>",
+    "desc": "A laboratory course that partially fulfills the general education requirement in the Life Sciences. Organisms are studied from their physiological, behavioral, ecological, hereditary, and evolutionary perspectives. Students will develop skills of gathering information about science, reasoning scientifically from that information and synthesizing responses to questions based upon that information in order to explain biological phenomena. Cannot count towards a biology major or minor. Students receiving credit towards graduation for <span data-link='BIO101'>BIO 101</span> and/or <span data-link='BIO111'>BIO 111</span> cannot also receive credit for <span data-link='BIO100'>BIO 100</span>. Supplemental course Fee. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  },
+  "BIO121": {
+    "course_id": "BIO121",
+    "title": "BIO 121 General Biology I",
+    "req": "<em>Prerequisite: eligibility for both <span data-link='ENG110'>ENG 110</span> and <span data-link='MTH135'>MTH 135</span>. General Education Course (Focus on Life Sciences).</em>",
+    "desc": "First half of 2-semester introductory biology sequence for biology majors and minors. Introduction to the concepts of biological structure and function at the molecular and cellular level, genetics, and evolution. Cannot be taken Pass/Not Pass. A grade of C or better is required in this course in order to take <span data-link='BIO122'>BIO 122</span>. Supplemental course fee. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "BIO122": {
+    "course_id": "BIO122",
+    "title": "BIO 122 General Biology II",
+    "req": "<em>Prerequisite: eligibility for both <span data-link='ENG110'>ENG 110</span> and <span data-link='MTH135'>MTH 135</span>.</em>",
+    "desc": "Recommended Prerequisite: <span data-link='BIO121'>BIO 121</span>. Second half of two-semester introductory biology sequence for biology majors and minors. Introduction to the biology of organisms including evolutionary history, diversity, structure, and function of major taxa; and ecology. Cannot be taken Pass/Not Pass. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='BIO235'>BIO 235</span>, <span data-link='BIO320'>BIO 320</span>, or <span data-link='BIO369'>BIO 369</span>. ",
+    "hours": {
+      "credit": 4,
+      "lecture": 3,
+      "lab": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "BIO197": {
+    "course_id": "BIO197",
+    "title": "BIO 197 Selected Topics in Biology",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "Course devoted to a biologic topic of current interest. Provided the topics are different, the course may be repeated to a total of 4 hours. Credit for this course cannot be applied to the minimum requirements of a major or minor in biology, or the general education (Focus on Life Sciences) requirement. Supplemental course fee (variable by section). ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BIO205": {
+    "course_id": "BIO205",
+    "title": "BIO 205 Life Science for Middle School",
+    "req": "<em>Prerequisite: <span data-link='BIO100'>BIO 100</span> or <span data-link='BIO101'>BIO 101</span> and 111.</em>",
+    "desc": "Processes of science using the inquiry approach with reference to society, technology, and decision-making. Content covers cellular biology, plant and animal structure and function, ecology and environmental biology. Does not count for credit towards major or minor in biology. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "BIO210": {
+    "course_id": "BIO210",
+    "title": "BIO 210 Elements of Microbiology",
+    "req": "<em>Prerequisite: <span data-link='CHM116'>CHM 116</span> and 117 or <span data-link='CHM160'>CHM 160</span>; and 4 hours of BIO or BMS courses.</em>",
+    "desc": "Public health aspects of microbiology, particularly causes and control of infectious diseases, immunology, sterilization and disinfection, and food and water bacteriology. A student who takes <span data-link='BIO210'>BIO 210</span> and <span data-link='BIO310'>BIO 310</span> receives credit toward graduation only for <span data-link='BIO310'>BIO 310</span>. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "BIO215": {
+    "course_id": "BIO215",
+    "title": "BIO 215 Introduction to the Diversity of Life",
+    "req": "<em>Prerequisite: 4 hours of biology.</em>",
+    "desc": "Introduction to the diversity in structure and function of protists, fungi, plants and animals. This course is designed for BSEd students and does not count toward a BA or BS in Biology. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

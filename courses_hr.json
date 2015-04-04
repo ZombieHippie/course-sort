@@ -1,0 +1,86 @@
+{
+  "HLH710": {
+    "course_id": "HLH710",
+    "title": "HLH 710 Introduction to Health Promotion and Wellness Management",
+    "desc": "This is an introductory course in which students will gain a general understanding of the health promotion and wellness management (HPWM) field. The job opportunities, history, mission, terminology, philosophy, ethical principles, organizations, concepts and foundations of HPWM will be explored. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "HLH750": {
+    "course_id": "HLH750",
+    "title": "HLH 750 Programming Approaches in Wellness/Health Promotion",
+    "desc": "Organizational and administrative approaches utilized in the conduct of wellness/health promotion programs will be studied. Emphasis will be placed upon the selection, development, promotion, conduct, and evaluation of the various components of wellness/health promotion programs. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "HLH752": {
+    "course_id": "HLH752",
+    "title": "HLH 752 Health Risk Identification and Management",
+    "desc": "Procedures and instrumentation utilized in the identification and assessment of risk factors associated with cardiovascular and other major life-style generated diseases and conditions will be studied. Emphasis will be placed upon the utilization of risk factor data in the conduct of a wellness/health promotion program. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "HLH760": {
+    "course_id": "HLH760",
+    "title": "HLH 760 Health Promotion Planning",
+    "desc": "A culminating course in the MS in Health Promotion and Wellness Management degree program. This course will focus on the development of health promotion in the workplace: Topics discussed will include effects of health promotion, the compression of morbidity, developing awareness strategies, health assessments, theories of health behavior (self-efficacy, social learning theory, health belief model, theory of planned behavior, stages of change theory), and evaluating existing workplace health promotion programs (physical activity in the workplace, worksite nutrition programs, worksite weight management, tobacco control and cessation, and stress management). The current professional literature related to health promotion will also be reviewed. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "HLH770": {
+    "course_id": "HLH770",
+    "title": "HLH 770 Seminar in Health Promotion and Wellness Management",
+    "desc": "Review of the professional literature relating to current issues in health promotion and wellness. Topics researched and discussed include health care ethics, diversity, cultural aspects, long-range planning, public relations, legal considerations, and grant-writing. Includes guided development and completion of an extensive research paper. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "HLH791": {
+    "course_id": "HLH791",
+    "title": "HLH 791 Wellness Internship",
+    "req": "<em>Prerequisite: permission of Health Internship Coordinator.</em>",
+    "desc": "Supervised field experience in a health promotion or health care setting. Directly involves the student in the application of organizational skills and wellness manager skills. Student must complete a minimum number of clinical hours. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "KIN101": {
+    "course_id": "KIN101",
+    "title": "KIN 101 Beginning Swimming",
+    "desc": "Designed to teach novice swimmer basic swimming skills. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

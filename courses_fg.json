@@ -1,0 +1,91 @@
+{
+  "BUS305": {
+    "course_id": "BUS305",
+    "title": "BUS 305 Service Learning in Business",
+    "req": "<em>Prerequisite: 30 hours and concurrent registration in a Finance and General Business department course designated as a service learning offering; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction in business to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization, agency, or public service provider. Approved service placements and assignments will vary depending on the course topic and learning objectives; a list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "BUS307": {
+    "course_id": "BUS307",
+    "title": "BUS 307 Business in the Community",
+    "req": "<em>Prerequisite: undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Study and application of business within the community. Topics include: planning and management of organizations from the viewpoint of education, community, and business; development of new business; organizational structure; interpersonal skills; funding and allocation resources of private, public and non-profit organizations. Allows for direct contact with local community leaders in education and business as well as opportunity to develop individual skills. Group dynamics and individual initiative are emphasized. May be available with <span data-link='BUS305'>BUS 305</span> Service Learning option and be repeated to a total of 6 hours. ",
+    "hours": {
+      "credit": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BUS394": {
+    "course_id": "BUS394",
+    "title": "BUS 394 Cooperative Education in Business",
+    "req": "<em>Prerequisite: acceptance into Cooperative Education Program and permission of department head; undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "The opportunity to earn academic credit in a planned learning process that integrates academic training with a supervised work experience. This is a variable content course that may be repeated to a total of 6 hours in Cooperative Education. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BUS397": {
+    "course_id": "BUS397",
+    "title": "BUS 397 Topics in Business",
+    "req": "<em>Prerequisite: undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A variable content course with topics that can change from semester to semester. Topics are identified by title in the schedule of classes. Examples include: Employment Discrimination Law, Tax Planning for Real Estate Investments, and special courses in Insurance. May be repeated to a total of 6 hours. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BUS494": {
+    "course_id": "BUS494",
+    "title": "BUS 494 Internship",
+    "req": "<em>Prerequisite: 80 hours; academic preparation in the field of internship; permission of department head; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A variable content course. Internships to be identified by title in the schedule of classes include Finance, Financial Planning, General Business, Insurance, and Real Estate. Opportunity to obtain practical understanding through work experience with a cooperating business or financial institution, financial planning firm, insurance company or real estate firm. Employment and outline of study must be company approved prior to enrollment. May be repeated to a total of 3 hours. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "BUS510": {
+    "course_id": "BUS510",
+    "title": "BUS 510 E-Business and Online Entrepreneurship",
+    "req": "<em>Prerequisite: 54 hours; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A study of e-business and online entrepreneurship from an applied, best practices point of view. Classroom visits by online entrepreneurs provide unique, real-world insights into the advantages, disadvantages, and challenges of doing business over the Internet. May be taught concurrently with <span data-link='BUS610'>BUS 610</span>. Cannot receive credit for both <span data-link='BUS510'>BUS 510</span> and <span data-link='BUS610'>BUS 610</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BUS550": {
+    "course_id": "BUS550",
+    "title": "BUS 550 Negotiation, Mediation, and Arbitration in Business",
+    "req": "<em>Prerequisite: 60 hours; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A practical, skills-based study of negotiation, mediation, and arbitration from the business manager&apos;s perspective. This hands-on course is designed to develop the skills necessary to enable the business manager to effectively participate in negotiation, mediation, and arbitration as alternatives to litigation for resolving business disputes. Identical with <span data-link='LAW550'>LAW 550</span>. May be taught concurrently with <span data-link='BUS650'>BUS 650</span>. Cannot receive credit for more than one of <span data-link='BUS550'>BUS 550</span>, <span data-link='BUS650'>BUS 650</span>, <span data-link='LAW550'>LAW 550</span>, or <span data-link='LAW650'>LAW 650</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

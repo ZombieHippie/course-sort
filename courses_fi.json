@@ -1,0 +1,88 @@
+{
+  "FCS300": {
+    "course_id": "FCS300",
+    "title": "FCS 300 Special Topics in Family and Consumer Sciences",
+    "desc": "Selected topics of contemporary interest in Family and Consumer Sciences, offered when resources and demand allow. May be repeated to a total of 6 hours when topics change. Variable Content Course. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "FCS301": {
+    "course_id": "FCS301",
+    "title": "FCS 301 Textiles, Apparel, and Fashion",
+    "desc": "Textiles and apparel course for teachers of Family the Consumer Sciences. Study of textiles used in apparel, selection and care of apparel, apparel construction techniques, and cultural, aesthetic, historical, legal and environmental aspects of textiles, apparel and fashion. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "FCS302": {
+    "course_id": "FCS302",
+    "title": "FCS 302 Family and Consumer Sciences Study Tour",
+    "desc": "Study of mills, factories, stores, hospitals, laboratories, hospitality facilities, museums, design studios, historic sites, and/or trade markets, and not-for-profit agencies. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "FCS303": {
+    "course_id": "FCS303",
+    "title": "FCS 303 Service Learning in Family and Consumer Sciences",
+    "req": "<em>Prerequisite: 30 hours and concurrent registration in a designated service learning offering within one of the major areas of study in Family and Consumer Sciences.</em>",
+    "desc": "A service learning course incorporates a community service experience with classroom instruction to provide an integrative learning experience which addresses the practice of citizenship and promotes an awareness of and participation in public affairs/service. Requires 40 hours of service to a community organization, agency, or public service provider. The community service placement and assignment will vary, depending on the specialization area and learning objectives. A list of approved placements will be available from the instructor and the Citizenship and Service Learning Office. Students are required to participate in a service learning training session(s) prior to beginning their service placement. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "FCS335": {
+    "course_id": "FCS335",
+    "title": "FCS 335 Presentation Techniques",
+    "req": "<em>Prerequisite: <span data-link='COM115'>COM 115</span> and 60 hours.</em>",
+    "desc": "Planning and presenting techniques for teaching in the classroom, business, industry, or extension settings. A focus on professional presentation strategies incorporating the use of multimedia technology. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "FCS373": {
+    "course_id": "FCS373",
+    "title": "FCS 373 Family Economics",
+    "desc": "Recommended Prerequisite: <span data-link='ECO155'>ECO 155</span>. Family as a consumer unit, its financial well-being and interrelationship with the market and the economy. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "FCS400": {
+    "course_id": "FCS400",
+    "title": "FCS 400 Problems in Family and Consumer Sciences",
+    "desc": "Independent study for those who wish additional work in specific subject areas. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

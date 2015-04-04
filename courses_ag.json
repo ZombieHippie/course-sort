@@ -1,0 +1,91 @@
+{
+  "AGB344": {
+    "course_id": "AGB344",
+    "title": "AGB 344 Financing Agriculture",
+    "desc": "Recommended Prerequisite: <span data-link='AGB144'>AGB 144</span>. Capital requirements and sources and uses of each type of credit. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "AGB354": {
+    "course_id": "AGB354",
+    "title": "AGB 354 Land Economics",
+    "desc": "Recommended Prerequisite: <span data-link='AGB144'>AGB 144</span>. Principles and institutions affecting the allocation of land resources among uses and users. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "AGB364": {
+    "course_id": "AGB364",
+    "title": "AGB 364 Agricultural Commodity Futures and Options",
+    "desc": "Recommended Prerequisite: <span data-link='AGB334'>AGB 334</span>. Introduction to the economic theory, organization, and operating principles of agricultural commodity futures markets. Emphasis is placed on speculating, hedging, and investing in agricultural commodity futures contracts. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Summer": true
+    }
+  },
+  "AGB374": {
+    "course_id": "AGB374",
+    "title": "AGB 374 Agricultural Business Management",
+    "desc": "Recommended Prerequisite: <span data-link='AGB144'>AGB 144</span>. A study of agricultural firm management including planning, organizing, directing, controlling and coordinating functions used to attain business goals. The role of finance and type of business organization including agricultural cooperatives. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "AGB384": {
+    "course_id": "AGB384",
+    "title": "AGB 384 Agricultural Selling",
+    "desc": "Recommended Prerequisite: <span data-link='AGB334'>AGB 334</span>. Principles of selling with application to agricultural inputs and products. Attitudes, value systems, and behavioral patterns that relate to agricultural sales. Relationship of sales to marketing, selling strategies, preparing for sales calls, making sales presentations, handling objections, and closing sales. Analysis of the buying or purchasing process. Evaluation of agri-selling as a possible career choice. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "AGB394": {
+    "course_id": "AGB394",
+    "title": "AGB 394 Agricultural Industry Study",
+    "req": "<em>Prerequisite: concurrent enrollment in <span data-link='AGB494'>AGB 494</span> for 1 credit hour; completion of 60 hours including 6 hours in agricultural business; and permission of instructor.</em>",
+    "desc": "A five-day study alternating between St. Louis and Kansas City to examine the management process of a variety of agricultural businesses. May be repeated for a total of 2 credit hours. Supplemental course fee. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "AGB444": {
+    "course_id": "AGB444",
+    "title": "AGB 444 American Agricultural Policy",
+    "desc": "Recommended Prerequisite: <span data-link='AGB144'>AGB 144</span>. Description and analysis of economic problems of U.S. Agriculture. History and significance of government programs to support farm prices and incomes, conserve land resources, encourage adequate food supplies and expand U.S. agricultural trade. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

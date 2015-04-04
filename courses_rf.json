@@ -1,0 +1,98 @@
+{
+  "EDC350": {
+    "course_id": "EDC350",
+    "title": "EDC 350 School and Society",
+    "req": "<em>Prerequisite: admitted to Teacher Education Program; <span data-link='PSY385'>PSY 385</span> or <span data-link='CFD257'>CFD 257</span> (Elementary Education program); or <span data-link='CFD160'>CFD 160</span> (Early Childhood Education program); or <span data-link='PSY360'>PSY 360</span> (Secondary, Middle School, and K-12 programs); or concurrent enrollment.</em>",
+    "desc": "This class examines the nature and history of schooling in America and the teaching profession, the purposes and goals of education, and educational philosophy. It also explores social, legal, and political issues connected with teaching and learning, diversity, racism, sexism, and the effects of social class on educational success. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "EDC700": {
+    "course_id": "EDC700",
+    "title": "EDC 700 Teaching and Learning I: Current Issues and Trends in Education",
+    "req": "<em>Prerequisite: bachelor&apos;s degree and certification as a classroom teacher.</em>",
+    "desc": "This course examines educational issues, questions, concerns, and trends teachers face in their schools and daily practices. The impact of national and state policy-making, directions suggested by emerging educational research, and current educational reform efforts will receive particular attention. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 3,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "EDC701": {
+    "course_id": "EDC701",
+    "title": "EDC 701 Teaching and Learning II: Diversity, Curriculum and Research",
+    "req": "<em>Prerequisite: <span data-link='EDC700'>EDC 700</span>; bachelor&apos;s degree and certification as a classroom teacher.</em>",
+    "desc": "This course engages students with research projects and curriculum ideas designed to strengthen and deepen student learning, with a special emphasis on questions of student diversity. The course helps students to formulate questions and use appropriate research principles to collect, analyze, interpret, and report data in order to evaluate the effectiveness of classroom instruction and educational policies. Students examine different curriculum models and theories and devise instructional practices to meet the needs of all learners. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 3,
+      "lab": 4
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "EDC702": {
+    "course_id": "EDC702",
+    "title": "EDC 702 Teaching and Learning III: Management and Assessment of Learning",
+    "req": "<em>Prerequisite: <span data-link='EDC700'>EDC 700</span> and <span data-link='EDC701'>EDC 701</span>; bachelor&apos;s degree and certification as a classroom teacher.</em>",
+    "desc": "This course examines the reasons for, benefits of, and limitations of the increasing call for effective and comprehensive assessment practices and helps teachers plan for, construct, use, and analyze a variety of assessment practices. This course also examines various models of and approaches to classroom management and discipline and the relation of management practices to effective learning. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 3,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "EDC703": {
+    "course_id": "EDC703",
+    "title": "EDC 703 Teaching and Learning IV: Curriculum Development",
+    "req": "<em>Prerequisite: <span data-link='EDC700'>EDC 700</span> and <span data-link='EDC701'>EDC 701</span> and <span data-link='EDC702'>EDC 702</span>; bachelor&apos;s degree and certification as a classroom teacher.</em>",
+    "desc": "This course engages students in a careful examination of the curriculum they teach, from district curriculum goals, national curriculum standards, and course- or grade-level goals. The course encourages reflection about instructional practices in light of curriculum goals. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "EDC704": {
+    "course_id": "EDC704",
+    "title": "EDC 704 Teaching and Learning V: Research Seminar",
+    "req": "<em>Prerequisite: <span data-link='EDC700'>EDC 700</span> and <span data-link='EDC701'>EDC 701</span> and <span data-link='EDC702'>EDC 702</span> and <span data-link='EDC703'>EDC 703</span>; bachelor&apos;s degree and certification as a classroom teacher.</em>",
+    "desc": "An in-depth study related to a research topic identified earlier in the program or curricular project begun as part of a learning team, leading to the guided development and completion of an extensive research paper. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "EDC786": {
+    "course_id": "EDC786",
+    "title": "EDC 786 Research Seminar in Education",
+    "req": "<em>Prerequisite: <span data-link='SFR780'>SFR 780</span>.</em>",
+    "desc": "An in-depth study of chosen topic in K-12 education leading to the guided development and completion of an extensive research paper or major creative work. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

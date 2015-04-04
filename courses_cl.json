@@ -1,0 +1,90 @@
+{
+  "COU703": {
+    "course_id": "COU703",
+    "title": "COU 703 Mental Health Counseling Foundations and Ethics",
+    "desc": "An introduction and overview of the history, philosophy, and function of the counselor in mental health and other community agency settings. Includes an examination of service population characteristics and treatment needs, intervention modalities and approaches, professional identity, and related topics. Includes a significant focus on ethical standards and issues. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU705": {
+    "course_id": "COU705",
+    "title": "COU 705 Orientation to Personal and Professional Development",
+    "desc": "This course is an experience in personal and group encountering and sensitivity. Its purpose is to assist students in discovering a more complete awareness, understanding, and acceptance of themselves and others as human beings. Primary emphasis will be upon students exploring self, values, needs, and personal characteristics. Graded Pass/Not Pass only. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU707": {
+    "course_id": "COU707",
+    "title": "COU 707 Human Development and Personality",
+    "desc": "Study of child, adolescent and adult psychological development theories, normal adjustment processes, personality structure, and abnormal behavior. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU708": {
+    "course_id": "COU708",
+    "title": "COU 708 Child Counseling Theories and Techniques",
+    "req": "<em>Prerequisite: admission to the Counseling program; and <span data-link='COU702'>COU 702</span> or <span data-link='COU703'>COU 703</span>; and <span data-link='COU705'>COU 705</span> and <span data-link='COU710'>COU 710</span> and <span data-link='COU711'>COU 711</span> or departmental permission.</em>",
+    "desc": "A consideration of major theories of counseling as they are related to counseling with elementary school-aged children. Emphasis is placed upon the counseling process as it affects the educational, personal, and social adjustment of children. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU710": {
+    "course_id": "COU710",
+    "title": "COU 710 The Helping Relationship",
+    "req": "<em>Prerequisite: admission to Counseling program or Student Affairs in Higher Education program; and concurrent enrollment in <span data-link='COU711'>COU 711</span>.</em>",
+    "desc": "Two training components are integrated to provide an intensive pre-practicum experience. The didactic component introduces basic skills of effective interpersonal communication and counseling. Participation in co-requisite laboratory (<span data-link='COU711'>COU 711</span>) provides supervised practice in the practical application of those skills in simulated counseling interviews. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU711": {
+    "course_id": "COU711",
+    "title": "COU 711 The Helping Relationship Lab",
+    "req": "<em>Prerequisite: admission to Counseling program or Student Affairs in Higher Education program.</em>",
+    "desc": "First enrollment must be concurrent with <span data-link='COU710'>COU 710</span>. Designed to accompany <span data-link='COU710'>COU 710</span>, this lab provides an opportunity for graduate students in counseling to practice basic counseling skills in role-played sessions with live observation, video-taped review and supervisory feedback. May be repeated to 3 hours. Graded Pass/Not Pass only. ",
+    "hours": {
+      "credit": 1,
+      "lab": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "COU714": {
+    "course_id": "COU714",
+    "title": "COU 714 Diversity and Multicultural Issues in Counseling",
+    "req": "<em>Prerequisite: admission to Counseling program.</em>",
+    "desc": "An introduction to counseling theories, interventions and issues in working with clients from diverse, minority and ethnic cultures. Values, beliefs and norms of various cultures, including the student&apos;s, will be examined as they pertain to the counseling process. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

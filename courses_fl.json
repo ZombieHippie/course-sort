@@ -1,0 +1,91 @@
+{
+  "ARB202": {
+    "course_id": "ARB202",
+    "title": "ARB 202 Intermediate Arabic II",
+    "req": "<em>Prerequisite: C or better in <span data-link='ARB201'>ARB 201</span>.</em>",
+    "desc": "Continued development of the four skill areas through conversation, composition, and reading as a means to access culture. Credit by examination is available. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ARB297": {
+    "course_id": "ARB297",
+    "title": "ARB 297 Special Topics in Arabic",
+    "req": "<em>Prerequisite: permission of instructor and department head.</em>",
+    "desc": "Topics of selected interest in Arabic studies, including travel courses to Arabic-speaking countries. The specific subject matter and/or international component may vary according to resources and demand. Variable content course. May be repeated, as topics change, to a maximum of 6 hours. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ARB305": {
+    "course_id": "ARB305",
+    "title": "ARB 305 Advanced Arabic Proficiency Skills",
+    "req": "<em>Prerequisite: C or better in <span data-link='ARB202'>ARB 202</span>.</em>",
+    "desc": "Readings and discussions in modern standard Arabic, continuing the method used in teaching <span data-link='ARB201'>ARB 201</span> and 202. Enhances communicative skills by providing intensive practice in reading, writing, listening, speaking and active control of grammar and vocabulary. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CHI101": {
+    "course_id": "CHI101",
+    "title": "CHI 101 Elementary Chinese I",
+    "desc": "Essentials of grammar through aural-oral practice, dictation, reading and writing. Course conducted in Mandarin Chinese as far as practicable. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CHI102": {
+    "course_id": "CHI102",
+    "title": "CHI 102 Elementary Chinese II",
+    "req": "<em>Prerequisite: C or better in <span data-link='CHI101'>CHI 101</span>.</em>",
+    "desc": "Continuation of <span data-link='CHI101'>CHI 101</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CHI201": {
+    "course_id": "CHI201",
+    "title": "CHI 201 Intermediate Chinese I",
+    "req": "<em>Prerequisite: C or better in <span data-link='CHI102'>CHI 102</span>.</em>",
+    "desc": "Continuation of <span data-link='CHI102'>CHI 102</span> with emphasis on reading, conversation, and an introduction to Chinese history and culture. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "CHI202": {
+    "course_id": "CHI202",
+    "title": "CHI 202 Intermediate Chinese II",
+    "req": "<em>Prerequisite: C or better in <span data-link='CHI201'>CHI 201</span>.</em>",
+    "desc": "Continuation of <span data-link='CHI201'>CHI 201</span> with emphasis on reading, conversation, history, and culture. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

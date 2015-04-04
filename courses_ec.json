@@ -1,0 +1,89 @@
+{
+  "ECO197": {
+    "course_id": "ECO197",
+    "title": "ECO 197 Topics in Economics",
+    "desc": "Course designed to explore one or more current issues in the field of economics. Students should consult the class schedule to determine the topic(s) to be covered in any given semester. Variable content course. May be repeated to a maximum of 6 hours, as course topics change. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO200": {
+    "course_id": "ECO200",
+    "title": "ECO 200 Personal Economics",
+    "desc": "An examination of topics designed to provide the student with skills aimed at promoting personal financial responsibility. Topics include budgeting, purchasing decisions, consumer credit, compound interest, savings and investments, home ownership, insurance, retirement and estate planning. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO300": {
+    "course_id": "ECO300",
+    "title": "ECO 300 Service Learning In Economics",
+    "req": "<em>Prerequisite: 30 hours, concurrent registration in an Economics course designated as a service learning offering.</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction in Economics to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization, agency, or public service provider. Approved service placements and assignments will vary depending on the specific course topic and learning objectives; a list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO302": {
+    "course_id": "ECO302",
+    "title": "ECO 302 Economic Analysis for Investors",
+    "req": "<em>Prerequisite: <span data-link='ECO155'>ECO 155</span> or <span data-link='ECO165'>ECO 165</span>, and completion of mathematics general education requirement.</em>",
+    "desc": "This course examines economic principles used by investors and financial reporters. Concepts are drawn from several fields of economics including microeconomics, macroeconomics, money and banking, labor economics, and international economics. Students will participate in a stock market game, make in-class presentations and conduct Internet research. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO305": {
+    "course_id": "ECO305",
+    "title": "ECO 305 Money and Banking",
+    "req": "<em>Prerequisite: <span data-link='ECO155'>ECO 155</span>.</em>",
+    "desc": "Nature and functions of money, a survey of the operation and development of the banking system in the U.S.; introduction to monetary theory and policy. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO310": {
+    "course_id": "ECO310",
+    "title": "ECO 310 Labor Economics",
+    "req": "<em>Prerequisite: <span data-link='ECO155'>ECO 155</span> and <span data-link='ECO165'>ECO 165</span>.</em>",
+    "desc": "Factors determining the market for labor; examination of the economic effects of trade unions; recent trends in the labor force and the labor share of national income. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ECO315": {
+    "course_id": "ECO315",
+    "title": "ECO 315 The Economics of Gender",
+    "req": "<em>Prerequisite: <span data-link='ECO165'>ECO 165</span>.</em>",
+    "desc": "This course teaches students to analyze the economic decisions made by both males and females in two main areas: the labor market and the household. Specific areas of inquiry include the following: the family as an economic unit, gender differences in labor force participation, occupational gender segregation, explanations for gender earnings differentials and efforts to reduce such differentials, gender earnings discrimination, and international gender issues. Identical with <span data-link='GST315'>GST 315</span>. Cannot receive credit for both <span data-link='ECO315'>ECO 315</span> and <span data-link='GST315'>GST 315</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

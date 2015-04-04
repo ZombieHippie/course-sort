@@ -1,0 +1,99 @@
+{
+  "ENG184": {
+    "course_id": "ENG184",
+    "title": "ENG 184 Mini Literature",
+    "desc": "Topics in literature, such as detective fiction, Missouri writers, new fiction. Check semester class schedule for topics offered. Course may be repeated, provided topic and title are different, to a maximum of 6 hours. May be counted toward General Education Humanities requirement for those following a general education catalog prior to fall 1997. Variable content course. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ENG190": {
+    "course_id": "ENG190",
+    "title": "ENG 190 Language Skills",
+    "desc": "Development of specific writing skills in selected areas of composition, such as sentence grammar and structure, punctuation and capitalization, spelling, diction and dictionary use, outlining and organization. Not a composition course. Check semester class schedule to determine topics being offered. Course may be repeated, provided topic and title are different, to a maximum of 3 hours. Will not satisfy the general education requirement in English. Variable content course. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ENG191": {
+    "course_id": "ENG191",
+    "title": "ENG 191 Grammar Skills",
+    "desc": "Development of specific skills in American English grammar (including sentence structure, punctuation, capitalization, spelling, and diction). Students will explore and discuss grammar and usage in written communication. Not a composition course. Cannot be used to satisfy any General Education requirement in English or any requirement in the Bachelor of Science in Education degree. ",
+    "hours": {
+      "credit": 1,
+      "lecture": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ENG200": {
+    "course_id": "ENG200",
+    "title": "ENG 200 Great Books and Instant Classics",
+    "req": "<em>General Education Course (Focus on Humanities).</em>",
+    "desc": "The works that society calls its &quot;great books&quot; tell us much about how the society views itself. Popular forms of linguistic expression, though sometimes less celebrated, similarly reflect a culture&apos;s sense of itself. Examining a range of texts, time-honored and otherwise, from numerous critical perspectives, this course explores how literatures reflect the values of the societies that create and enjoy them. Appropriate for students in all majors. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  },
+  "ENG201": {
+    "course_id": "ENG201",
+    "title": "ENG 201 Public Issues in Popular Culture",
+    "req": "<em>Prerequisite: 12 hours. General Education Course (Focus on Public Issues).</em>",
+    "desc": "A writing-intensive course that examines contemporary public issues through a variety of cultural expressions, from fiction, poetry, television and comics, to political discourse, folklore, web-based media, and song lyrics, among other popular genres. Exploring issues from these multiple viewpoints, the course will investigate the various underlying value systems that both inform the rhetorical construction of the texts and influence the attitudes and behaviors of their readers. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ENG203": {
+    "course_id": "ENG203",
+    "title": "ENG 203 Creative Writing: Poetry",
+    "req": "<em>Prerequisite: <span data-link='ENG110'>ENG 110</span>. General Education Course (Focus on the Arts).</em>",
+    "desc": "Introduction to the theory, art, cultural context, craft, and process of poetry writing. Analysis of the full stylistic range of the modern poem and practical experience in writing in the form, with focus on the process form of writing through revision and the collaborative workshop experience. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  },
+  "ENG205": {
+    "course_id": "ENG205",
+    "title": "ENG 205 Creative Writing: Nonfiction",
+    "req": "<em>Prerequisite: <span data-link='ENG110'>ENG 110</span>. General Education Course (Focus on the Arts).</em>",
+    "desc": "A study of the key characteristics of creative nonfiction, including an introduction to the evolving forms of text classified as creative nonfiction. Practice in writing prose with a focus on collaborative workshops and revision. Emphasis on the creative interpretation of complex thoughts and human experiences. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true,
+      "Summer": true
+    }
+  }
+}

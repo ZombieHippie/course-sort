@@ -1,0 +1,85 @@
+{
+  "BSE503": {
+    "course_id": "BSE503",
+    "title": "BSE 503 Teaching of Business",
+    "req": "<em>Prerequisite: <span data-link='EDC350'>EDC 350</span>; and <span data-link='ACC211'>ACC 211</span> or <span data-link='ACC206'>ACC 206</span>; and admitted to Teacher Education Program; and 70 hours; and approved major or minor in business.</em>",
+    "desc": "Development of a philosophy for and about business education; study of relevant legislation; study of methods of teaching selected business subjects including use of research-based readings, observation, and microteaching. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='BSE493'>BSE 493</span> or <span data-link='BSE494'>BSE 494</span>. Cannot be taken Pass/Not Pass. May be taught concurrently with <span data-link='BSE603'>BSE 603</span>. Cannot receive credit for both <span data-link='BSE603'>BSE 603</span> and <span data-link='BSE503'>BSE 503</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "BSE509": {
+    "course_id": "BSE509",
+    "title": "BSE 509 Business Education Workshop",
+    "desc": "Development and promotion of desirable programs in business education. Each workshop emphasizes a single topic. May be repeated for a maximum of 5 hours when topic varies. May be taught concurrently with <span data-link='BSE609'>BSE 609</span>. Cannot receive credit for both <span data-link='BSE609'>BSE 609</span> and <span data-link='BSE509'>BSE 509</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BSE520": {
+    "course_id": "BSE520",
+    "title": "BSE 520 Occupational Analysis",
+    "req": "<em>Prerequisite: teacher certification student.</em>",
+    "desc": "Analysis and breakdown of broad occupations or specific jobs into basic elements for instructional purposes. Identical with <span data-link='AGV520'>AGV 520</span>. May be repeated to a total of 2 hours when topic varies. May be taught concurrently with <span data-link='BSE620'>BSE 620</span>. Cannot receive credit for both <span data-link='BSE620'>BSE 620</span> and <span data-link='BSE520'>BSE 520</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BSE522": {
+    "course_id": "BSE522",
+    "title": "BSE 522 Philosophy of Vocational Education",
+    "desc": "Philosophical foundations of vocational education; philosophies of vocational education in the contemporary school. Meets Missouri Vocational Education certification requirements. Identical with <span data-link='AGV522'>AGV 522</span> and <span data-link='SEC522'>SEC 522</span>. May be repeated to a total of 3 hours when topic varies. May be taught concurrently with <span data-link='BSE622'>BSE 622</span>. Cannot receive credit for both <span data-link='BSE622'>BSE 622</span> and <span data-link='BSE522'>BSE 522</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BSE523": {
+    "course_id": "BSE523",
+    "title": "BSE 523 Guidance for Vocational Development",
+    "req": "<em>Prerequisite: teacher certification student.</em>",
+    "desc": "Materials, procedures, and problems in guidance of individuals in the selection of, preparation for, and advancement in a vocation. Identical with <span data-link='AGV523'>AGV 523</span>. May be repeated to a total of 3 hours when topic varies. May be taught concurrently with <span data-link='BSE623'>BSE 623</span>. Cannot receive credit for both <span data-link='BSE623'>BSE 623</span> and <span data-link='BSE523'>BSE 523</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BSE524": {
+    "course_id": "BSE524",
+    "title": "BSE 524 Implementing Vocational Business Education Programs",
+    "req": "<em>Prerequisite: teacher certification student.</em>",
+    "desc": "Problems; procedures; and local, state and federal relationships in the implementation and administration of vocational business education in the contemporary school. May be taught concurrently with <span data-link='BSE624'>BSE 624</span>. Cannot receive credit for both <span data-link='BSE624'>BSE 624</span> and <span data-link='BSE524'>BSE 524</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "BSE526": {
+    "course_id": "BSE526",
+    "title": "BSE 526 Coordination of Cooperative Education",
+    "req": "<em>Prerequisite: teacher certification student.</em>",
+    "desc": "Problems and procedures in organizing and operating part-time cooperative and evening occupation programs. Restricted to those who can qualify as coordinators. Identical with <span data-link='AGV526'>AGV 526</span> and <span data-link='SEC526'>SEC 526</span>. May be repeated to a total of 2 hours when topic varies. May be taught concurrently with <span data-link='BSE626'>BSE 626</span>. Cannot receive credit for both <span data-link='BSE626'>BSE 626</span> and <span data-link='BSE526'>BSE 526</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "GER320": {
+    "course_id": "GER320",
+    "title": "GER 320 Gender Issues in Later Life",
+    "req": "<em>Prerequisite: <span data-link='PSY121'>PSY 121</span>; and <span data-link='GST170'>GST 170</span> or 45 hours.</em>",
+    "desc": "A comparison of the aging experiences of men and women in later life. The relevance of gender and gender roles to the aging process will be considered. Specific topics of analysis will include the gender gap in longevity, psychological and physical health, minority status, socioeconomic status, family relationships, and public policy issues. Identical to <span data-link='PSY354'>PSY 354</span>. Can only receive credit for one of the following: <span data-link='GER320'>GER 320</span> or <span data-link='PSY354'>PSY 354</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "GER365": {
+    "course_id": "GER365",
+    "title": "GER 365 Families in Later Life",
+    "req": "<em>Prerequisite: <span data-link='PSY121'>PSY 121</span>; and <span data-link='CFD155'>CFD 155</span> or <span data-link='CFD163'>CFD 163</span> or 30 hours.</em>",
+    "desc": "Examination of the structure and function of families in later life. Topics of interest include demographic trends impacting the structure of the family, marriage, sibling relations, parent-adult child relations, grandparenthood, widowhood, and retirement. The application of family theories and their relevance to later life families will be discussed. Identical with <span data-link='CFD365'>CFD 365</span>, <span data-link='SWK365'>SWK 365</span>, and <span data-link='PSY366'>PSY 366</span>. Can only receive credit for one of following: <span data-link='CFD365'>CFD 365</span>, <span data-link='GER365'>GER 365</span>, <span data-link='PSY366'>PSY 366</span> or <span data-link='SWK365'>SWK 365</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "GER380": {
+    "course_id": "GER380",
+    "title": "GER 380 Senior Citizens: Policies and Politics",
+    "req": "<em>Prerequisite: 9 hours of gerontology.</em>",
+    "desc": "Students will be introduced to the development and practice of social policy, on the state and federal level, and how it affects services to the older adult population. Political organizations that influence the lives of the elderly (e.g., the American Association of Retired Persons, Gray Panthers, Older Women&apos;s League) will be examined as well as government and social welfare programs (i.e., Social Security, Medicaid and Medicare). What constitutes &quot;citizenship&quot; and the role of a &quot;senior citizen&quot; will also be explored. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "GER396": {
+    "course_id": "GER396",
+    "title": "GER 396 Directed Readings in Gerontology",
+    "req": "<em>Prerequisite: 6 hours of gerontology and permission.</em>",
+    "desc": "Readings designed to supplement material introduced in previous Gerontology courses. Includes a wide selection of literature in the field. May be repeated to a total of 6 hours. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "GER397": {
+    "course_id": "GER397",
+    "title": "GER 397 Special Topics in Gerontology",
+    "req": "<em>Prerequisite: 6 hours of designated courses in the gerontology major.</em>",
+    "desc": "In-depth inquiry into selected interdisciplinary topics of contemporary interest in gerontology. May be repeated to a total of 6 hours when topic changes. Variable content course. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "GER470": {
+    "course_id": "GER470",
+    "title": "GER 470 Community Resources for Older Adults",
+    "req": "<em>Prerequisite: <span data-link='PSY121'>PSY 121</span>.</em>",
+    "desc": "Covers the services, programs and institutions involved in providing services to older adults in the United States, with a focus on community-based services. Typical needs, issues, concerns and desires of older persons are identified and corresponding community-based services to address these needs are discussed. Emerging issues and developments in the field of gerontology will also be discussed as they relate to community services and resources. Site visits to agencies and organizations serving older adults will enhance students&apos; familiarity with resources to improve the quality of life and well-being of aging members in our society. Identical with <span data-link='SWK470'>SWK 470</span>. Cannot receive credit for both <span data-link='GER470'>GER 470</span> and <span data-link='SWK470'>SWK 470</span>. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "GER597": {
+    "course_id": "GER597",
+    "title": "GER 597 Special Topics in Gerontology",
+    "req": "<em>Prerequisite: 90 hours; and 12 hours of gerontology.</em>",
+    "desc": "In-depth inquiry into selected interdisciplinary topics of contemporary interest in gerontology. May be repeated to a total of 6 hours when topic changes. Variable content course. May be taught concurrently with <span data-link='GER697'>GER 697</span>. Cannot receive credit for both <span data-link='GER697'>GER 697</span> and <span data-link='GER597'>GER 597</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

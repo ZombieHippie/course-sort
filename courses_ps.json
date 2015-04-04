@@ -1,0 +1,95 @@
+{
+  "PLS169": {
+    "course_id": "PLS169",
+    "title": "PLS 169 Introduction to Political Science",
+    "desc": "An introduction to the contemporary concerns and historical development of political science as a social science and as a mode of critical thinking about politics and society. Emphasis is upon acquainting students with the scope of intellectual inquiry and the specialized sub-fields of study of modern political science rather than with the particular characteristics of American government and politics. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PLS205": {
+    "course_id": "PLS205",
+    "title": "PLS 205 Introduction to Comparative Government",
+    "req": "<em>Prerequisite: <span data-link='PLS101'>PLS 101</span>.</em>",
+    "desc": "An introductory comparative study of the principles, techniques, and policy issues of government in constitutional democracies and authoritarian regimes. The course focuses on selected West European (Britain, France, Germany) and non-West European (Japan, Mexico, Russia) countries, and the evolution of the European Community. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PLS232": {
+    "course_id": "PLS232",
+    "title": "PLS 232 International Relations",
+    "req": "<em>Prerequisite: <span data-link='PLS101'>PLS 101</span>.</em>",
+    "desc": "Conflict and cooperation in the nation-state system. Theories on international organization, power politics, regional integration, nationalism, war. Problems of developing areas such as Africa, Latin America and Southeast Asia. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PLS255": {
+    "course_id": "PLS255",
+    "title": "PLS 255 Public Administration",
+    "req": "<em>Prerequisite: <span data-link='PLS101'>PLS 101</span>.</em>",
+    "desc": "American administrative organization and activities; centralization, decentralization and relations between the administration and other branches of government. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PLS300": {
+    "course_id": "PLS300",
+    "title": "PLS 300 Service Learning in Political Science",
+    "req": "<em>Prerequisite: 30 hours; and concurrent registration in a Political Science course designated as a service learning offering; and permission.</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction in Political Science to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization, agency, or public service provider. Approved service placements and assignments will vary depending on the specific course topic and learning objectives; a list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PLS301": {
+    "course_id": "PLS301",
+    "title": "PLS 301 U.S. National Security",
+    "desc": "This class examines American national security from the cultural, institutional and policy perspectives. It will pay close attention to those enduring factors that shape American defense policies as well as exploring developments that have modified America&apos;s approach to security. Moreover, in addition to studying the structure and operation of today&apos;s policymaking process, the course will investigate the way the process has evolved in the past fifty years and will analyze the way key policies are produced and implemented by the U.S. government. Finally, reflecting changes in the world and in the field of national security studies, the course will cover not only the traditional concerns of national security (e.g., creation and use of military force for physical security of the territorial-state), but also the definition and achievement of individual and global security in the face of non-military problems. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "PLS315": {
+    "course_id": "PLS315",
+    "title": "PLS 315 Federalism and Intergovernmental Relations",
+    "req": "<em>Prerequisite: <span data-link='PLS101'>PLS 101</span>.</em>",
+    "desc": "Nature of American Federalism and the dynamics of intergovernmental relationships; the course examines the role of the national and the state governments in intergovernmental relations as well as the state, local, interstate and interlocal relations. Issues of federal grants, fiscal outlook of cities, problems of inner cities, and metropolitan governments are also discussed. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  }
+}

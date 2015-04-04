@@ -1,0 +1,88 @@
+{
+  "PBH740": {
+    "course_id": "PBH740",
+    "title": "PBH 740 Health Behavior",
+    "desc": "This course examines selected theories of health behavior relevant to individual and community health promotion program planning. Students will analyze biological, psychological, sociological, and environmental influences on health behavior and evaluate strategies for health promotion. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PBH745": {
+    "course_id": "PBH745",
+    "title": "PBH 745 Environmental Health",
+    "desc": "This course will investigate and examine the relationships of environmental health problems to human health. Students will survey the major environmental issues facing developed and developing countries. Topics include water supply, air and noise pollution, sewage treatment and waste disposal, pest and pesticides, toxic waste, energy alternatives, food and drug quality assurance, population control, and environmental disease control. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PBH756": {
+    "course_id": "PBH756",
+    "title": "PBH 756 Introduction to Public Health",
+    "desc": "This course will provide a general introduction to public health. It will discuss the history of public health; international, federal, state, and local agencies; voluntary health agencies; professional health organizations; the legislative process as it relates to public health, environmental health, health promotion, basic public health statistics and an introduction to epidemiology. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PBH758": {
+    "course_id": "PBH758",
+    "title": "PBH 758 Contemporary Issues in Public Health",
+    "desc": "In-depth consideration of pertinent issues, trends, controversy, and current research in public health. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PBH760": {
+    "course_id": "PBH760",
+    "title": "PBH 760 Research Methods in Public Health",
+    "desc": "This course is designed to help students gain the necessary knowledge and skills for undertaking research on issues related to public health. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "PBH772": {
+    "course_id": "PBH772",
+    "title": "PBH 772 Toxicology and Hazardous Materials",
+    "desc": "A study of toxic substances and their effects in the environment and in living organisms. This course also includes a study of safety methods for identifying, monitoring, handling, processing, containing, storing, and disposing hazardous and toxic substances in the environment and workplace. Students are encouraged to have had courses in physiology, biochemistry and/or pharmacology. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PBH775": {
+    "course_id": "PBH775",
+    "title": "PBH 775 Principles and Skills of Public Health Administration",
+    "desc": "This course is designed to provide a comprehensive overview of the administrative, managerial and organizational practices of health professionals in a variety of settings. Opportunities for the development and application of administrative competencies in health education/health care settings will be provided. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  }
+}

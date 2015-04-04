@@ -1,0 +1,98 @@
+{
+  "MKT351": {
+    "course_id": "MKT351",
+    "title": "MKT 351 Consumer Market Behavior",
+    "req": "<em>Prerequisite: <span data-link='MKT350'>MKT 350</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Influence of cultural, social, and psychological factors on consumer and customer behavior evidenced through behavioral science research. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MKT352": {
+    "course_id": "MKT352",
+    "title": "MKT 352 Personal Selling",
+    "req": "<em>Prerequisite: <span data-link='MKT350'>MKT 350</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "This course teaches the Principles of Sales as a toolkit, which in addition to being useful to a salesperson will also be found useful by most people in everyday life. Students will learn the nuts and bolts of a sales call from start to finish, as well as different customers that will be encountered, different kinds of relationships, ethics, communication skills and adaptive selling. Students will have the opportunity to apply what they have learned during the semester by participating in mock sales calls with salespeople from the community. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MKT354": {
+    "course_id": "MKT354",
+    "title": "MKT 354 Principles of Advertising",
+    "req": "<em>Prerequisite: <span data-link='MKT350'>MKT 350</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Advertising roles, principles and procedures; development of creative strategies, media selection-including traditional media as well as nontraditional media, social networking, guerrilla, online, promotion, mobile, and event-basic design, layout and copy development; measures of advertising effectiveness. Includes the development of an integrated campaign. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MKT355": {
+    "course_id": "MKT355",
+    "title": "MKT 355 Principles of Retailing",
+    "req": "<em>Prerequisite: <span data-link='MKT350'>MKT 350</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "The application of retailing principles to real-world issues. Students are challenged to solve retailing scenarios using an &quot;experience-based&quot; format. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "MKT360": {
+    "course_id": "MKT360",
+    "title": "MKT 360 Marketing Research",
+    "req": "<em>Prerequisite: <span data-link='MKT350'>MKT 350</span> and <span data-link='QBA337'>QBA 337</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "Basic research techniques designed to introduce the student to modern research procedures and the research process. Emphasis placed on research techniques to collect, analyze, and interpret research information as a basis for improved decision-making; and for the development of marketing strategies and policies. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "MKT380": {
+    "course_id": "MKT380",
+    "title": "MKT 380 Creative Advertising",
+    "req": "<em>Prerequisite: <span data-link='MKT354'>MKT 354</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "An advanced course in the creation of broadcast and print advertising. Emphasizes strategic planning, developing creative concepts and assistance in writing and polishing copy and visuals within an ad, execution of finished product, and refining presentation skills. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "MKT390": {
+    "course_id": "MKT390",
+    "title": "MKT 390 Promotion Management and Implementation",
+    "req": "<em>Prerequisite: <span data-link='MKT354'>MKT 354</span>; and undergraduate business majors must be admitted to degree program.</em>",
+    "desc": "A study of the promotional mix. Attention is focused on sales promotion, its design and implementation; including research, planning, target market assessment, budgeting, vehicle selection, and measures of efficiency and effectiveness. Topics include the buying and selling of mix elements, both traditional and non-traditional. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}

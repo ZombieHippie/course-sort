@@ -1,0 +1,91 @@
+{
+  "ANT227": {
+    "course_id": "ANT227",
+    "title": "ANT 227 Biological Anthropology",
+    "desc": "An examination of biological aspects of humanity from comparative and evolutionary perspectives. Topics include evolutionary theory, the origin and evolution of nonhuman primates and humans, primate behavior, biological variation among human populations, and anatomical and physiological influences on behavior. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "ANT240": {
+    "course_id": "ANT240",
+    "title": "ANT 240 Introduction to Archaeology",
+    "desc": "An introduction to the goals, methods, theories, issues, and ethics of archaeology-the study of cultures in the past from the remains they left behind. Topics will include archaeological survey, excavation, dating techniques, artifact analysis, conservation, and cultural adaptation and change. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANT280": {
+    "course_id": "ANT280",
+    "title": "ANT 280 Linguistic Anthropology",
+    "desc": "This course is an introduction to the field of linguistic anthropology, with special emphasis on language as a basic component of human culture. Subjects include the humanness of language, the study of linguistic structure, description and analysis of languages, origins of human speech, the history of languages and writing, the use of language in social relations, and the relationship among language, thought, and culture. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "ANT301": {
+    "course_id": "ANT301",
+    "title": "ANT 301 Anthropology of Religion",
+    "req": "<em>Prerequisite: <span data-link='ANT100'>ANT 100</span> or <span data-link='ANT226'>ANT 226</span> or <span data-link='REL210'>REL 210</span>.</em>",
+    "desc": "Anthropological theory and cross-cultural comparison of religious belief and behavior, such as magic, sorcery, witchcraft, mythology, ritual, totemism, shamanism, cults and movements. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ANT302": {
+    "course_id": "ANT302",
+    "title": "ANT 302 Psychological Anthropology",
+    "req": "<em>Prerequisite: <span data-link='ANT100'>ANT 100</span> or 226.</em>",
+    "desc": "Cross-cultural and evolutionary perspectives on socialization, the self, personality, gender, normality, deviance, mental disorders, cognition, and emotion. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "ANT309": {
+    "course_id": "ANT309",
+    "title": "ANT 309 Service Learning in Anthropology",
+    "req": "<em>Prerequisite: 30 hours and concurrent registration in an anthropology course designated as a service learning offering.</em>",
+    "desc": "An integrative learning experience which addresses the practice of citizenship and promotes an awareness of and participation in public affairs by incorporating community service with classroom instruction. Includes 40 hours on-task service to a community organization, agency or public sector provider. The community service placement agency and service assignment will vary, dependent on the disciplinary course topic and learning objectives. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "ANT320": {
+    "course_id": "ANT320",
+    "title": "ANT 320 Ethnography",
+    "req": "<em>Prerequisite: <span data-link='ANT100'>ANT 100</span> or <span data-link='ANT226'>ANT 226</span>.</em>",
+    "desc": "In this course students will read, critique, and compare selected ethnographic accounts of societies around the world and explore ways in which anthropologists have written about and interpreted cultures. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

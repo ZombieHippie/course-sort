@@ -1,0 +1,86 @@
+{
+  "PHI197": {
+    "course_id": "PHI197",
+    "title": "PHI 197 Perspectives in Philosophy",
+    "desc": "A variable content course designed to explore the philosophical significance of issues of cultural, social or individual importance. Students should consult the registration schedule to determine the topic to be covered in a given semester. The course may be repeated to a maximum of 6 hours as topics change. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "PHI300": {
+    "course_id": "PHI300",
+    "title": "PHI 300 Philosophical Ideas in Literature",
+    "desc": "Selected works of Western literature in light of their relation to historical trends in philosophy and philosophical speculation in the areas of metaphysics, epistemology, value theory, social and political philosophy. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "PHI301": {
+    "course_id": "PHI301",
+    "title": "PHI 301 Service Learning in Philosophy",
+    "req": "<em>Prerequisite: 30 hours and permission, and concurrent registration in a Philosophy course designated as a service learning offering.</em>",
+    "desc": "This service component for an existing course incorporates community service with classroom instruction in philosophy to provide an integrative learning experience that addresses the practice of citizenship and promotes an awareness of and participation in public affairs. Includes 40 hours of service that benefits an external community organization, agency, or public service provider. Approved service placements and assignments will vary depending on the specific course topic and learning objectives; a list of approved placements and assignments is available from the instructor and the Citizenship and Service Learning Office. May be repeated. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "PHI302": {
+    "course_id": "PHI302",
+    "title": "PHI 302 Environmental Ethics",
+    "desc": "This course critically examines various philosophical viewpoints that bear upon ethical issues concerning the environment. Among the questions examined are the following: Must concern for the environment revolve around human concerns? Do animals have rights? Does nature have intrinsic value that must be respected regardless of effects upon humans? What is the relative importance of aesthetic or economic values to environmental questions? Do we have obligations to protect resources for future generations? ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "PHI305": {
+    "course_id": "PHI305",
+    "title": "PHI 305 Elements of Symbolic Logic",
+    "desc": "An introduction to the use of symbolic techniques to represent and evaluate arguments from everyday usage. There is an emphasis upon the student&apos;s development of an understanding of the methods and concepts of present day logic. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "PHI306": {
+    "course_id": "PHI306",
+    "title": "PHI 306 History of Western Philosophy: Ancient",
+    "desc": "Historical study of ancient philosophy based on the reading of representative writings of major philosophers. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "PHI310": {
+    "course_id": "PHI310",
+    "title": "PHI 310 History of Western Philosophy: Modern",
+    "desc": "A survey of the major philosophies of the modern period in the Western World, 1550 to 1850, including the work of philosophers who stand in the traditions of Continental rationalism, British empiricism, and German idealism. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "MIL211": {
+    "course_id": "MIL211",
+    "title": "MIL 211 Basic Military Skills and Techniques",
+    "req": "<em>Prerequisite: <span data-link='MIL101'>MIL 101</span> and <span data-link='MIL102'>MIL 102</span> or permission.</em>",
+    "desc": "This course is designed for students who desire accelerated instruction on rifle marksmanship, rappelling, communications, map reading (to include the compass), patrolling and tactics. The student will be required to attend a laboratory on Thursdays if a contracted cadet. Students who are contracted are required to meet Army appearance standards. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2,
+      "lab": 1
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "MIL212": {
+    "course_id": "MIL212",
+    "title": "MIL 212 Military Fundamentals Practicum",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "The class is designed for the military science students who desire accelerated instruction on rifle marksmanship, communications, map reading (to include the compass), and patrolling. The student will be required to wear a military uniform and meet Army appearance standards. ",
+    "hours": {
+      "credit": 2,
+      "lecture": 2,
+      "lab": 1
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "MIL220": {
+    "course_id": "MIL220",
+    "title": "MIL 220 Basic Military Science Fundamentals",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "Organization and mission of ROTC; the role of the U.S. Army in American history and the application of the principles of war; leadership theory and practice; introduction to military operations and basic tactics; instruction in marksmanship, land navigation and communication. ",
+    "hours": {
+      "credit": 2
+    },
+    "offered": {
+      "Summer": true
+    }
+  },
+  "MIL225": {
+    "course_id": "MIL225",
+    "title": "MIL 225 Basic Military Science Practicum",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "A 6-week course conducted at Fort Knox, KY. The training is rugged and intensive with emphasis placed on leadership application, practical work and physical conditioning. Training will be conducted six days a week out-of-doors and requires active participation by all students. Enrolled students receive compensation for travel, lodging and food. ",
+    "hours": {
+      "credit": 5
+    },
+    "offered": {
+      "Fall": true,
+      "Summer": true
+    }
+  },
+  "MIL301": {
+    "course_id": "MIL301",
+    "title": "MIL 301 Military Leadership and Operations",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "Introduction to small unit tactics; principles of military leadership, to include theory, responsibilities, techniques, and practice; branches of the U.S. Army, oral presentation techniques and practice. One field trip is required. Cannot be taken Pass/Not Pass. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3,
+      "lab": 1
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "MIL302": {
+    "course_id": "MIL302",
+    "title": "MIL 302 Military Skill Building",
+    "req": "<em>Prerequisite: permission.</em>",
+    "desc": "Small unit tactics; applied military leadership (builds on knowledge gained in <span data-link='MIL301'>MIL 301</span>) with special emphasis on the junior leader&apos;s duties and responsibilities. Two field trips are required. Cannot be taken Pass/Not Pass. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3,
+      "lab": 1
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "MIL325": {
+    "course_id": "MIL325",
+    "title": "MIL 325 Advanced Military Science Practicum",
+    "desc": "A prerequisite to receive a commission in the U.S. Army through R.O.T.C. and for MIL Science 411 and 412. The 5-week course is conducted at Fort Lewis, Washington. The instruction, training and evaluation focuses on the professional development issues required to become an Army Officer. The primary focus is on evaluating the student&apos;s leadership potential through this mentally and physically demanding camp. The training and evaluation is conducted seven days a week for five weeks and requires active participation by all students. The student is placed in leadership positions which require him/her to lead up to 120 fellow students for extended periods of time. Enrolled students receive compensation for travel, lodging and food. ",
+    "hours": {
+      "credit": 5,
+      "lecture": 5
+    },
+    "offered": {
+      "Fall": true,
+      "Summer": true
+    }
+  }
+}

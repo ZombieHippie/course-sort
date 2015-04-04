@@ -1,0 +1,95 @@
+{
+  "HRA300": {
+    "course_id": "HRA300",
+    "title": "HRA 300 Special Topics in Hospitality and Restaurant Administration",
+    "req": "<em>Prerequisite: permission of Department Head.</em>",
+    "desc": "Selected topics of contemporary interest in hospitality and restaurant administration. Offered when resources and demand allow. May be repeated for a total of 6 hours when topics change. Variable Content Course. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "HRA302": {
+    "course_id": "HRA302",
+    "title": "HRA 302 Hospitality and Restaurant Administration Study Tour",
+    "req": "<em>Prerequisite: permission of Department Head.</em>",
+    "desc": "Study of and visits to museums, international hospitality tours, historic sites, trade shows, conferences, and conventions related to the hospitality industry. May be taken for a total of 6 hours. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "HRA310": {
+    "course_id": "HRA310",
+    "title": "HRA 310 Analyzing Financial Performance in Hospitality Operations",
+    "req": "<em>Prerequisite: <span data-link='MTH130'>MTH 130</span> or higher; and <span data-link='HRA210'>HRA 210</span>; and <span data-link='HRA215'>HRA 215</span>; and <span data-link='ACC201'>ACC 201</span>.</em>",
+    "desc": "Financial techniques in forecasting, budgeting, and performance measurement, and the application of the hospitality industry uniform system of accounts are covered in this course as they apply to operational and fiscal decision making. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HRA315": {
+    "course_id": "HRA315",
+    "title": "HRA 315 Advanced Lodging Management",
+    "req": "<em>Prerequisite: <span data-link='HRA210'>HRA 210</span> and <span data-link='HRA215'>HRA 215</span> and <span data-link='ACC201'>ACC 201</span>.</em>",
+    "desc": "Students in this course will analyze the lodging industry in depth. Critical thinking skills are stressed as students are exposed to different viewpoints within a coherent theoretical structure, enabling them to formulate their own ideas and solutions. Current trends and challenges in lodging are also studied in depth. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 3
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "HRA321": {
+    "course_id": "HRA321",
+    "title": "HRA 321 Principles of Food Preparation",
+    "req": "<em>Prerequisite: <span data-link='HRA218'>HRA 218</span>.</em>",
+    "desc": "Students in this course study the scientific principles and techniques in the selection, preparation and preservation of food including fundamental principles of nutrition and diet. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 1,
+      "lab": 4
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  },
+  "HRA325": {
+    "course_id": "HRA325",
+    "title": "HRA 325 Cultural Cuisine",
+    "req": "<em>Prerequisite: permission of instructor.</em>",
+    "desc": "A course designed to extensively explore various cultures through a hands-on culinary experience. May be repeated for a total of 6 hours. Supplemental course fee (variable by section.) ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "HRA330": {
+    "course_id": "HRA330",
+    "title": "HRA 330 Banquet Operations",
+    "req": "<em>Prerequisite: <span data-link='HRA210'>HRA 210</span> and <span data-link='HRA321'>HRA 321</span>.</em>",
+    "desc": "This course provides students with practical skills and knowledge for effective management of food and beverage practices, from the preparation of quantity foods to its service. Laboratory arranged. Supplemental course fee. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true,
+      "Spring": true
+    }
+  }
+}
