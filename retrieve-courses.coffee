@@ -79,7 +79,7 @@ async.eachSeries( Object.keys(abbr_list)
     retrieveCatalogCourses "/registrar/catalog/#{abbr}.htm", (error, catalog) ->
       if error then done error
       else
-        fs.writeFileSync "./#{abbr}.json", JSON.stringify catalog, null, 2
+        fs.writeFileSync "./catalogs/#{abbr}.json", JSON.stringify catalog, null, 2
         all_catalog[abbr] = catalog
         done()
   , (error) ->
