@@ -1,13 +1,12 @@
 {
-  "name": "jade-dev",
-  "description": "a dynamic jade server w/ parse error reports and directory indexing",
+  "name": "course-sort",
+  "description": "MOState course organizing utility",
   "version": "0.0.1",
-  "bin": "./jade-dev.js",
-  "preferGlobal": "true",
   "author": "Cole Lawrence (@ZombieHippie)",
+  "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ZombieHippie/jade-server.git"
+    "url": "https://github.com/ZombieHippie/course-sort.git"
   },
   "dependencies": {
     "async": "~0.9",
