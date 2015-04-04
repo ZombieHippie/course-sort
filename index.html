@@ -18,6 +18,18 @@
       display: block; overflow: hidden;
       height: 1em; line-height: 1em;
     }
+    ul { list-style: none; margin: 0; padding: 0 }
+    li[data-link-course-id] {
+      cursor: pointer;
+      text-decoration: underline;
+      padding: .5em;
+    }
+    li[data-link-course-id]:hover {
+      background-color: #f2f2f2;
+    }
+    li.selected[data-link-course-id] {
+      background-color: #62B8FF;
+    }
   </style>
 </head>
 <body>
@@ -25,9 +37,10 @@
     <ul class="course-list"></ul>
     <form id="add-course" class="form">
       <div class="input-group">
-        <label for="course-name" title="Eg: 'ART 200'" class="input-group-addon">Course ID</label>
-        <input id="course-name" class="form-control"/>
+        <label for="course-search" title="Eg: 'ART 200'" class="input-group-addon">Course ID</label>
+        <input id="course-search" class="form-control"/>
       </div>
+      <ul id="output-search"></ul>
       <div style="padding:1em" class="text-center">
         <div id="warning" class="label label-danger"></div>
       </div>
@@ -36,6 +49,7 @@
   <footer>
     <script type="text/javascript" src="vendor/jquery-2.1.1.js"></script>
     <script type="text/javascript" src="vendor/interact-1.2.4.js"></script>
-    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="vendor/fuse-1.2.0.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
   </footer>
 </body>

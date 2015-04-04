@@ -60,7 +60,7 @@ retrieveCatalogCourses = (catalogURL, callback) ->
 
     else
       $courses = cheerio.load body
-      $courses(".CatalogCourses ul li").slice(3,10).each ->
+      $courses(".CatalogCourses ul li").each ->
         info = parseListItem $courses, @
         catalog[info.course_id] = info
       callback null, catalog

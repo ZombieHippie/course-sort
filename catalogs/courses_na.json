@@ -1,4 +1,45 @@
 {
+  "SCI214": {
+    "course_id": "SCI214",
+    "title": "SCI 214 Introduction to Science Teaching in the 21st Century",
+    "req": "<em>Prerequisite: completion of eight hours of science courses.</em>",
+    "desc": "The course is an introduction to science teaching and to the field of science. Topics in the course include the nature of science, scientific inquiry and research in the sciences. The students will explore how scientists conduct research and how teachers and students conduct research in classrooms. Public Affairs Capstone Experience course. ",
+    "hours": {
+      "credit": 1,
+      "lab": 2
+    },
+    "offered": {
+      "Fall": true
+    }
+  },
+  "SCI314": {
+    "course_id": "SCI314",
+    "title": "SCI 314 Techniques and Technology in Science Laboratory Teaching",
+    "req": "<em>Prerequisite: <span data-link='SCI214'>SCI 214</span> and <span data-link='SEC302'>SEC 302</span>; and one laboratory courses in each science discipline: BIO, CHM, PHY, GLG or GRY.</em>",
+    "desc": "Instruction will focus on safe and effective uses of laboratory techniques and technology to teach science. The course will emphasize the potential of the science laboratory as a vehicle to promote student understanding of science and scientific inquiry. Pre-service teachers will have opportunities to familiarize themselves with laboratory equipment and techniques they will use to teach science in middle or high schools. Field trips to local schools will be required. Public Affairs Capstone Experience course. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
+  "SCI404": {
+    "course_id": "SCI404",
+    "title": "SCI 404 Teaching of Middle School Natural Science",
+    "req": "<em>Prerequisite: <span data-link='BIO205'>BIO 205</span> and <span data-link='CHM116'>CHM 116</span> and 117 and <span data-link='PHY101'>PHY 101</span> and <span data-link='GRY240'>GRY 240</span>; <span data-link='EDC350'>EDC 350</span> or concurrent enrollment; and admission to Teacher Education Program; <span data-link='RDG318'>RDG 318</span> and <span data-link='MID421'>MID 421</span> are recommended.</em>",
+    "desc": "Integration of current science learning theories and standards into practical classroom experiences for students of diverse backgrounds and abilities. Students will learn to design and teach science through various inquiry pedagogical approaches. A 15 hour practicum is required. Field trips are required. Portfolio checkpoint 2 is partially addressed through assignments in this course. Credited only on BSEd degree. A grade of &quot;C&quot; or better is required in this course in order to take <span data-link='MID493'>MID 493</span> or <span data-link='MID494'>MID 494</span>. Cannot be taken Pass/Not Pass. ",
+    "hours": {
+      "credit": 3,
+      "lecture": 2,
+      "lab": 2
+    },
+    "offered": {
+      "Spring": true
+    }
+  },
   "SCI414": {
     "course_id": "SCI414",
     "title": "SCI 414 Teaching of Secondary School Natural Science",
@@ -87,6 +128,29 @@
     },
     "offered": {
       "Spring": true
+    }
+  },
+  "SCI685": {
+    "course_id": "SCI685",
+    "title": "SCI 685 Topics in Science Education",
+    "desc": "A variable content course for offering selected topics of interest to science teachers in the elementary, middle, or secondary schools; or in college classrooms. May be repeated up to 6 hours when the topic varies. No more than 6 hours may be counted toward a degree. May be taught concurrently with <span data-link='SCI580'>SCI 580</span>. Cannot receive credit for both <span data-link='SCI685'>SCI 685</span> and <span data-link='SCI580'>SCI 580</span>. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
+    }
+  },
+  "SCI780": {
+    "course_id": "SCI780",
+    "title": "SCI 780 Advanced Topics in Science Education",
+    "req": "<em>Prerequisite: 12 hours of graduate coursework.</em>",
+    "desc": "A variable content course for offering selected topics of interest to science teachers in the elementary, middle, or secondary schools; or in college classrooms. May be repeated up to 6 hours when the topic varies. Maximum of 6 hours may be counted toward degree. ",
+    "hours": {
+      "credit": 1
+    },
+    "offered": {
+      "Upon demand": true
     }
   }
 }
