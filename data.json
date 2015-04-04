@@ -1,0 +1,468 @@
+{
+  "catalog_urls": {
+    "AAS": {
+      "name": "African American Studies",
+      "href": "/registrar/catalog/courses_hp.htm#AAS_COURSES"
+    },
+    "ACC": {
+      "name": "Accounting",
+      "href": "/registrar/catalog/courses_ac.htm#ACC_COURSES"
+    },
+    "AGB": {
+      "name": "Agriculture Business",
+      "href": "/registrar/catalog/courses_ag.htm#AGB_COURSES"
+    },
+    "AGE": {
+      "name": "Agriculture Education",
+      "href": "/registrar/catalog/courses_ag.htm#AGE_COURSES"
+    },
+    "AGN": {
+      "name": "Agricultural Natural Resources",
+      "href": "/registrar/catalog/courses_ag.htm#AGN_COURSES"
+    },
+    "AGP": {
+      "name": "Agricultural Plant Science",
+      "href": "/registrar/catalog/courses_ag.htm#AGP_COURSES"
+    },
+    "AGR": {
+      "name": "Agriculture, General",
+      "href": "/registrar/catalog/courses_ag.htm#AGR_COURSES"
+    },
+    "AGT": {
+      "name": "Technology Education",
+      "href": "/registrar/catalog/courses_ag.htm#AGT_COURSES"
+    },
+    "AGV": {
+      "name": "Agricultural Vocational",
+      "href": "/registrar/catalog/courses_ag.htm#AGV_COURSES"
+    },
+    "ANE": {
+      "name": "Anesthesia, Nurse",
+      "href": "/registrar/catalog/courses_bs.htm#ANE_COURSES"
+    },
+    "ANT": {
+      "name": "Anthropology",
+      "href": "/registrar/catalog/courses_so.htm#ANT_COURSES"
+    },
+    "ARB": {
+      "name": "Arabic",
+      "href": "/registrar/catalog/courses_fl.htm#ARB_COURSES"
+    },
+    "ART": {
+      "name": "Art",
+      "href": "/registrar/catalog/courses_ar.htm#ART_COURSES"
+    },
+    "AST": {
+      "name": "Astronomy",
+      "href": "/registrar/catalog/courses_pa.htm#AST_COURSES"
+    },
+    "ATC": {
+      "name": "Athletic Training",
+      "href": "/registrar/catalog/courses_sm.htm#ATC_COURSES"
+    },
+    "BIO": {
+      "name": "Biology",
+      "href": "/registrar/catalog/courses_bi.htm#BIO_COURSES"
+    },
+    "BMS": {
+      "name": "Biomedical Sciences",
+      "href": "/registrar/catalog/courses_bs.htm#BMS_COURSES"
+    },
+    "BSE": {
+      "name": "Business Education",
+      "href": "/registrar/catalog/courses_ci.htm#BSE_COURSES"
+    },
+    "BUS": {
+      "name": "Business",
+      "href": "/registrar/catalog/courses_fg.htm#BUS_COURSES"
+    },
+    "CFD": {
+      "name": "Child and Family Development",
+      "href": "/registrar/catalog/courses_ef.htm#CFD_COURSES"
+    },
+    "CHI": {
+      "name": "Chinese",
+      "href": "/registrar/catalog/courses_fl.htm#CHI_COURSES"
+    },
+    "CHM": {
+      "name": "Chemistry",
+      "href": "/registrar/catalog/courses_ch.htm#CHM_COURSES"
+    },
+    "CIS": {
+      "name": "Computer Information Systems",
+      "href": "/registrar/catalog/courses_ci.htm#CIS_COURSES"
+    },
+    "COM": {
+      "name": "Communication",
+      "href": "/registrar/catalog/courses_cm.htm#COM_COURSES"
+    },
+    "COU": {
+      "name": "Counseling",
+      "href": "/registrar/catalog/courses_cl.htm#COU_COURSES"
+    },
+    "CRM": {
+      "name": "Criminology",
+      "href": "/registrar/catalog/courses_cr.htm#CRM_COURSES"
+    },
+    "CSC": {
+      "name": "Computer Science",
+      "href": "/registrar/catalog/courses_cs.htm#CSC_COURSES"
+    },
+    "CSD": {
+      "name": "Communication Sciences and Disorders",
+      "href": "/registrar/catalog/courses_cd.htm#CSD_COURSES"
+    },
+    "DAN": {
+      "name": "Dance",
+      "href": "/registrar/catalog/courses_td.htm#DAN_COURSES"
+    },
+    "DAS": {
+      "name": "Disabilities Studies",
+      "href": "/registrar/catalog/courses_hp.htm#DAS_COURSES"
+    },
+    "DES": {
+      "name": "Design",
+      "href": "/registrar/catalog/courses_ar.htm#DES_COURSES"
+    },
+    "DSS": {
+      "name": "Defense and Strategic Studies",
+      "href": "/registrar/catalog/courses_ds.htm#DSS_COURSES"
+    },
+    "DTN": {
+      "name": "Dietetics and Nutrition",
+      "href": "/registrar/catalog/courses_bs.htm#DTN_COURSES"
+    },
+    "EAD": {
+      "name": "Educational Administration",
+      "href": "/registrar/catalog/courses_cl.htm#EAD_COURSES"
+    },
+    "ECE": {
+      "name": "Early Childhood Education",
+      "href": "/registrar/catalog/courses_ef.htm#ECE_COURSES"
+    },
+    "ECO": {
+      "name": "Economics",
+      "href": "/registrar/catalog/courses_ec.htm#ECO_COURSES"
+    },
+    "EDC": {
+      "name": "Education, General (Teaching)",
+      "href": "/registrar/catalog/courses_rf.htm#EDC_COURSES"
+    },
+    "EDD": {
+      "name": "Educational Leadership",
+      "href": "/registrar/catalog/courses_cl.htm#EDD_COURSES"
+    },
+    "EDT": {
+      "name": "Educational Technology",
+      "href": "/registrar/catalog/courses_rf.htm#EDT_COURSES"
+    },
+    "EEM": {
+      "name": "Early Childhood and Elementary Education",
+      "href": "/registrar/catalog/courses_ef.htm#EEM_COURSES"
+    },
+    "EGR": {
+      "name": "Engineering",
+      "href": "/registrar/catalog/courses_eg.htm#EGR_COURSES"
+    },
+    "ELE": {
+      "name": "Elementary Education",
+      "href": "/registrar/catalog/courses_ef.htm#ELE_COURSES"
+    },
+    "ENG": {
+      "name": "English",
+      "href": "/registrar/catalog/courses_en.htm#ENG_COURSES"
+    },
+    "FCS": {
+      "name": "Family and Consumer Science",
+      "href": "/registrar/catalog/courses_fi.htm#FCS_COURSES"
+    },
+    "FIN": {
+      "name": "Finance",
+      "href": "/registrar/catalog/courses_fg.htm#FIN_COURSES"
+    },
+    "FMD": {
+      "name": "Fashion Merchandising and Design",
+      "href": "/registrar/catalog/courses_fi.htm#FMD_COURSES"
+    },
+    "FRN": {
+      "name": "French",
+      "href": "/registrar/catalog/courses_fl.htm#FRN_COURSES"
+    },
+    "GBL": {
+      "name": "Global Studies",
+      "href": "/registrar/catalog/courses_gb.htm#GBL_COURSES"
+    },
+    "GEO": {
+      "name": "Geospatial Sciences",
+      "href": "/registrar/catalog/courses_gg.htm#GEO_COURSES"
+    },
+    "GEP": {
+      "name": "General Education Program",
+      "href": "/registrar/catalog/dept_uc.html#GEP_COURSES"
+    },
+    "GER": {
+      "name": "Gerontology",
+      "href": "/registrar/catalog/courses_py.htm#GER_COURSES"
+    },
+    "GLG": {
+      "name": "Geology",
+      "href": "/registrar/catalog/courses_gg.htm#GLG_COURSES"
+    },
+    "GRD": {
+      "name": "Graduate College",
+      "href": "/registrar/catalog/courses_gr.htm#GRD_COURSES"
+    },
+    "GRK": {
+      "name": "Greek",
+      "href": "/registrar/catalog/courses_fl.htm#GRK_COURSES"
+    },
+    "GRM": {
+      "name": "German",
+      "href": "/registrar/catalog/courses_fl.htm#GRM_COURSES"
+    },
+    "GRY": {
+      "name": "Geography",
+      "href": "/registrar/catalog/courses_gg.htm#GRY_COURSES"
+    },
+    "GST": {
+      "name": "Gender Studies",
+      "href": "/registrar/catalog/courses_hp.htm#GST_COURSES"
+    },
+    "HBW": {
+      "name": "Hebrew",
+      "href": "/registrar/catalog/courses_fl.htm#HBW_COURSES"
+    },
+    "HCM": {
+      "name": "Health Care Management",
+      "href": "/registrar/catalog/courses_nr.htm#HCM_COURSES"
+    },
+    "HID": {
+      "name": "Housing and Interior Design",
+      "href": "/registrar/catalog/courses_im.htm#HID_COURSES"
+    },
+    "HLH": {
+      "name": "Health",
+      "href": "/registrar/catalog/courses_hr.htm#HLH_COURSES"
+    },
+    "HRA": {
+      "name": "Hospitality and Restaurant Administration",
+      "href": "/registrar/catalog/courses_ra.htm#HRA_COURSES"
+    },
+    "HST": {
+      "name": "History",
+      "href": "/registrar/catalog/courses_hi.htm#HST_COURSES"
+    },
+    "IDS": {
+      "name": "Interdisciplinary Studies",
+      "href": "/registrar/catalog/courses_id.htm#IDS_COURSES"
+    },
+    "INS": {
+      "name": "Insurance",
+      "href": "/registrar/catalog/courses_fg.htm#INS_COURSES"
+    },
+    "IPE": {
+      "name": "Interprofessional Education",
+      "href": "/registrar/catalog/courses_bs.htm#IPE_COURSES"
+    },
+    "ITL": {
+      "name": "Italian",
+      "href": "/registrar/catalog/courses_fl.htm#ITL_COURSES"
+    },
+    "JPN": {
+      "name": "Japanese",
+      "href": "/registrar/catalog/courses_fl.htm#JPN_COURSES"
+    },
+    "JRN": {
+      "name": "Journalism",
+      "href": "/registrar/catalog/courses_mj.htm#JRN_COURSES"
+    },
+    "KIN": {
+      "name": "Kinesiology",
+      "href": "/registrar/catalog/courses_hr.htm#KIN_COURSES"
+    },
+    "KOR": {
+      "name": "Korean",
+      "href": "/registrar/catalog/courses_fl.htm#KOR_COURSES"
+    },
+    "LAW": {
+      "name": "Law",
+      "href": "/registrar/catalog/courses_fg.htm#LAW_COURSES"
+    },
+    "LIS": {
+      "name": "Library Science",
+      "href": "/registrar/catalog/courses_li.htm#LIS_COURSES"
+    },
+    "LLT": {
+      "name": "Language and Literature",
+      "href": "/registrar/catalog/courses_fl.htm#LLT_COURSES"
+    },
+    "LTN": {
+      "name": "Latin",
+      "href": "/registrar/catalog/courses_fl.htm#LTN_COURSES"
+    },
+    "MAT": {
+      "name": "Materials Science",
+      "href": "/registrar/catalog/courses_pa.htm#MAT_COURSES"
+    },
+    "MCL": {
+      "name": "Modern and Classical Languages",
+      "href": "/registrar/catalog/courses_fl.htm#MCL_COURSES"
+    },
+    "MED": {
+      "name": "Media",
+      "href": "/registrar/catalog/courses_mj.htm#MED_COURSES"
+    },
+    "MGT": {
+      "name": "Management",
+      "href": "/registrar/catalog/courses_mg.htm#MGT_COURSES"
+    },
+    "MID": {
+      "name": "Middle School Education",
+      "href": "/registrar/catalog/courses_rf.htm#MID_COURSES"
+    },
+    "MIL": {
+      "name": "Military Science",
+      "href": "/registrar/catalog/courses_ms.htm#MIL_COURSES"
+    },
+    "MKT": {
+      "name": "Marketing",
+      "href": "/registrar/catalog/courses_mk.htm#MKT_COURSES"
+    },
+    "MST": {
+      "name": "Museum Studies",
+      "href": "/registrar/catalog/courses_ar.htm#MST_COURSES"
+    },
+    "MTC": {
+      "name": "Medical Technology",
+      "href": "/registrar/catalog/courses_bs.htm#MTC_COURSES"
+    },
+    "MTH": {
+      "name": "Mathematics",
+      "href": "/registrar/catalog/courses_ma.htm#MTH_COURSES"
+    },
+    "MUS": {
+      "name": "Music",
+      "href": "/registrar/catalog/courses_mu.htm#MUS_COURSES"
+    },
+    "NUR": {
+      "name": "Nursing",
+      "href": "/registrar/catalog/courses_nr.htm#NUR_COURSES"
+    },
+    "OTE": {
+      "name": "Occupational Therapy",
+      "href": "/registrar/catalog/courses_sm.htm#OTE_COURSES"
+    },
+    "OZK": {
+      "name": "Ozarks Studies",
+      "href": "/registrar/catalog/courses_hp.htm#OZK_COURSES"
+    },
+    "PAS": {
+      "name": "Physician Assistant Studies",
+      "href": "/registrar/catalog/courses_pn.htm#PAS_COURSES"
+    },
+    "PBH": {
+      "name": "Public Health",
+      "href": "/registrar/catalog/courses_pb.htm#PBH_COURSES"
+    },
+    "PHI": {
+      "name": "Philosophy",
+      "href": "/registrar/catalog/courses_ph.htm#PHI_COURSES"
+    },
+    "PHY": {
+      "name": "Physics",
+      "href": "/registrar/catalog/courses_pa.htm#PHY_COURSES"
+    },
+    "PLN": {
+      "name": "Planning",
+      "href": "/registrar/catalog/courses_gg.htm#PLN_COURSES"
+    },
+    "PLS": {
+      "name": "Political Science",
+      "href": "/registrar/catalog/courses_ps.htm#PLS_COURSES"
+    },
+    "PSY": {
+      "name": "Psychology",
+      "href": "/registrar/catalog/courses_py.htm#PSY_COURSES"
+    },
+    "PTE": {
+      "name": "Physical Therapy",
+      "href": "/registrar/catalog/courses_pt.htm#PTE_COURSES"
+    },
+    "PTG": {
+      "name": "Portuguese",
+      "href": "/registrar/catalog/courses_fl.htm#PTG_COURSES"
+    },
+    "QBA": {
+      "name": "Quantitative Business Analysis",
+      "href": "/registrar/catalog/courses_mk.htm#QBA_COURSES"
+    },
+    "RAD": {
+      "name": "Radiography",
+      "href": "/registrar/catalog/courses_hr.htm#RAD_COURSES"
+    },
+    "RDG": {
+      "name": "Reading",
+      "href": "/registrar/catalog/courses_rf.htm#RDG_COURSES"
+    },
+    "REC": {
+      "name": "Recreation and Leisure Studies",
+      "href": "/registrar/catalog/courses_hr.htm#REC_COURSES"
+    },
+    "REL": {
+      "name": "Religious Studies",
+      "href": "/registrar/catalog/courses_re.htm#REL_COURSES"
+    },
+    "RTH": {
+      "name": "Respiratory Therapy",
+      "href": "/registrar/catalog/courses_hr.htm#RTH_COURSES"
+    },
+    "RUS": {
+      "name": "Russian",
+      "href": "/registrar/catalog/courses_fl.htm#RUS_COURSES"
+    },
+    "SAE": {
+      "name": "Student Affairs in Higher Education",
+      "href": "/registrar/catalog/courses_cl.htm#SAE_COURSES"
+    },
+    "SCI": {
+      "name": "Science Education",
+      "href": "/registrar/catalog/courses_na.htm#SCI_COURSES"
+    },
+    "SEC": {
+      "name": "Secondary Education",
+      "href": "/registrar/catalog/courses_rf.htm#SEC_COURSES"
+    },
+    "SFR": {
+      "name": "Secondary Education, Foundations, and Research",
+      "href": "/registrar/catalog/courses_rf.htm#SFR_COURSES"
+    },
+    "SOC": {
+      "name": "Sociology",
+      "href": "/registrar/catalog/courses_so.htm#SOC_COURSES"
+    },
+    "SPE": {
+      "name": "Special Education",
+      "href": "/registrar/catalog/courses_cl.htm#SPE_COURSES"
+    },
+    "SPN": {
+      "name": "Spanish",
+      "href": "/registrar/catalog/courses_fl.htm#SPN_COURSES"
+    },
+    "SWK": {
+      "name": "Social Work",
+      "href": "/registrar/catalog/courses_sw.htm#SWK_COURSES"
+    },
+    "TCM": {
+      "name": "Technology and Construction Management",
+      "href": "/registrar/catalog/courses_im.htm#TCM_COURSES"
+    },
+    "THE": {
+      "name": "Theatre",
+      "href": "/registrar/catalog/courses_td.htm#THE_COURSES"
+    },
+    "UHC": {
+      "name": "Honors College",
+      "href": "/registrar/catalog/courses_uh.htm#UHC_COURSES"
+    }
+  }
+}

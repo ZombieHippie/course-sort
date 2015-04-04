@@ -10,7 +10,9 @@
     "url": "https://github.com/ZombieHippie/jade-server.git"
   },
   "dependencies": {
-    "node-static": "0.7.x",
-    "jade": "1.4.x"
+    "async": "~0.9",
+    "cheerio": "~0.18",
+    "request": "~2",
+    "suite-to-static": "latest"
   }
 }

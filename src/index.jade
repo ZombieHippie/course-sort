@@ -1,6 +1,6 @@
 head
   title MOState Course Sorter
-  link(href="/styles/bootstrap.css" rel="stylesheet")
+  link(href="vendor/bootstrap.css" rel="stylesheet" type="text/css")
   style.
     .course-list {
       list-style: none;
@@ -27,9 +27,6 @@ body
       .text-center(style="padding:1em")
         #warning.label.label-danger
   footer
-    script(src="/scripts/jquery-2.1.1.js")
-    script(type="text/coffeescript" src="/scripts/main.coffee")
-    //-
-      script(type="text/coffeescript").
-        addCourse("CSC 365")
-    script(src="/scripts/coffee-script.js")
+    script(type="text/javascript" src="vendor/jquery-2.1.1.js")
+    script(type="text/javascript" src="vendor/interact-1.2.4.js")
+    script(type="text/javascript" src="main.js")
