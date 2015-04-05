@@ -35,11 +35,12 @@ Factory =
     #{if (req?) then '<p class="req">' + req + '</p>' else ''}
     <p class="desc">#{desc}</p>
     <div class="hours">
-      <div>#{hours.credit or 0}</div>
-      <div>#{hours.lecture or 0}</div>
-      <div>#{hours.lab or 0}</div>
+      <div><strong>Credit hrs:&nbsp;</strong>#{hours.credit or 0}</div>
+      <div><strong>Lecture hrs:&nbsp;</strong>#{hours.lecture or 0}</div>
+      <div><strong>Lab hrs:&nbsp;</strong>#{hours.lab or 0}</div>
     </div>
     <div class="offered">
+      <strong>Typically offered:&nbsp;</strong>
     """
     for offer, i in Object.keys(offered)
       if i > 0

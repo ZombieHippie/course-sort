@@ -39,7 +39,7 @@ Factory = {
     var course_id, desc, div_container, hours, html, i, j, len, offer, offered, ref, req, title;
     div_container = document.createElement("DIV");
     title = course_info.title, course_id = course_info.course_id, desc = course_info.desc, req = course_info.req, hours = course_info.hours, offered = course_info.offered;
-    html = "<h3>" + title + "</h3>\n" + ((req != null) ? '<p class="req">' + req + '</p>' : '') + "\n<p class=\"desc\">" + desc + "</p>\n<div class=\"hours\">\n  <div>" + (hours.credit || 0) + "</div>\n  <div>" + (hours.lecture || 0) + "</div>\n  <div>" + (hours.lab || 0) + "</div>\n</div>\n<div class=\"offered\">";
+    html = "<h3>" + title + "</h3>\n" + ((req != null) ? '<p class="req">' + req + '</p>' : '') + "\n<p class=\"desc\">" + desc + "</p>\n<div class=\"hours\">\n  <div><strong>Credit hrs:&nbsp;</strong>" + (hours.credit || 0) + "</div>\n  <div><strong>Lecture hrs:&nbsp;</strong>" + (hours.lecture || 0) + "</div>\n  <div><strong>Lab hrs:&nbsp;</strong>" + (hours.lab || 0) + "</div>\n</div>\n<div class=\"offered\">\n  <strong>Typically offered:&nbsp;</strong>";
     ref = Object.keys(offered);
     for (i = j = 0, len = ref.length; j < len; i = ++j) {
       offer = ref[i];
