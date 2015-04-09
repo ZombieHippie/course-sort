@@ -1,12 +1,182 @@
-.course-info {
-  padding: 20px;
-  background: #f2f2f2;
+body {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
 }
-.course-info .hours {
+#hover-info {
+  position: absolute;
+  pointer-events: none;
+}
+p.one-high {
+  display: block;
+  overflow: hidden;
+  height: 1em;
+  line-height: 1em;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li[data-link-course-id],
+span[data-link] {
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0.5em;
+}
+li[data-link-course-id]:hover {
+  background-color: #f2f2f2;
+}
+li.selected[data-link-course-id] {
+  background-color: #62b8ff;
+}
+.left-bar-search:hover {
+  height: 100%;
+  width: 34em;
+}
+.left-bar-search {
+  height: 34px;
+  width: 24em;
+  transition: width 0.2s;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(0,0,0,0.4);
+}
+.left-bar-search >div:nth-child(1) {
+  position: absolute;
+}
+.left-bar-search >div:nth-child(2) {
+  overflow: auto;
+  position: absolute;
+  top: 34px;
+  bottom: 0;
+  width: 100%;
+}
+.left-bar-search >div:nth-child(2) #output-search {
+  background: #fff;
+}
+.left-bar-search >div:nth-child(2) #course-history {
+  padding: 20px;
+  background: #fff;
+}
+.left-bar-search >div:nth-child(2) #course-history .close {
+  clear: right;
+}
+#hover-info .course-info {
+  padding: 20px;
+  width: 400px;
+  background: #fff;
+  opacity: 0.7;
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+#hover-info .course-info h3 {
+  margin: 0;
+}
+#hover-info .course-info .hours {
   position: relative;
 }
-.course-info .hours >div {
+#hover-info .course-info .hours >.credit-hours:before {
+  content: "Credit hrs: ";
+}
+#hover-info .course-info .hours >.lecture-hours:before {
+  content: "Lecture hrs: ";
+}
+#hover-info .course-info .hours >.lab-hours:before {
+  content: "Lab hrs: ";
+}
+#hover-info .course-info .hours >div:before {
+  font-weight: bold;
+}
+#hover-info .course-info .hours >div {
   width: 33%;
   float: left;
   padding: 0;
+}
+#hover-info .course-info .close {
+  display: none;
+}
+.center-courses {
+  z-index: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  position: absolute;
+}
+.center-courses .course-info {
+  padding: 20px;
+  width: 400px;
+  background: #f2f2f2;
+  position: absolute;
+  -webkit-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+.center-courses .course-info h3 {
+  margin: 0;
+  pointer-events: none;
+}
+.center-courses .course-info .desc {
+  height: 100px;
+  overflow: auto;
+}
+.center-courses .course-info .hours {
+  position: relative;
+}
+.center-courses .course-info .hours >.credit-hours:before {
+  content: "Credit hrs: ";
+}
+.center-courses .course-info .hours >.lecture-hours:before {
+  content: "Lecture hrs: ";
+}
+.center-courses .course-info .hours >.lab-hours:before {
+  content: "Lab hrs: ";
+}
+.center-courses .course-info .hours >div:before {
+  font-weight: bold;
+}
+.center-courses .course-info .hours >div {
+  width: 33%;
+  float: left;
+  padding: 0;
+}
+.center-courses .course-info .close {
+  padding: 0.5em;
+  cursor: default;
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+}
+.center-courses .course-info .minimize {
+  right: 35px;
+}
+.center-courses .course-info .minimize:hover {
+  background-color: #00f;
+  color: #fff;
+}
+.center-courses .course-info .close-btn:hover {
+  background-color: #f00;
+  color: #fff;
+}
+.center-courses .course-info.minimized {
+  color: #666;
+  height: 100px;
+  padding: 10px;
+}
+.center-courses .course-info.minimized h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  color: #000;
+}
+.center-courses .course-info.minimized .offered,
+.center-courses .course-info.minimized .desc,
+.center-courses .course-info.minimized .hours {
+  display: none;
 }

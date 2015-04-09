@@ -1,9 +1,142 @@
-.course-info
+body
+  width 100%
+  height 100%
+  position absolute
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+#hover-info
+  position absolute
+  pointer-events: none
+p.one-high
+  display: block; overflow: hidden;
+  height: 1em; line-height: 1em;
+ul { list-style: none; margin: 0; padding: 0 }
+li[data-link-course-id], span[data-link] {
+  cursor: pointer;
+  text-decoration: underline;
+  padding: .5em;
+}
+li[data-link-course-id]:hover {
+  background-color: #f2f2f2;
+}
+li.selected[data-link-course-id] {
+  background-color: #62B8FF;
+}
+.left-bar-search:hover
+  height 100%
+  width 34em
+.left-bar-search
+  height 34px
+  width:24em
+  transition width .2s
+  position absolute
+  left: 0
+  top: 0
+  overflow hidden
+  z-index 1
+  background rgba(0,0,0,0.4)
+  >div:nth-child(1)
+    position absolute
+  >div:nth-child(2)
+    overflow auto
+    position absolute
+    top: 34px
+    bottom 0
+    width 100%
+    #output-search
+      background white
+    #course-history
+      padding 20px
+      background white
+      .close
+        clear right
+#hover-info .course-info
   padding 20px
-  background #f2f2f2
+  width 400px
+  background white
+  opacity .7
+  -webkit-transform: translate(0px, 0px)
+  transform: translate(0px, 0px)
+  box-shadow 2px 2px 4px rgba(0,0,0,.2)
+  h3
+    margin 0
   .hours
     position:relative
+    >.credit-hours:before
+      content: "Credit hrs: "
+    >.lecture-hours:before
+      content: "Lecture hrs: "
+    >.lab-hours:before
+      content: "Lab hrs: "
+    >div:before
+      font-weight: bold
     >div
       width: 33%
       float: left
       padding: 0
+  .close
+    display none
+
+.center-courses
+  z-index 0
+  left 0
+  right: 0
+  top: 0
+  height 100%
+  position absolute
+  
+  .course-info
+    padding 20px
+    width 400px
+    background #f2f2f2
+    position absolute
+    -webkit-transform: translate(0px, 0px)
+    transform: translate(0px, 0px)
+    h3
+      margin 0
+      pointer-events none
+    .desc
+      height 100px
+      overflow auto
+    .hours
+      position:relative
+      >.credit-hours:before
+        content: "Credit hrs: "
+      >.lecture-hours:before
+        content: "Lecture hrs: "
+      >.lab-hours:before
+        content: "Lab hrs: "
+      >div:before
+        font-weight: bold
+      >div
+        width: 33%
+        float: left
+        padding: 0
+    .close
+      padding .5em
+      cursor: default
+      position absolute
+      display inline-block
+      top: 0
+      right 0
+    .minimize
+      right 35px
+    .minimize:hover
+      background-color blue
+      color white
+    .close-btn:hover
+      background-color red
+      color white
+
+  .course-info.minimized
+    color #666
+    height 100px
+    padding 10px
+    h3
+      font-size 18px
+      line-height 25px
+      font-weight bold
+      color #000
+    .offered,
+    .desc,
+    .hours 
+      display none

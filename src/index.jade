@@ -2,54 +2,20 @@ head
   title MOState Course Sorter
   link(href="vendor/bootstrap.css" rel="stylesheet" type="text/css")
   link(href="styles.css" rel="stylesheet" type="text/css")
-  style.
-    #app {
-      font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-      width: 40rem;
-      margin: 0 auto;
-    }
-    #course-history {
-      width: 15rem;
-      padding: 10px;
-      left: 0;
-      top: 0;
-      height: 100%;
-      position: fixed;
-    }
-    #course-history span {
-      display: block;
-      float: left;
-      line-height: 1;
-    }
-    p.one-high {
-      display: block; overflow: hidden;
-      height: 1em; line-height: 1em;
-    }
-    ul { list-style: none; margin: 0; padding: 0 }
-    li[data-link-course-id], span[data-link] {
-      cursor: pointer;
-      text-decoration: underline;
-      padding: .5em;
-    }
-    li[data-link-course-id]:hover {
-      background-color: #f2f2f2;
-    }
-    li.selected[data-link-course-id] {
-      background-color: #62B8FF;
-    }
 body
-  .container
-    #course-history
-      strong History
-      div
-    #app
-      #course-list
-      .input-group
-        label.input-group-addon(for="course-search" title="Eg: 'ART 200'") Search Courses
-        input.form-control#course-search
+  .left-bar-search
+    .input-group
+      label.input-group-addon(for="course-search" title="Eg: 'ART 200'") Search Courses
+      input.form-control#course-search
+    div
       ul#output-search
       .text-center(style="padding:1em")
         #warning.label.label-danger
+      #course-history
+        strong History
+        div
+  .center-courses
+  #hover-info
   footer
     script(type="text/javascript" src="vendor/jquery-2.1.1.js")
     script(type="text/javascript" src="vendor/interact-1.2.4.js")
