@@ -1,6 +1,6 @@
 
 Utility =
-  course_id_re: /([A-Z]{3}) ?(\d{3})/
+  course_id_re: /([A-Z]{3}) ?(\d{2,3})/
   getCourseIdFromString: (str) ->
     match = str.match Utility.course_id_re
     if match?
@@ -29,7 +29,7 @@ Factory =
     return li
 
   replaceCourseLinks: (string) ->
-    course_id_re_g = /([A-Z]{3}) ?(\d{3})/g
+    course_id_re_g = /([A-Z]{3}) ?(\d{2,3})/g
     return string.replace course_id_re_g, "<span data-link=\"$1$2\">$1 $2</span>"
 
   createHistoryEntry: (course_id) ->
@@ -110,6 +110,11 @@ Display =
     Display.data.hoverElement.style.display = "block"
   moveHoverInfo: (x, y) ->
     target = Display.data.hoverElement
+    # ensure that most of #hover-info is going to be in the window
+    if document.body.offsetHeight < y + target.offsetHeight
+      y = document.body.offsetHeight - target.offsetHeight
+    if document.body.offsetWidth < x + target.offsetWidth
+      x = document.body.offsetWidth - target.offsetWidth
     target.style.webkitTransform =
     target.style.transform =
       'translate(' + x + 'px, ' + y + 'px)'

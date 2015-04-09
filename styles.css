@@ -7,6 +7,7 @@ body {
 #hover-info {
   position: absolute;
   pointer-events: none;
+  z-index: 2;
 }
 p.one-high {
   display: block;
@@ -70,7 +71,6 @@ li.selected[data-link-course-id] {
   padding: 20px;
   width: 400px;
   background: #fff;
-  opacity: 0.7;
   -webkit-transform: translate(0px, 0px);
   transform: translate(0px, 0px);
   box-shadow: 2px 2px 4px rgba(0,0,0,0.2);

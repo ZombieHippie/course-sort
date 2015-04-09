@@ -1,7 +1,7 @@
 var App, Data, Display, Factory, Utility;
 
 Utility = {
-  course_id_re: /([A-Z]{3}) ?(\d{3})/,
+  course_id_re: /([A-Z]{3}) ?(\d{2,3})/,
   getCourseIdFromString: function(str) {
     var match;
     match = str.match(Utility.course_id_re);
@@ -32,7 +32,7 @@ Factory = {
   },
   replaceCourseLinks: function(string) {
     var course_id_re_g;
-    course_id_re_g = /([A-Z]{3}) ?(\d{3})/g;
+    course_id_re_g = /([A-Z]{3}) ?(\d{2,3})/g;
     return string.replace(course_id_re_g, "<span data-link=\"$1$2\">$1 $2</span>");
   },
   createHistoryEntry: function(course_id) {
@@ -131,6 +131,12 @@ Display = {
   moveHoverInfo: function(x, y) {
     var target;
     target = Display.data.hoverElement;
+    if (document.body.offsetHeight < y + target.offsetHeight) {
+      y = document.body.offsetHeight - target.offsetHeight;
+    }
+    if (document.body.offsetWidth < x + target.offsetWidth) {
+      x = document.body.offsetWidth - target.offsetWidth;
+    }
     return target.style.webkitTransform = target.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
   },
   closeHoverInfo: function() {
