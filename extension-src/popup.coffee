@@ -1,5 +1,7 @@
 # Code executed in the popup
 
+
+
 click = (e) ->
   chrome.tabs.executeScript(null,
       {code:"document.body.style.backgroundColor='" + e.target.id + "'"})
@@ -62,7 +64,9 @@ Display =
     hoverElement: null
 
   openCourse: (course_id, maximized=true) ->
-    console.log "nah"
+    href = Data.getCourseHrefById course_id
+    chrome.tabs.create {url: href}
+    window.close()
     ###
     Display.data.current_course = course_id
     course_info = Data.getCourseById(course_id)
@@ -73,7 +77,6 @@ Display =
     $centerCourses.append(courseBox)
     ###
   updateHoverInfo: (course_id) ->
-    console.log "hover: " + course_id
     Display.data.hoverElement.innerHTML = ""
     Display.data.hoverElement.appendChild Factory.createCourseInfoBox Data.getCourseById course_id
     Display.data.hoverElement.style.display = "block"
@@ -131,13 +134,18 @@ Display =
 Data =
   data:
     all_catalog: null
+    all_catalog: null
     course_id_to_course: {}
     search_index: []
     fuse_search: null
   setup: (all_catalog_obj) ->
     Data.data.all_catalog = all_catalog_obj
-    for key, courses of all_catalog_obj
+    Data.data.prefix_to_dept = {}
+    for department, courses of all_catalog_obj
       for course_id, course of courses
+        course_prefix = course_id[..2]
+        if not Data.data.prefix_to_dept[course_prefix]?
+          Data.data.prefix_to_dept[course_prefix] = department
         Data.data.course_id_to_course[course_id] = course
         Data.data.search_index.push({
           id: course_id
@@ -154,6 +162,11 @@ Data =
 
   getCourseById: (course_id) ->
     Data.data.course_id_to_course[course_id]
+
+  getCourseHrefById: (course_id) ->
+    course_prefix = course_id[..2]
+    dept = Data.data.prefix_to_dept[course_prefix]
+    "http://www.missouristate.edu/registrar/catalog/#{dept}.htm\##{course_id}"
 
   getCourseByTitle: (title) ->
     course_id = Utility.getCourseIdFromString(title)

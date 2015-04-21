@@ -3,7 +3,10 @@
 
 chrome.browserAction.onClicked.addListener (tab) ->
   # No tabs or host permissions needed!
-  console.log('Turning ' + tab.url + ' red!')
   chrome.tabs.executeScript({
     code: 'document.body.style.backgroundColor="red"'
   })
+
+courses_href_re = /www\.missouristate\.edu\/registrar\/catalog\/\w+\.htm/
+if courses_href_re.test window.location.href
+  console.log "viewing"

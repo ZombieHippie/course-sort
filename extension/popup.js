@@ -66,10 +66,15 @@ Display = {
     hoverElement: null
   },
   openCourse: function(course_id, maximized) {
+    var href;
     if (maximized == null) {
       maximized = true;
     }
-    return console.log("nah");
+    href = Data.getCourseHrefById(course_id);
+    chrome.tabs.create({
+      url: href
+    });
+    return window.close();
 
     /*
     Display.data.current_course = course_id
@@ -82,7 +87,6 @@ Display = {
      */
   },
   updateHoverInfo: function(course_id) {
-    console.log("hover: " + course_id);
     Display.data.hoverElement.innerHTML = "";
     Display.data.hoverElement.appendChild(Factory.createCourseInfoBox(Data.getCourseById(course_id)));
     return Display.data.hoverElement.style.display = "block";
@@ -153,17 +157,23 @@ Display = {
 Data = {
   data: {
     all_catalog: null,
+    all_catalog: null,
     course_id_to_course: {},
     search_index: [],
     fuse_search: null
   },
   setup: function(all_catalog_obj) {
-    var course, course_id, courses, key;
+    var course, course_id, course_prefix, courses, department;
     Data.data.all_catalog = all_catalog_obj;
-    for (key in all_catalog_obj) {
-      courses = all_catalog_obj[key];
+    Data.data.prefix_to_dept = {};
+    for (department in all_catalog_obj) {
+      courses = all_catalog_obj[department];
       for (course_id in courses) {
         course = courses[course_id];
+        course_prefix = course_id.slice(0, 3);
+        if (Data.data.prefix_to_dept[course_prefix] == null) {
+          Data.data.prefix_to_dept[course_prefix] = department;
+        }
         Data.data.course_id_to_course[course_id] = course;
         Data.data.search_index.push({
           id: course_id,
@@ -180,6 +190,12 @@ Data = {
   },
   getCourseById: function(course_id) {
     return Data.data.course_id_to_course[course_id];
+  },
+  getCourseHrefById: function(course_id) {
+    var course_prefix, dept;
+    course_prefix = course_id.slice(0, 3);
+    dept = Data.data.prefix_to_dept[course_prefix];
+    return "http://www.missouristate.edu/registrar/catalog/" + dept + ".htm\#" + course_id;
   },
   getCourseByTitle: function(title) {
     var course_id;
