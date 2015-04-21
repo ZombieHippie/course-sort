@@ -1,0 +1,1 @@
+node ./node_modules/suite-to-static/suite-to-static.js --in=./extension-src --out=./extension --port=3000

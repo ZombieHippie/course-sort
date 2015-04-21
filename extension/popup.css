@@ -1,0 +1,41 @@
+#course-search {
+  width: 300px;
+}
+#search-output {
+  max-height: 100px;
+  overflow-y: auto;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#hover-info .course-info {
+  width: 300px;
+  margin-top: 20px;
+  background: #fff;
+}
+#hover-info .course-info h3 {
+  margin: 0;
+}
+#hover-info .course-info .hours {
+  position: relative;
+}
+#hover-info .course-info .hours >.credit-hours:before {
+  content: "Credit hrs: ";
+}
+#hover-info .course-info .hours >.lecture-hours:before {
+  content: "Lecture hrs: ";
+}
+#hover-info .course-info .hours >.lab-hours:before {
+  content: "Lab hrs: ";
+}
+#hover-info .course-info .hours >div:before {
+  font-weight: bold;
+}
+#hover-info .course-info .hours >div {
+  width: 33%;
+  float: left;
+  padding: 0;
+}
+#hover-info .course-info .close {
+  display: none;
+}
