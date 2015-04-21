@@ -214,7 +214,7 @@ App =
 
 
 
-$.getJSON "./all_catalog.json", (error, res, data) ->
+$.getJSON "./extension/all_catalog.json", (error, res, data) ->
   if res is "success"
     all_catalog = data.responseJSON
     window.app = App.setup(all_catalog)

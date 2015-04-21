@@ -85,5 +85,5 @@ async.eachSeries( Object.keys(abbr_list)
   , (error) ->
     if error then console.error "error!", error
     else
-      fs.writeFileSync "./all_catalog.json", JSON.stringify(all_catalog)
+      fs.writeFileSync "./extension/all_catalog.json", JSON.stringify(all_catalog)
   )

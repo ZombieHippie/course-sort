@@ -259,7 +259,7 @@ App = {
   }
 };
 
-$.getJSON("./all_catalog.json", function(error, res, data) {
+$.getJSON("./extension/all_catalog.json", function(error, res, data) {
   var all_catalog;
   if (res === "success") {
     all_catalog = data.responseJSON;
