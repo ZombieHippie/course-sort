@@ -1,5 +1,10 @@
-#course-search {
+.popup-search-input {
   width: 300px;
+  position: relative;
+  height: 2.3em;
+}
+.popup-search-input #course-search {
+  width: 240px;
 }
 #search-output {
   max-height: 100px;
@@ -7,6 +12,12 @@
   list-style: none;
   margin: 0;
   padding: 0;
+}
+#search-output li {
+  cursor: pointer;
+}
+#search-output li:hover {
+  background: #f2f2f2;
 }
 #hover-info .course-info {
   width: 300px;
@@ -38,4 +49,11 @@
 }
 #hover-info .course-info .close {
   display: none;
+}
+#hover-info.standalone {
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+#hover-info.standalone .course-info {
+  padding: 20px;
+  margin: 0;
 }

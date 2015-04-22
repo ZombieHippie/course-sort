@@ -1,9 +1,12 @@
 head
   link(rel="stylesheet" href="popup.css")
 body
-  input#course-search
+  .popup-search-input
+    label Search&nbsp;
+    input#course-search
   ul#search-output
   #hover-info
   script(src="vendor/jquery-2.1.1.js")
-  script(src="vendor/fuse-1.2.0.min.js")
+  script(src="utils.js")
+  script(src="foreground-utils.js")
   script(src="popup.js")
