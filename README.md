@@ -2,6 +2,13 @@
 
 The course sort application is useful for people attempting to organize different classes and their prerequisites in the MissouriState course catalog.
 
+<center>
+ ![preview of popup](screenshots/1.1-browser-action.png)
+</center>
+<center>
+ ![preview of linking and hover](screenshots/1.1-registrar-pages.png)
+</center>
+
 ## Scraping and Compiling the Catalog
 > This utility uses an offline database of the entire Missouri State course catalog in order to look up courses quickly. That file is generated under `extension/all_catalog.json`.
 
@@ -38,4 +45,5 @@ The course sort application is useful for people attempting to organize differen
 
 ### Compiling extension files
 > The extension source files located under `extension-src` overwrite some files under `extension`.
+
  1. Use `compile-extension.cmd` on Windows or `bash compile-extension.cmd` on Unix
