@@ -2,12 +2,12 @@
 
 The course sort application is useful for people attempting to organize different classes and their prerequisites in the MissouriState course catalog.
 
-<center>
- ![preview of popup](screenshots/1.1-browser-action.png)
-</center>
-<center>
- ![preview of linking and hover](screenshots/1.1-registrar-pages.png)
-</center>
+<p align="center">
+  <img src="screenshots/1.1-browser-action.png" alt="screenshot of searching with popup"></img>
+</p>
+<p align="center">
+  <img src="screenshots/1.1-registrar-pages.png" alt="screenshot of linking on registrar pages"></img>
+</p>
 
 ## Scraping and Compiling the Catalog
 > This utility uses an offline database of the entire Missouri State course catalog in order to look up courses quickly. That file is generated under `extension/all_catalog.json`.
