@@ -17,12 +17,15 @@ Display.setup = ->
           Display.data.last_search_query = search_query
           $search_results.innerHTML = ""
           Data.searchCourseTitles search_query, (results) ->
-            for title in results
-              $search_results.appendChild Factory.createSearchResultLi(title)
+            if results.length > 0
+              for title in results
+                $search_results.appendChild Factory.createSearchResultLi(title)
+            else
+              $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"#{search_query}\".</em></li>"
       , debounceMs, @value)
 
   # Bind to links
-  $($search_results).on "click", "li", ->
+  $($search_results).on "click", "li[data-link-course-id]", ->
     Display.openCourse(@dataset.linkCourseId)
 
   # Hover info

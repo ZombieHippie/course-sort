@@ -17,17 +17,21 @@ Display.setup = function() {
         $search_results.innerHTML = "";
         return Data.searchCourseTitles(search_query, function(results) {
           var i, len, results1, title;
-          results1 = [];
-          for (i = 0, len = results.length; i < len; i++) {
-            title = results[i];
-            results1.push($search_results.appendChild(Factory.createSearchResultLi(title)));
+          if (results.length > 0) {
+            results1 = [];
+            for (i = 0, len = results.length; i < len; i++) {
+              title = results[i];
+              results1.push($search_results.appendChild(Factory.createSearchResultLi(title)));
+            }
+            return results1;
+          } else {
+            return $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"" + search_query + "\".</em></li>";
           }
-          return results1;
         });
       }
     }, debounceMs, this.value);
   });
-  $($search_results).on("click", "li", function() {
+  $($search_results).on("click", "li[data-link-course-id]", function() {
     return Display.openCourse(this.dataset.linkCourseId);
   });
   Display.data.hoverElement = document.getElementById("hover-info");

@@ -10,15 +10,17 @@
   list-style none
   margin 0
   padding 0
-  li
+  >li[data-link-course-id]
     cursor pointer
-  li:hover
+  >li[data-link-course-id]:hover
     background #f2f2f2
+
+#hover-info.standalone .course-info
+  background #efeff2
 
 #hover-info .course-info
   width 300px
   margin-top 20px
-  background #f2f5f9
   h3
     margin 0
   .hours
