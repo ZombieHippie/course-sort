@@ -1,13 +1,22 @@
 {
   "name": "MOState Course Browser",
   "description": "Help browse different courses by title and organize your next schedule.",
-  "version": "1.1",
+  "version": "1.2",
   "permissions": [
     "tabs", "http://*.missouristate.edu/*", "https://*.missouristate.edu/*"
   ],
   "background": {
     "scripts": ["vendor/jquery-2.1.1.js", "vendor/fuse-1.2.0.min.js", "utils.js", "background.js"],
     "persistent": false
+  },
+  "commands": {
+    "open-course-search": {
+      "suggested_key": {
+        "default": "Alt+Shift+1",
+        "mac": "Alt+Shift+1"
+      },
+      "description": "Open course search popup"
+    }
   },
   "browser_action": {
       "default_title": "Search MOState courses.",

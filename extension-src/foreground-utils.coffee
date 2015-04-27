@@ -52,8 +52,11 @@ Display =
 
   updateHoverInfo: (course_id) ->
     Data.getCourseById course_id, (info) ->
-      Display.data.hoverElement.innerHTML = ""
-      Display.data.hoverElement.appendChild Factory.createCourseInfoBox info
+      if info == null
+        Display.data.hoverElement.innerHTML = "<em style='padding:.5em;display:block;background:white;color:darkred'>Course could not be found.</em>"
+      else
+        Display.data.hoverElement.innerHTML = ""
+        Display.data.hoverElement.appendChild Factory.createCourseInfoBox info
       Display.data.hoverElement.style.display = "block"
 
   moveHoverInfo: (x, y) ->

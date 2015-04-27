@@ -50,6 +50,7 @@ Data =
 injectjs = '''
 // Link courses
 Display.setup = function () {
+  var lastHovered = null;
   (function () {
     var hoverCourse = document.createElement("DIV")
     hoverCourse.id = "hover-info"
@@ -61,7 +62,10 @@ Display.setup = function () {
     hoverCourse.className = "standalone"
     Display.data.hoverElement = hoverCourse;
   }());
-  _zq1("body").on("mouseenter", "[data-link]", function() {
+  _zq1("body").on("mouseover", "[data-link]", function() {
+    if (lastHovered == this.dataset.link)
+      return;
+    lastHovered = this.dataset.link;
     return Display.updateHoverInfo(this.dataset.link);
   });
   _zq1("body").on("mousemove", "[data-link]", function(event) {
@@ -69,6 +73,7 @@ Display.setup = function () {
     return event.stopPropagation();
   });
   return _zq1("body").on("mousemove", function() {
+    lastHovered = null;
     return Display.closeHoverInfo();
   });
 }
@@ -138,7 +143,7 @@ $.getJSON "./all_catalog.json", (error, res, data) ->
         switch request.type
           when "lookup-info"
             course_id = request.data
-            sendResponse(result: Data.getCourseById(course_id))
+            sendResponse(result: Data.getCourseById(course_id) or null)
           when "lookup-href"
             course_id = request.data
             sendResponse(result: Data.getCourseHrefById(course_id))
@@ -152,9 +157,17 @@ $.getJSON "./all_catalog.json", (error, res, data) ->
 courses_href_re = /www\.missouristate\.edu\/registrar\/catalog\/\w+\.htm/
 chrome.tabs.onUpdated.addListener (tabId, changeInfo, tab)->
   if tab?.url? and courses_href_re.test tab.url
-    chrome.tabs.executeScript({
+    chrome.tabs.executeScript(tabId, {
       code: injectjs
     })
-    chrome.tabs.insertCSS({
+    chrome.tabs.insertCSS(tabId, {
       code: injectcss
     })
+
+chrome.commands.onCommand.addListener (command) ->
+  switch command
+    when "open-course-search"
+      # inject html
+      chrome.tabs.executeScript({
+        code: "console.log('open course sort');"
+      })
