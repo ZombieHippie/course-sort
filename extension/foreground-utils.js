@@ -1,4 +1,4 @@
-var Data, Display, Factory;
+var Data, Display, Factory, goCourseSort;
 
 Factory = {
   createSearchResultLi: function(title) {
@@ -16,9 +16,16 @@ Factory = {
   createCourseInfoBox: function(course_info) {
     var course_id, desc, div_container, hours, html, i, j, len, offer, offered, ref, req, title;
     div_container = document.createElement("DIV");
-    title = course_info.title, course_id = course_info.course_id, desc = course_info.desc, req = course_info.req, hours = course_info.hours, offered = course_info.offered;
-    html = "<h3>" + title + "</h3>\n<p class=\"desc\">" + desc + "</p>\n<div class=\"hours\">\n  <div class=\"credit-hours\">" + (hours.credit || 0) + "</div>\n  <div class=\"lecture-hours\">" + (hours.lecture || 0) + "</div>\n  <div class=\"lab-hours\">" + (hours.lab || 0) + "</div>\n</div>\n<div class=\"offered\">\n  <strong>Typically offered:&nbsp</strong>";
-    ref = Object.keys(offered);
+    title = course_info.T, course_id = course_info.I, desc = course_info.D, req = course_info.P, hours = course_info.H;
+    offered = {
+      Fall: course_info.O.F,
+      Spring: course_info.O.S,
+      Summer: course_info.O.M
+    };
+    html = "<h3>" + title + "</h3>\n<p class=\"desc\">" + desc + "</p>\n<div class=\"hours\">\n  <div class=\"credit-hours\">" + (hours.C || 0) + "</div>\n  <div class=\"lecture-hours\">" + (hours.E || 0) + "</div>\n  <div class=\"lab-hours\">" + (hours.L || 0) + "</div>\n</div>\n<div class=\"offered\">\n  <strong>Typically offered:&nbsp</strong>";
+    ref = Object.keys(offered).filter(function(item) {
+      return offered[item];
+    });
     for (i = j = 0, len = ref.length; j < len; i = ++j) {
       offer = ref[i];
       if (i > 0) {
@@ -49,22 +56,32 @@ Display = {
     if (maximized == null) {
       maximized = true;
     }
-    return Data.getCourseHrefById(course_id, function(href) {
+    return Data.getCourseHrefById(course_id, function(error, href) {
+      if (error != null) {
+        console.error(error);
+      }
       chrome.tabs.create({
         url: href
       });
       return window.close();
     });
   },
-  updateHoverInfo: function(course_id) {
-    return Data.getCourseById(course_id, function(info) {
+  updateHoverInfo: function(course_id, done) {
+    return Data.getCourseById(course_id, function(error, info) {
+      if (error != null) {
+        console.error(error);
+        info = null;
+      }
       if (info === null) {
         Display.data.hoverElement.innerHTML = "<em style='padding:.5em;display:block;background:white;color:darkred'>Course could not be found.</em>";
       } else {
         Display.data.hoverElement.innerHTML = "";
         Display.data.hoverElement.appendChild(Factory.createCourseInfoBox(info));
       }
-      return Display.data.hoverElement.style.display = "block";
+      Display.data.hoverElement.style.display = "block";
+      if (typeof done === "function") {
+        return done();
+      }
     });
   },
   moveHoverInfo: function(x, y) {
@@ -83,29 +100,22 @@ Display = {
   }
 };
 
+goCourseSort = new GoCourseSort("ws://catalog.mostate.io/websocket");
+
 Data = {
   getCourseById: function(course_id, callback) {
-    return chrome.runtime.sendMessage({
-      type: "lookup-info",
-      data: course_id
-    }, function(response) {
-      return callback(response.result);
-    });
+    return goCourseSort.get(course_id, callback);
   },
   getCourseHrefById: function(course_id, callback) {
-    return chrome.runtime.sendMessage({
-      type: "lookup-href",
-      data: course_id
-    }, function(response) {
-      return callback(response.result);
+    return goCourseSort.get(course_id, function(error, course) {
+      if (error != null) {
+        return callback(error);
+      } else {
+        return callback(null, "http://www.missouristate.edu/registrar/catalog/" + course.L + ".htm\#" + course.I);
+      }
     });
   },
   searchCourseTitles: function(str, callback) {
-    return chrome.runtime.sendMessage({
-      type: "search",
-      data: str
-    }, function(response) {
-      return callback(response.result);
-    });
+    return goCourseSort.search(str, callback);
   }
 };

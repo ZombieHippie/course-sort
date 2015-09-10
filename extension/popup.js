@@ -15,17 +15,22 @@ Display.setup = function() {
       if (Display.data.last_search_query !== search_query) {
         Display.data.last_search_query = search_query;
         $search_results.innerHTML = "";
-        return Data.searchCourseTitles(search_query, function(results) {
-          var i, len, results1, title;
-          if (results.length > 0) {
-            results1 = [];
-            for (i = 0, len = results.length; i < len; i++) {
-              title = results[i];
-              results1.push($search_results.appendChild(Factory.createSearchResultLi(title)));
-            }
-            return results1;
+        return Data.searchCourseTitles(search_query, function(error, response) {
+          var course, i, len, ref, results;
+          if (error != null) {
+            return $search_results.innerHTML = String(error);
           } else {
-            return $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"" + search_query + "\".</em></li>";
+            if (response.Results.length > 0) {
+              ref = response.Results;
+              results = [];
+              for (i = 0, len = ref.length; i < len; i++) {
+                course = ref[i];
+                results.push($search_results.appendChild(Factory.createSearchResultLi(course.T)));
+              }
+              return results;
+            } else {
+              return $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"" + search_query + "\".</em></li>";
+            }
           }
         });
       }

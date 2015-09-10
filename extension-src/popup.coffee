@@ -16,12 +16,14 @@ Display.setup = ->
         if Display.data.last_search_query isnt search_query
           Display.data.last_search_query = search_query
           $search_results.innerHTML = ""
-          Data.searchCourseTitles search_query, (results) ->
-            if results.length > 0
-              for title in results
-                $search_results.appendChild Factory.createSearchResultLi(title)
+          Data.searchCourseTitles search_query, (error, response) ->
+            if error? then $search_results.innerHTML = String(error)
             else
-              $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"#{search_query}\".</em></li>"
+              if response.Results.length > 0
+                for course in response.Results
+                  $search_results.appendChild Factory.createSearchResultLi(course.T)
+              else
+                $search_results.innerHTML = "<li><em style='padding:.5em;display:block;background:white;color:darkred'>Sorry, no courses found using \"#{search_query}\".</em></li>"
       , debounceMs, @value)
 
   # Bind to links

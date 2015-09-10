@@ -6,7 +6,7 @@
     "tabs", "http://*.missouristate.edu/*", "https://*.missouristate.edu/*"
   ],
   "background": {
-    "scripts": ["vendor/jquery-2.1.1.js", "vendor/fuse-1.2.0.min.js", "utils.js", "background.js"],
+    "scripts": ["vendor/jquery-2.1.1.js", "utils.js", "background.js"],
     "persistent": false
   },
   "commands": {

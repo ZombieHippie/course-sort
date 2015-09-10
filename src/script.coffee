@@ -135,8 +135,9 @@ Display =
           if Display.data.last_search_query isnt search_query
             Display.data.last_search_query = search_query
             $search_results.innerHTML = ""
-            for title in Data.searchCourseTitles(search_query)
-              $search_results.appendChild Factory.createSearchResultLi(title)
+            Data.searchCourseTitles search_query, (error, response) ->
+              for course in response.Results
+                $search_results.appendChild Factory.createSearchResultLi(course.T)
         , debounceMs, @value)
 
     # Bind to links

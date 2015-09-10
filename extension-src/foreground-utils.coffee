@@ -13,19 +13,24 @@ Factory =
 
   createCourseInfoBox: (course_info) ->
     div_container = document.createElement("DIV")
-    {title, course_id, desc, req, hours, offered } = course_info
+    {T: title, I: course_id, D: desc, P: req, H: hours } = course_info
+    offered = {
+      Fall: course_info.O.F
+      Spring: course_info.O.S
+      Summer: course_info.O.M
+    }
     html = """
     <h3>#{title}</h3>
     <p class="desc">#{desc}</p>
     <div class="hours">
-      <div class="credit-hours">#{hours.credit or 0}</div>
-      <div class="lecture-hours">#{hours.lecture or 0}</div>
-      <div class="lab-hours">#{hours.lab or 0}</div>
+      <div class="credit-hours">#{hours.C or 0}</div>
+      <div class="lecture-hours">#{hours.E or 0}</div>
+      <div class="lab-hours">#{hours.L or 0}</div>
     </div>
     <div class="offered">
       <strong>Typically offered:&nbsp</strong>
     """
-    for offer, i in Object.keys(offered)
+    for offer, i in Object.keys(offered).filter((item) -> offered[item])
       if i > 0
         html += ", "
       html += "<span>#{offer}</span>"
@@ -46,18 +51,25 @@ Display =
     hoverElement: null
 
   openCourse: (course_id, maximized=true) ->
-    Data.getCourseHrefById course_id, (href) ->
+    Data.getCourseHrefById course_id, (error, href) ->
+      if error?
+        console.error error
       chrome.tabs.create {url: href}
       window.close()
 
-  updateHoverInfo: (course_id) ->
-    Data.getCourseById course_id, (info) ->
+  updateHoverInfo: (course_id, done) ->
+    Data.getCourseById course_id, (error, info) ->
+      if error?
+        console.error error
+        info = null
       if info == null
         Display.data.hoverElement.innerHTML = "<em style='padding:.5em;display:block;background:white;color:darkred'>Course could not be found.</em>"
       else
         Display.data.hoverElement.innerHTML = ""
         Display.data.hoverElement.appendChild Factory.createCourseInfoBox info
       Display.data.hoverElement.style.display = "block"
+      if typeof done is "function"
+        done()
 
   moveHoverInfo: (x, y) ->
     target = Display.data.hoverElement
@@ -73,15 +85,17 @@ Display =
   closeHoverInfo: ->
     Display.data.hoverElement.style.display = "none"
 
+
+goCourseSort = new GoCourseSort("ws://catalog.mostate.io/websocket")
+
 Data =
   getCourseById: (course_id, callback) ->
-    chrome.runtime.sendMessage {type: "lookup-info", data: course_id}, (response) ->
-      callback(response.result)
+    goCourseSort.get(course_id, callback)
 
   getCourseHrefById: (course_id, callback) ->
-    chrome.runtime.sendMessage {type: "lookup-href", data: course_id}, (response) ->
-      callback(response.result)
+    goCourseSort.get course_id, (error, course) ->
+      if error? then callback error
+      else callback null,"http://www.missouristate.edu/registrar/catalog/#{course.L}.htm\##{course.I}"
 
   searchCourseTitles: (str, callback) ->
-    chrome.runtime.sendMessage {type: "search", data: str}, (response) ->
-      callback(response.result)
+    goCourseSort.search str, callback

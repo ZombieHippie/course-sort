@@ -1,51 +1,3 @@
-# var re = /\b(\w{3}) ?(\d{2,3})\b/, h = $("li").filter(function(){return re.test(this.innerText)})
-
-Data =
-  data:
-    prefix_to_dept: null
-    course_id_to_course: {}
-    search_index: []
-    fuse_search: null
-
-  setup: (all_catalog_obj) ->
-    Data.data.prefix_to_dept = {}
-    for department, courses of all_catalog_obj
-      for course_id, course of courses
-        course_prefix = course_id[..2]
-        if not Data.data.prefix_to_dept[course_prefix]?
-          Data.data.prefix_to_dept[course_prefix] = department
-        Data.data.course_id_to_course[course_id] = course
-        Data.data.search_index.push({
-          id: course_id
-          title: course.title.replace(Utility.course_id_re, "")
-        })
-    # Fuse is used for searching by title
-    Data.data.fuse_search = new Fuse(Data.data.search_index, {
-        #location: 10
-        distance: 1000
-        threshold: .2
-        id: "id"
-        keys: ["id", "title"]
-      })
-
-  getCourseById: (course_id) ->
-    Data.data.course_id_to_course[course_id]
-
-  getCourseHrefById: (course_id) ->
-    course_prefix = course_id[..2]
-    dept = Data.data.prefix_to_dept[course_prefix]
-    "http://www.missouristate.edu/registrar/catalog/#{dept}.htm\##{course_id}"
-
-  getCourseByTitle: (title) ->
-    course_id = Utility.getCourseIdFromString(title)
-    Data.getCourseById course_id
-
-  searchCourseTitles: (str) ->
-    course_ids = Data.data.fuse_search.search(str)
-    gCBI = Data.getCourseById
-    gCBI(id).title for id in course_ids
-
-
 # start building injectjs
 injectjs = '''
 // Link courses
@@ -62,11 +14,13 @@ Display.setup = function () {
     hoverCourse.className = "standalone"
     Display.data.hoverElement = hoverCourse;
   }());
-  _zq1("body").on("mouseover", "[data-link]", function() {
+  _zq1("body").on("mouseover", "[data-link]", function(event) {
     if (lastHovered == this.dataset.link)
       return;
     lastHovered = this.dataset.link;
-    return Display.updateHoverInfo(this.dataset.link);
+    return Display.updateHoverInfo(this.dataset.link, function () {
+        Display.moveHoverInfo(event.clientX + 10, event.clientY + 10);
+      });
   });
   _zq1("body").on("mousemove", "[data-link]", function(event) {
     Display.moveHoverInfo(event.clientX + 10, event.clientY + 10);
@@ -83,9 +37,11 @@ function onClickLink (event) {
   event.stopPropagation();
   if (document.getElementById(course_id)) {
   } else {
-    chrome.runtime.sendMessage({type: "lookup-href", data: course_id}, function (response) {
-      window.location.href = response.result
-    });
+    Data.getCourseHrefById(course_id, function (error, href) {
+        if (error != null)
+          console.error(error)
+        window.location.href = href
+      })
     event.preventDefault();
     return false;
   }
@@ -117,7 +73,15 @@ $.get "./foreground-utils.js", (error, res, data) ->
     # add jQuery to injection js 
     $.get "./vendor/jquery-2.1.3-zq1.min.js", (error, res, data) ->
       if res is "success"
-        injectjs = "if (!window.mostateextensionapplied){" + data.responseText + ";" + injectjs + "}"
+        injectjs = data.responseText + ";" + injectjs
+        # add gocoursesort to injection js
+        $.get "./vendor/gocoursesort.js", (error, res, data) ->
+          if res is "success"
+            # add gocoursesort to injection js
+            injectjs = "if (!window.mostateextensionapplied){" + data.responseText + ";" + injectjs + "}"
+
+          else
+            throw error
 
       else
         throw error
@@ -130,26 +94,6 @@ injectcss = ""
 $.get "./popup.css", (error, res, data) ->
   if res is "success"
     injectcss += data.responseText
-
-  else
-    throw error
-
-$.getJSON "./all_catalog.json", (error, res, data) ->
-  if res is "success"
-    all_catalog = data.responseJSON
-    Data.setup(all_catalog)
-    chrome.runtime.onMessage.addListener (request, sender, sendResponse) ->
-      if (request.type)
-        switch request.type
-          when "lookup-info"
-            course_id = request.data
-            sendResponse(result: Data.getCourseById(course_id) or null)
-          when "lookup-href"
-            course_id = request.data
-            sendResponse(result: Data.getCourseHrefById(course_id))
-          when "search"
-            str = request.data
-            sendResponse(result: Data.searchCourseTitles(str))
 
   else
     throw error
